@@ -1,0 +1,662 @@
+\doxysection{Vector\texorpdfstring{$<$}{<} T, Allocator \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{class_vector}{}\label{class_vector}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+
+
+{\ttfamily \#include $<$vector.\+hpp$>$}
+
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{class_vector_ad7f616a3b8800f8b2b4a982cd1886c11}{value\+\_\+type}} = T
+\item 
+using \mbox{\hyperlink{class_vector_aab464cb541521d4a0fce87f0a9ba43a3}{allocator\+\_\+type}} = Allocator
+\item 
+using \mbox{\hyperlink{class_vector_a28459ced8ca254e36f8a8371b3229d74}{allocator\+\_\+traits}} = std\+::allocator\+\_\+traits$<$\mbox{\hyperlink{class_vector_aab464cb541521d4a0fce87f0a9ba43a3}{allocator\+\_\+type}}$>$
+\item 
+using \mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} = std\+::size\+\_\+t
+\item 
+using \mbox{\hyperlink{class_vector_a0021ff26d29cec150ceaea9140f75775}{difference\+\_\+type}} = std\+::ptrdiff\+\_\+t
+\item 
+using \mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} = T\&
+\item 
+using \mbox{\hyperlink{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f}{const\+\_\+reference}} = const T\&
+\item 
+using \mbox{\hyperlink{class_vector_adef46ef57edf3cdbc8d786492639e10f}{pointer}} = typename std\+::allocator\+\_\+traits$<$\mbox{\hyperlink{class_vector_aab464cb541521d4a0fce87f0a9ba43a3}{allocator\+\_\+type}}$>$\+::pointer
+\item 
+using \mbox{\hyperlink{class_vector_a36aeecbd0dd9c465783c35e2f3d0b3ea}{const\+\_\+pointer}} = typename std\+::allocator\+\_\+traits$<$\mbox{\hyperlink{class_vector_aab464cb541521d4a0fce87f0a9ba43a3}{allocator\+\_\+type}}$>$\+::const\+\_\+pointer
+\item 
+using \mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} = T\texorpdfstring{$\ast$}{*}
+\item 
+using \mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} = const T\texorpdfstring{$\ast$}{*}
+\item 
+using \mbox{\hyperlink{class_vector_a9849b4ad17cda28b8df3171e81a3c802}{reverse\+\_\+iterator}} = std\+::reverse\+\_\+iterator$<$\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}}$>$
+\item 
+using \mbox{\hyperlink{class_vector_aa199d254fca6192a98ccb7aa789d73d4}{const\+\_\+reverse\+\_\+iterator}} = std\+::reverse\+\_\+iterator$<$\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}}$>$
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_vector_aaf4df220ebec108fe068ab7963d5ea8d}{Vector}} () noexcept(std\+::is\+\_\+nothrow\+\_\+default\+\_\+constructible$<$ Allocator $>$\+::value)
+\item 
+\mbox{\hyperlink{class_vector_ab913dc7784737e195ed246e9b01be3e6}{Vector}} (\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} count, const T \&value, const Allocator \&alloc=Allocator())
+\item 
+{\footnotesize template$<$typename Input\+It, typename = std\+::enable\+\_\+if\+\_\+t$<$!std\+::is\+\_\+integral$<$\+Input\+It$>$\+::value$>$$>$ }\\\mbox{\hyperlink{class_vector_a33f9ef2d590a5c3961bcfe31bfb058af}{Vector}} (Input\+It first, Input\+It last, const Allocator \&allocate=Allocator())
+\item 
+\mbox{\hyperlink{class_vector_a6c30cb6953c3e82407971f723bfc2ee7}{Vector}} (const \mbox{\hyperlink{class_vector}{Vector}} \&other)
+\item 
+\mbox{\hyperlink{class_vector_acb152d0e8cabec10c1c7d4983dcebffb}{Vector}} (\mbox{\hyperlink{class_vector}{Vector}} \&\&other) noexcept
+\item 
+\mbox{\hyperlink{class_vector_aaf42d660b4ea9541b696c4a9e099de63}{Vector}} (std\+::initializer\+\_\+list$<$ T $>$ init)
+\item 
+\mbox{\hyperlink{class_vector_a64de862dd3304f0d1c0bbb3b936858c0}{Vector}} (size\+\_\+t count)
+\begin{DoxyCompactList}\small\item\em bufferiams \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_vector_a41ea21bfe5f179edf770f2e931793769}{\texorpdfstring{$\sim$}{\string~}\+Vector}} ()
+\item 
+\mbox{\hyperlink{class_vector}{Vector}} \& \mbox{\hyperlink{class_vector_acd81877aeca482e395ae9d7fd11710c5}{operator=}} (const \mbox{\hyperlink{class_vector}{Vector}} \&other)
+\item 
+\mbox{\hyperlink{class_vector}{Vector}} \& \mbox{\hyperlink{class_vector_ac8abbf2c9f557a460d76c97282d61008}{operator=}} (\mbox{\hyperlink{class_vector}{Vector}} \&\&other) noexcept
+\item 
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector_aea04561325108b73824e4ad1dd8114b2}{begin}} () noexcept
+\item 
+\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} \mbox{\hyperlink{class_vector_a2580718ff28d9e6e12b00aa0538d4373}{begin}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} \mbox{\hyperlink{class_vector_a0e785a437d78d8e9f925f217a4a158ce}{cbegin}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector_abaaafc8a6696d49ceb4f799d2f78e299}{end}} () noexcept
+\item 
+\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} \mbox{\hyperlink{class_vector_aeebdc6009ad387f9e2f1d37613d98f83}{end}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} \mbox{\hyperlink{class_vector_a8bb1d0ca8b8eefdb6c18c1ea1a90cec9}{cend}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_a9849b4ad17cda28b8df3171e81a3c802}{reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector_a724ade5c5b5f8f5f8669965125b0e5bd}{rbegin}} () noexcept
+\item 
+\mbox{\hyperlink{class_vector_aa199d254fca6192a98ccb7aa789d73d4}{const\+\_\+reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector_a3005656f9e4b307d3042dace958177da}{rbegin}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_aa199d254fca6192a98ccb7aa789d73d4}{const\+\_\+reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector_aabce2381b5e3b0e167a55400f6b3a120}{crbegin}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_a9849b4ad17cda28b8df3171e81a3c802}{reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector_a730043c7d5c7fd7507ec811d99c68a63}{rend}} () noexcept
+\item 
+\mbox{\hyperlink{class_vector_aa199d254fca6192a98ccb7aa789d73d4}{const\+\_\+reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector_a44277421d823f12b0662bec3349f0e14}{rend}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_aa199d254fca6192a98ccb7aa789d73d4}{const\+\_\+reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector_ab17f3f519d173c01d8ee6481ddc18845}{crend}} () const noexcept
+\item 
+bool \mbox{\hyperlink{class_vector_ad5e31c0f82683ece1b5b020c15a8b77b}{empty}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} \mbox{\hyperlink{class_vector_ade9ce4c7602280a9c935c919afe10098}{size}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} \mbox{\hyperlink{class_vector_a60671a453740307c95b9716139acfaf0}{capacity}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} \mbox{\hyperlink{class_vector_a0ba835d106fdedf8619022290f802228}{max\+\_\+size}} () const noexcept
+\item 
+void \mbox{\hyperlink{class_vector_aae047b4b6a79dce4dcc3ffc3c39939d2}{reserve}} (\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} new\+\_\+cap)
+\item 
+void \mbox{\hyperlink{class_vector_a5746026edae1b2adb3b2133b99996f32}{shrink\+\_\+to\+\_\+fit}} ()
+\item 
+void \mbox{\hyperlink{class_vector_a1a4abc0a085cd7a32db757362f085485}{clear}} () noexcept
+\item 
+void \mbox{\hyperlink{class_vector_a7cb08d016f15c97741c849cdb83170e1}{push\+\_\+back}} (const T \&value)
+\item 
+void \mbox{\hyperlink{class_vector_a23caf2c3ae4086f0d31c4524631385e3}{push\+\_\+back}} (T \&\&value)
+\item 
+{\footnotesize template$<$class... Args$>$ }\\\mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} \mbox{\hyperlink{class_vector_a5d19b8e8fd6ded1e2e99045c3962c7e9}{emplace\+\_\+back}} (Args \&\&... args)
+\item 
+{\footnotesize template$<$class... Args$>$ }\\\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector_a6a7f65e9b8e57122c868d0aa4f326c19}{emplace}} (\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} pos, Args \&\&... args)
+\item 
+void \mbox{\hyperlink{class_vector_aa3372317d3d013ec12087a9bb56147ba}{pop\+\_\+back}} () noexcept
+\item 
+void \mbox{\hyperlink{class_vector_a102e92ccd381a3d0356a08252b28f1ac}{resize}} (\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} count, const T \&value=T())
+\item 
+void \mbox{\hyperlink{class_vector_ae1387b115ad4874d76690acc701ce976}{swap}} (\mbox{\hyperlink{class_vector}{Vector}} \&other) noexcept
+\item 
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector_a9475371e34e4ce47ec3359ff25fed6ec}{erase}} (\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} pos)
+\item 
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector_a475eb3d5040ead87de3e58e19fe954a3}{erase}} (\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} first, \mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} last)
+\item 
+{\footnotesize template$<$typename Input\+It$>$ }\\void \mbox{\hyperlink{class_vector_a6b21c817044c259e24cfa380e8f4f8e1}{assign}} (Input\+It first, Input\+It last)
+\item 
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector_ae48e57a98f883366ee659c0ff1e8626c}{insert}} (\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} pos, T \&\&value)
+\item 
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector_a9cb18719aa12e6eb248c09b00b35a562}{insert}} (\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} pos, \mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} n, const T \&value)
+\item 
+{\footnotesize template$<$class Input\+It, class = typename std\+::enable\+\_\+if$<$!std\+::is\+\_\+integral$<$\+Input\+It$>$\+::value$>$\+::type$>$ }\\\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector_a1e90a4e8d2654c25356e2f764407356a}{insert}} (\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} pos, Input\+It first, Input\+It last)
+\item 
+\mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} \mbox{\hyperlink{class_vector_aebda035b314799f50d52f816aa4f0bd9}{operator\mbox{[}$\,$\mbox{]}}} (\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} idx) noexcept
+\item 
+\mbox{\hyperlink{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f}{const\+\_\+reference}} \mbox{\hyperlink{class_vector_a5bef5d7f28e5a6b7137d0a5339aba491}{operator\mbox{[}$\,$\mbox{]}}} (\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} idx) const noexcept
+\item 
+\mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} \mbox{\hyperlink{class_vector_a41087bd56f37dc84461caf5f1a46a7f9}{at}} (\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} idx)
+\item 
+\mbox{\hyperlink{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f}{const\+\_\+reference}} \mbox{\hyperlink{class_vector_a4c55b0e81f8c939d8a38b4b272f782b3}{at}} (\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} idx) const
+\item 
+\mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} \mbox{\hyperlink{class_vector_a58e56320120c4c99630a972a5f51ef59}{front}} () noexcept
+\item 
+\mbox{\hyperlink{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f}{const\+\_\+reference}} \mbox{\hyperlink{class_vector_ae63b6b294672533c48376b8237e17b46}{front}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} \mbox{\hyperlink{class_vector_a480abba85c0b0c7a8a8563270fec5e4d}{back}} () noexcept
+\item 
+\mbox{\hyperlink{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f}{const\+\_\+reference}} \mbox{\hyperlink{class_vector_a6c9f129f1b4e63a94e6639cb91b9c9e9}{back}} () const noexcept
+\item 
+\mbox{\hyperlink{class_vector_adef46ef57edf3cdbc8d786492639e10f}{pointer}} \mbox{\hyperlink{class_vector_ac33647e0240f4505c3cb3853ee06305d}{data}} () noexcept
+\item 
+\mbox{\hyperlink{class_vector_a36aeecbd0dd9c465783c35e2f3d0b3ea}{const\+\_\+pointer}} \mbox{\hyperlink{class_vector_a678fe1a20cf43e1c8d9bfefbc4422e6d}{data}} () const noexcept
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Allocator \mbox{\hyperlink{class_vector_a860436513676d8285f364ca27f5cf23a}{allocator\+\_\+}}
+\item 
+\mbox{\hyperlink{class_vector_adef46ef57edf3cdbc8d786492639e10f}{pointer}} \mbox{\hyperlink{class_vector_abc1b8771c37d008c43246a2ac0922580}{data\+\_\+}}
+\item 
+\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} \mbox{\hyperlink{class_vector_a26569d33887d692afc3546ab855d569a}{size\+\_\+}}
+\item 
+\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} \mbox{\hyperlink{class_vector_a38c833c44c27d3f60233adcb765364ee}{capacity\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\Hypertarget{class_vector_a28459ced8ca254e36f8a8371b3229d74}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!allocator\_traits@{allocator\_traits}}
+\index{allocator\_traits@{allocator\_traits}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{allocator\_traits}{allocator\_traits}}
+{\footnotesize\ttfamily \label{class_vector_a28459ced8ca254e36f8a8371b3229d74} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::allocator\+\_\+traits = std\+::allocator\+\_\+traits$<$\mbox{\hyperlink{class_vector_aab464cb541521d4a0fce87f0a9ba43a3}{allocator\+\_\+type}}$>$}
+
+\Hypertarget{class_vector_aab464cb541521d4a0fce87f0a9ba43a3}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!allocator\_type@{allocator\_type}}
+\index{allocator\_type@{allocator\_type}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{allocator\_type}{allocator\_type}}
+{\footnotesize\ttfamily \label{class_vector_aab464cb541521d4a0fce87f0a9ba43a3} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::allocator\+\_\+type = Allocator}
+
+\Hypertarget{class_vector_a875df6082d09187753ff79ab5cddeaf9}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!const\_iterator@{const\_iterator}}
+\index{const\_iterator@{const\_iterator}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{const\_iterator}{const\_iterator}}
+{\footnotesize\ttfamily \label{class_vector_a875df6082d09187753ff79ab5cddeaf9} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::const\+\_\+iterator = const T\texorpdfstring{$\ast$}{*}}
+
+\Hypertarget{class_vector_a36aeecbd0dd9c465783c35e2f3d0b3ea}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!const\_pointer@{const\_pointer}}
+\index{const\_pointer@{const\_pointer}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{const\_pointer}{const\_pointer}}
+{\footnotesize\ttfamily \label{class_vector_a36aeecbd0dd9c465783c35e2f3d0b3ea} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::const\+\_\+pointer = typename std\+::allocator\+\_\+traits$<$\mbox{\hyperlink{class_vector_aab464cb541521d4a0fce87f0a9ba43a3}{allocator\+\_\+type}}$>$\+::const\+\_\+pointer}
+
+\Hypertarget{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!const\_reference@{const\_reference}}
+\index{const\_reference@{const\_reference}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{const\_reference}{const\_reference}}
+{\footnotesize\ttfamily \label{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::const\+\_\+reference = const T\&}
+
+\Hypertarget{class_vector_aa199d254fca6192a98ccb7aa789d73d4}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!const\_reverse\_iterator@{const\_reverse\_iterator}}
+\index{const\_reverse\_iterator@{const\_reverse\_iterator}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{const\_reverse\_iterator}{const\_reverse\_iterator}}
+{\footnotesize\ttfamily \label{class_vector_aa199d254fca6192a98ccb7aa789d73d4} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::const\+\_\+reverse\+\_\+iterator = std\+::reverse\+\_\+iterator$<$\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}}$>$}
+
+\Hypertarget{class_vector_a0021ff26d29cec150ceaea9140f75775}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!difference\_type@{difference\_type}}
+\index{difference\_type@{difference\_type}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{difference\_type}{difference\_type}}
+{\footnotesize\ttfamily \label{class_vector_a0021ff26d29cec150ceaea9140f75775} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::difference\+\_\+type = std\+::ptrdiff\+\_\+t}
+
+\Hypertarget{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!iterator@{iterator}}
+\index{iterator@{iterator}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{iterator}{iterator}}
+{\footnotesize\ttfamily \label{class_vector_aa0fd44c3574e523e734e33e6b7471ee1} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::iterator = T\texorpdfstring{$\ast$}{*}}
+
+\Hypertarget{class_vector_adef46ef57edf3cdbc8d786492639e10f}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!pointer@{pointer}}
+\index{pointer@{pointer}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{pointer}{pointer}}
+{\footnotesize\ttfamily \label{class_vector_adef46ef57edf3cdbc8d786492639e10f} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::pointer = typename std\+::allocator\+\_\+traits$<$\mbox{\hyperlink{class_vector_aab464cb541521d4a0fce87f0a9ba43a3}{allocator\+\_\+type}}$>$\+::pointer}
+
+\Hypertarget{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!reference@{reference}}
+\index{reference@{reference}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{reference}{reference}}
+{\footnotesize\ttfamily \label{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::reference = T\&}
+
+\Hypertarget{class_vector_a9849b4ad17cda28b8df3171e81a3c802}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!reverse\_iterator@{reverse\_iterator}}
+\index{reverse\_iterator@{reverse\_iterator}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{reverse\_iterator}{reverse\_iterator}}
+{\footnotesize\ttfamily \label{class_vector_a9849b4ad17cda28b8df3171e81a3c802} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::reverse\+\_\+iterator = std\+::reverse\+\_\+iterator$<$\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}}$>$}
+
+\Hypertarget{class_vector_aa296bc76ecea23add35328135cfd420e}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!size\_type@{size\_type}}
+\index{size\_type@{size\_type}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{size\_type}{size\_type}}
+{\footnotesize\ttfamily \label{class_vector_aa296bc76ecea23add35328135cfd420e} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::size\+\_\+type = std\+::size\+\_\+t}
+
+\Hypertarget{class_vector_ad7f616a3b8800f8b2b4a982cd1886c11}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!value\_type@{value\_type}}
+\index{value\_type@{value\_type}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{value\_type}{value\_type}}
+{\footnotesize\ttfamily \label{class_vector_ad7f616a3b8800f8b2b4a982cd1886c11} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+using \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::value\+\_\+type = T}
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_vector_aaf4df220ebec108fe068ab7963d5ea8d}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!Vector@{Vector}}
+\index{Vector@{Vector}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Vector()}{Vector()}\hspace{0.1cm}{\footnotesize\ttfamily [1/7]}}
+{\footnotesize\ttfamily \label{class_vector_aaf4df220ebec108fe068ab7963d5ea8d} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\mbox{\hyperlink{class_vector}{\+::\+Vector}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_ab913dc7784737e195ed246e9b01be3e6}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!Vector@{Vector}}
+\index{Vector@{Vector}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Vector()}{Vector()}\hspace{0.1cm}{\footnotesize\ttfamily [2/7]}}
+{\footnotesize\ttfamily \label{class_vector_ab913dc7784737e195ed246e9b01be3e6} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\mbox{\hyperlink{class_vector}{\+::\+Vector}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}}}]{count}{, }\item[{const T \&}]{value}{, }\item[{const Allocator \&}]{alloc}{ = {\ttfamily Allocator()}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\Hypertarget{class_vector_a33f9ef2d590a5c3961bcfe31bfb058af}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!Vector@{Vector}}
+\index{Vector@{Vector}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Vector()}{Vector()}\hspace{0.1cm}{\footnotesize\ttfamily [3/7]}}
+{\footnotesize\ttfamily \label{class_vector_a33f9ef2d590a5c3961bcfe31bfb058af} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+template$<$typename Input\+It, typename = std\+::enable\+\_\+if\+\_\+t$<$!std\+::is\+\_\+integral$<$\+Input\+It$>$\+::value$>$$>$ \\
+\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\mbox{\hyperlink{class_vector}{\+::\+Vector}} (\begin{DoxyParamCaption}\item[{Input\+It}]{first}{, }\item[{Input\+It}]{last}{, }\item[{const Allocator \&}]{allocate}{ = {\ttfamily Allocator()}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a6c30cb6953c3e82407971f723bfc2ee7}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!Vector@{Vector}}
+\index{Vector@{Vector}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Vector()}{Vector()}\hspace{0.1cm}{\footnotesize\ttfamily [4/7]}}
+{\footnotesize\ttfamily \label{class_vector_a6c30cb6953c3e82407971f723bfc2ee7} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\mbox{\hyperlink{class_vector}{\+::\+Vector}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$ \&}]{other}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_acb152d0e8cabec10c1c7d4983dcebffb}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!Vector@{Vector}}
+\index{Vector@{Vector}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Vector()}{Vector()}\hspace{0.1cm}{\footnotesize\ttfamily [5/7]}}
+{\footnotesize\ttfamily \label{class_vector_acb152d0e8cabec10c1c7d4983dcebffb} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\mbox{\hyperlink{class_vector}{\+::\+Vector}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$ \&\&}]{other}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_aaf42d660b4ea9541b696c4a9e099de63}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!Vector@{Vector}}
+\index{Vector@{Vector}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Vector()}{Vector()}\hspace{0.1cm}{\footnotesize\ttfamily [6/7]}}
+{\footnotesize\ttfamily \label{class_vector_aaf42d660b4ea9541b696c4a9e099de63} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\mbox{\hyperlink{class_vector}{\+::\+Vector}} (\begin{DoxyParamCaption}\item[{std\+::initializer\+\_\+list$<$ T $>$}]{init}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a64de862dd3304f0d1c0bbb3b936858c0}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!Vector@{Vector}}
+\index{Vector@{Vector}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{Vector()}{Vector()}\hspace{0.1cm}{\footnotesize\ttfamily [7/7]}}
+{\footnotesize\ttfamily \label{class_vector_a64de862dd3304f0d1c0bbb3b936858c0} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\mbox{\hyperlink{class_vector}{\+::\+Vector}} (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{count}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+bufferiams 
+
+\Hypertarget{class_vector_a41ea21bfe5f179edf770f2e931793769}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!````~Vector@{\texorpdfstring{$\sim$}{\string~}Vector}}
+\index{````~Vector@{\texorpdfstring{$\sim$}{\string~}Vector}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Vector()}{\string~Vector()}}
+{\footnotesize\ttfamily \label{class_vector_a41ea21bfe5f179edf770f2e931793769} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::\texorpdfstring{$\sim$}{\string~}\mbox{\hyperlink{class_vector}{Vector}} (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_vector_a6b21c817044c259e24cfa380e8f4f8e1}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!assign@{assign}}
+\index{assign@{assign}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{assign()}{assign()}}
+{\footnotesize\ttfamily \label{class_vector_a6b21c817044c259e24cfa380e8f4f8e1} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+template$<$typename Input\+It$>$ \\
+void \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::assign (\begin{DoxyParamCaption}\item[{Input\+It}]{first}{, }\item[{Input\+It}]{last}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a41087bd56f37dc84461caf5f1a46a7f9}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!at@{at}}
+\index{at@{at}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_a41087bd56f37dc84461caf5f1a46a7f9} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::at (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}}}]{idx}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a4c55b0e81f8c939d8a38b4b272f782b3}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!at@{at}}
+\index{at@{at}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{at()}{at()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_a4c55b0e81f8c939d8a38b4b272f782b3} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f}{const\+\_\+reference}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::at (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}}}]{idx}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a6c9f129f1b4e63a94e6639cb91b9c9e9}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!back@{back}}
+\index{back@{back}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{back()}{back()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_a6c9f129f1b4e63a94e6639cb91b9c9e9} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f}{const\+\_\+reference}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::back (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a480abba85c0b0c7a8a8563270fec5e4d}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!back@{back}}
+\index{back@{back}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{back()}{back()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_a480abba85c0b0c7a8a8563270fec5e4d} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::back (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a2580718ff28d9e6e12b00aa0538d4373}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!begin@{begin}}
+\index{begin@{begin}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{begin()}{begin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_a2580718ff28d9e6e12b00aa0538d4373} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::begin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_aea04561325108b73824e4ad1dd8114b2}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!begin@{begin}}
+\index{begin@{begin}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{begin()}{begin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_aea04561325108b73824e4ad1dd8114b2} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::begin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a60671a453740307c95b9716139acfaf0}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!capacity@{capacity}}
+\index{capacity@{capacity}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{capacity()}{capacity()}}
+{\footnotesize\ttfamily \label{class_vector_a60671a453740307c95b9716139acfaf0} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::capacity (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a0e785a437d78d8e9f925f217a4a158ce}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!cbegin@{cbegin}}
+\index{cbegin@{cbegin}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{cbegin()}{cbegin()}}
+{\footnotesize\ttfamily \label{class_vector_a0e785a437d78d8e9f925f217a4a158ce} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::cbegin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a8bb1d0ca8b8eefdb6c18c1ea1a90cec9}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!cend@{cend}}
+\index{cend@{cend}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{cend()}{cend()}}
+{\footnotesize\ttfamily \label{class_vector_a8bb1d0ca8b8eefdb6c18c1ea1a90cec9} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::cend (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a1a4abc0a085cd7a32db757362f085485}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!clear@{clear}}
+\index{clear@{clear}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily \label{class_vector_a1a4abc0a085cd7a32db757362f085485} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+void \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::clear (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_aabce2381b5e3b0e167a55400f6b3a120}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!crbegin@{crbegin}}
+\index{crbegin@{crbegin}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{crbegin()}{crbegin()}}
+{\footnotesize\ttfamily \label{class_vector_aabce2381b5e3b0e167a55400f6b3a120} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa199d254fca6192a98ccb7aa789d73d4}{const\+\_\+reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::crbegin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_ab17f3f519d173c01d8ee6481ddc18845}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!crend@{crend}}
+\index{crend@{crend}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{crend()}{crend()}}
+{\footnotesize\ttfamily \label{class_vector_ab17f3f519d173c01d8ee6481ddc18845} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa199d254fca6192a98ccb7aa789d73d4}{const\+\_\+reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::crend (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a678fe1a20cf43e1c8d9bfefbc4422e6d}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!data@{data}}
+\index{data@{data}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{data()}{data()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_a678fe1a20cf43e1c8d9bfefbc4422e6d} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a36aeecbd0dd9c465783c35e2f3d0b3ea}{const\+\_\+pointer}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::data (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_ac33647e0240f4505c3cb3853ee06305d}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!data@{data}}
+\index{data@{data}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{data()}{data()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_ac33647e0240f4505c3cb3853ee06305d} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_adef46ef57edf3cdbc8d786492639e10f}{pointer}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::data (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a6a7f65e9b8e57122c868d0aa4f326c19}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!emplace@{emplace}}
+\index{emplace@{emplace}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{emplace()}{emplace()}}
+{\footnotesize\ttfamily \label{class_vector_a6a7f65e9b8e57122c868d0aa4f326c19} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+template$<$class... Args$>$ \\
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::emplace (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}}}]{pos}{, }\item[{Args \&\&...}]{args}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a5d19b8e8fd6ded1e2e99045c3962c7e9}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!emplace\_back@{emplace\_back}}
+\index{emplace\_back@{emplace\_back}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{emplace\_back()}{emplace\_back()}}
+{\footnotesize\ttfamily \label{class_vector_a5d19b8e8fd6ded1e2e99045c3962c7e9} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+template$<$class... Args$>$ \\
+\mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::emplace\+\_\+back (\begin{DoxyParamCaption}\item[{Args \&\&...}]{args}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_ad5e31c0f82683ece1b5b020c15a8b77b}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!empty@{empty}}
+\index{empty@{empty}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{empty()}{empty()}}
+{\footnotesize\ttfamily \label{class_vector_ad5e31c0f82683ece1b5b020c15a8b77b} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+bool \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::empty (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_aeebdc6009ad387f9e2f1d37613d98f83}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!end@{end}}
+\index{end@{end}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{end()}{end()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_aeebdc6009ad387f9e2f1d37613d98f83} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::end (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_abaaafc8a6696d49ceb4f799d2f78e299}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!end@{end}}
+\index{end@{end}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{end()}{end()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_abaaafc8a6696d49ceb4f799d2f78e299} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::end (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a475eb3d5040ead87de3e58e19fe954a3}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!erase@{erase}}
+\index{erase@{erase}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{erase()}{erase()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_a475eb3d5040ead87de3e58e19fe954a3} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::erase (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}}}]{first}{, }\item[{\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}}}]{last}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a9475371e34e4ce47ec3359ff25fed6ec}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!erase@{erase}}
+\index{erase@{erase}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{erase()}{erase()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_a9475371e34e4ce47ec3359ff25fed6ec} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::erase (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}}}]{pos}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_ae63b6b294672533c48376b8237e17b46}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!front@{front}}
+\index{front@{front}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{front()}{front()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_ae63b6b294672533c48376b8237e17b46} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f}{const\+\_\+reference}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::front (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a58e56320120c4c99630a972a5f51ef59}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!front@{front}}
+\index{front@{front}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{front()}{front()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_a58e56320120c4c99630a972a5f51ef59} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::front (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a1e90a4e8d2654c25356e2f764407356a}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!insert@{insert}}
+\index{insert@{insert}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{class_vector_a1e90a4e8d2654c25356e2f764407356a} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+template$<$class Input\+It, class = typename std\+::enable\+\_\+if$<$!std\+::is\+\_\+integral$<$\+Input\+It$>$\+::value$>$\+::type$>$ \\
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::insert (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}}}]{pos}{, }\item[{Input\+It}]{first}{, }\item[{Input\+It}]{last}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a9cb18719aa12e6eb248c09b00b35a562}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!insert@{insert}}
+\index{insert@{insert}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{class_vector_a9cb18719aa12e6eb248c09b00b35a562} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::insert (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}}}]{pos}{, }\item[{\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}}}]{n}{, }\item[{const T \&}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_ae48e57a98f883366ee659c0ff1e8626c}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!insert@{insert}}
+\index{insert@{insert}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{class_vector_ae48e57a98f883366ee659c0ff1e8626c} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa0fd44c3574e523e734e33e6b7471ee1}{iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::insert (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_a875df6082d09187753ff79ab5cddeaf9}{const\+\_\+iterator}}}]{pos}{, }\item[{T \&\&}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a0ba835d106fdedf8619022290f802228}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!max\_size@{max\_size}}
+\index{max\_size@{max\_size}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{max\_size()}{max\_size()}}
+{\footnotesize\ttfamily \label{class_vector_a0ba835d106fdedf8619022290f802228} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::max\+\_\+size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_acd81877aeca482e395ae9d7fd11710c5}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_acd81877aeca482e395ae9d7fd11710c5} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector}{Vector}} \& \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$ \&}]{other}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_ac8abbf2c9f557a460d76c97282d61008}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_ac8abbf2c9f557a460d76c97282d61008} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector}{Vector}} \& \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$ \&\&}]{other}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a5bef5d7f28e5a6b7137d0a5339aba491}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_a5bef5d7f28e5a6b7137d0a5339aba491} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a4562cfe1d8f3baade0e6f8fee9b2681f}{const\+\_\+reference}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}}}]{idx}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_aebda035b314799f50d52f816aa4f0bd9}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_aebda035b314799f50d52f816aa4f0bd9} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_ab7f96d7386d6e10bd310dbd6a9f6ad3e}{reference}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}}}]{idx}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_aa3372317d3d013ec12087a9bb56147ba}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!pop\_back@{pop\_back}}
+\index{pop\_back@{pop\_back}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{pop\_back()}{pop\_back()}}
+{\footnotesize\ttfamily \label{class_vector_aa3372317d3d013ec12087a9bb56147ba} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+void \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::pop\+\_\+back (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a7cb08d016f15c97741c849cdb83170e1}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!push\_back@{push\_back}}
+\index{push\_back@{push\_back}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{push\_back()}{push\_back()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_a7cb08d016f15c97741c849cdb83170e1} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+void \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::push\+\_\+back (\begin{DoxyParamCaption}\item[{const T \&}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a23caf2c3ae4086f0d31c4524631385e3}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!push\_back@{push\_back}}
+\index{push\_back@{push\_back}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{push\_back()}{push\_back()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_a23caf2c3ae4086f0d31c4524631385e3} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+void \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::push\+\_\+back (\begin{DoxyParamCaption}\item[{T \&\&}]{value}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a3005656f9e4b307d3042dace958177da}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!rbegin@{rbegin}}
+\index{rbegin@{rbegin}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{rbegin()}{rbegin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_a3005656f9e4b307d3042dace958177da} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa199d254fca6192a98ccb7aa789d73d4}{const\+\_\+reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::rbegin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a724ade5c5b5f8f5f8669965125b0e5bd}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!rbegin@{rbegin}}
+\index{rbegin@{rbegin}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{rbegin()}{rbegin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_a724ade5c5b5f8f5f8669965125b0e5bd} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a9849b4ad17cda28b8df3171e81a3c802}{reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::rbegin (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a44277421d823f12b0662bec3349f0e14}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!rend@{rend}}
+\index{rend@{rend}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{rend()}{rend()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_vector_a44277421d823f12b0662bec3349f0e14} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa199d254fca6192a98ccb7aa789d73d4}{const\+\_\+reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::rend (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_a730043c7d5c7fd7507ec811d99c68a63}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!rend@{rend}}
+\index{rend@{rend}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{rend()}{rend()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_vector_a730043c7d5c7fd7507ec811d99c68a63} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_a9849b4ad17cda28b8df3171e81a3c802}{reverse\+\_\+iterator}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::rend (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_aae047b4b6a79dce4dcc3ffc3c39939d2}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!reserve@{reserve}}
+\index{reserve@{reserve}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{reserve()}{reserve()}}
+{\footnotesize\ttfamily \label{class_vector_aae047b4b6a79dce4dcc3ffc3c39939d2} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+void \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::reserve (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}}}]{new\+\_\+cap}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a102e92ccd381a3d0356a08252b28f1ac}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!resize@{resize}}
+\index{resize@{resize}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{resize()}{resize()}}
+{\footnotesize\ttfamily \label{class_vector_a102e92ccd381a3d0356a08252b28f1ac} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+void \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::resize (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}}}]{count}{, }\item[{const T \&}]{value}{ = {\ttfamily T()}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_a5746026edae1b2adb3b2133b99996f32}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!shrink\_to\_fit@{shrink\_to\_fit}}
+\index{shrink\_to\_fit@{shrink\_to\_fit}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{shrink\_to\_fit()}{shrink\_to\_fit()}}
+{\footnotesize\ttfamily \label{class_vector_a5746026edae1b2adb3b2133b99996f32} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+void \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::shrink\+\_\+to\+\_\+fit (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_vector_ade9ce4c7602280a9c935c919afe10098}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!size@{size}}
+\index{size@{size}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily \label{class_vector_ade9ce4c7602280a9c935c919afe10098} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::size (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+\Hypertarget{class_vector_ae1387b115ad4874d76690acc701ce976}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!swap@{swap}}
+\index{swap@{swap}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{swap()}{swap()}}
+{\footnotesize\ttfamily \label{class_vector_ae1387b115ad4874d76690acc701ce976} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+void \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::swap (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$ \&}]{other}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [noexcept]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_vector_a860436513676d8285f364ca27f5cf23a}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!allocator\_@{allocator\_}}
+\index{allocator\_@{allocator\_}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{allocator\_}{allocator\_}}
+{\footnotesize\ttfamily \label{class_vector_a860436513676d8285f364ca27f5cf23a} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+Allocator \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::allocator\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_vector_a38c833c44c27d3f60233adcb765364ee}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!capacity\_@{capacity\_}}
+\index{capacity\_@{capacity\_}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{capacity\_}{capacity\_}}
+{\footnotesize\ttfamily \label{class_vector_a38c833c44c27d3f60233adcb765364ee} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::capacity\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_vector_abc1b8771c37d008c43246a2ac0922580}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!data\_@{data\_}}
+\index{data\_@{data\_}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{data\_}{data\_}}
+{\footnotesize\ttfamily \label{class_vector_abc1b8771c37d008c43246a2ac0922580} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_adef46ef57edf3cdbc8d786492639e10f}{pointer}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::data\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_vector_a26569d33887d692afc3546ab855d569a}\index{Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}!size\_@{size\_}}
+\index{size\_@{size\_}!Vector$<$ T, Allocator $>$@{Vector$<$ T, Allocator $>$}}
+\doxysubsubsection{\texorpdfstring{size\_}{size\_}}
+{\footnotesize\ttfamily \label{class_vector_a26569d33887d692afc3546ab855d569a} 
+template$<$typename T, typename Allocator = std\+::allocator$<$\+T$>$$>$ \\
+\mbox{\hyperlink{class_vector_aa296bc76ecea23add35328135cfd420e}{size\+\_\+type}} \mbox{\hyperlink{class_vector}{Vector}}$<$ T, Allocator $>$\+::size\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+vector/\mbox{\hyperlink{vector_8hpp}{vector.\+hpp}}\end{DoxyCompactItemize}

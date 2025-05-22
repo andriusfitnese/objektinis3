@@ -1,0 +1,124 @@
+\doxysection{Catch\+::Context Class Reference}
+\hypertarget{class_catch_1_1_context}{}\label{class_catch_1_1_context}\index{Catch::Context@{Catch::Context}}
+
+
+{\ttfamily \#include $<$catch\+\_\+amalgamated.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr \mbox{\hyperlink{class_catch_1_1_i_result_capture}{IResult\+Capture}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_catch_1_1_context_af982da2ffec655cc4b95af6c86d3e2d2}{get\+Result\+Capture}} () const
+\item 
+constexpr \mbox{\hyperlink{class_catch_1_1_i_config}{IConfig}} const \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_catch_1_1_context_a9b9038b5e6bd8495cbb247ff8a39fc41}{get\+Config}} () const
+\item 
+constexpr void \mbox{\hyperlink{class_catch_1_1_context_a43810eeee01821fe7b0f9f7f5bd9fb4c}{set\+Result\+Capture}} (\mbox{\hyperlink{class_catch_1_1_i_result_capture}{IResult\+Capture}} \texorpdfstring{$\ast$}{*}result\+Capture)
+\item 
+constexpr void \mbox{\hyperlink{class_catch_1_1_context_ab888e693701673adef316571fab0cf77}{set\+Config}} (\mbox{\hyperlink{class_catch_1_1_i_config}{IConfig}} const \texorpdfstring{$\ast$}{*}config)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_catch_1_1_context_a8791e458c00734bcbaa403d02a731c48}{create\+Context}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_catch_1_1_i_config}{IConfig}} const  \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_catch_1_1_context_a12fa72b7a9659a712bfa4c9833134e0f}{m\+\_\+config}} = nullptr
+\item 
+\mbox{\hyperlink{class_catch_1_1_i_result_capture}{IResult\+Capture}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_catch_1_1_context_a39f49850dc5e3f917cd2b92391a89bd8}{m\+\_\+result\+Capture}} = nullptr
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{catch__amalgamated_8hpp_a7a076eb1c404d5e057d159c9b271cc6f}{CATCH\+\_\+\+EXPORT}} \mbox{\hyperlink{class_catch_1_1_context}{Context}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_catch_1_1_context_ac4ba79b6c2667f0c54dee09ae9b0a6d6}{current\+Context}} = nullptr
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_catch_1_1_context}{Context}} \& \mbox{\hyperlink{class_catch_1_1_context_abaf57ad1081788ced532da4609578b21}{get\+Current\+Mutable\+Context}} ()
+\item 
+\mbox{\hyperlink{class_catch_1_1_context}{Context}} const \& \mbox{\hyperlink{class_catch_1_1_context_af881f79b2f58b449f1d55ce2a46fefab}{get\+Current\+Context}} ()
+\item 
+void \mbox{\hyperlink{class_catch_1_1_context_ac07cdb7d744cc8f09672d924324b55fd}{clean\+Up\+Context}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_catch_1_1_context_a8791e458c00734bcbaa403d02a731c48}\index{Catch::Context@{Catch::Context}!createContext@{createContext}}
+\index{createContext@{createContext}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{createContext()}{createContext()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_a8791e458c00734bcbaa403d02a731c48} 
+void Catch\+::\+Context\+::create\+Context (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_context_a9b9038b5e6bd8495cbb247ff8a39fc41}\index{Catch::Context@{Catch::Context}!getConfig@{getConfig}}
+\index{getConfig@{getConfig}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{getConfig()}{getConfig()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_a9b9038b5e6bd8495cbb247ff8a39fc41} 
+\mbox{\hyperlink{class_catch_1_1_i_config}{IConfig}} const  \texorpdfstring{$\ast$}{*} Catch\+::\+Context\+::get\+Config (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+\Hypertarget{class_catch_1_1_context_af982da2ffec655cc4b95af6c86d3e2d2}\index{Catch::Context@{Catch::Context}!getResultCapture@{getResultCapture}}
+\index{getResultCapture@{getResultCapture}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{getResultCapture()}{getResultCapture()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_af982da2ffec655cc4b95af6c86d3e2d2} 
+\mbox{\hyperlink{class_catch_1_1_i_result_capture}{IResult\+Capture}} \texorpdfstring{$\ast$}{*} Catch\+::\+Context\+::get\+Result\+Capture (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+\Hypertarget{class_catch_1_1_context_ab888e693701673adef316571fab0cf77}\index{Catch::Context@{Catch::Context}!setConfig@{setConfig}}
+\index{setConfig@{setConfig}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{setConfig()}{setConfig()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_ab888e693701673adef316571fab0cf77} 
+void Catch\+::\+Context\+::set\+Config (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_catch_1_1_i_config}{IConfig}} const \texorpdfstring{$\ast$}{*}}]{config}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+\Hypertarget{class_catch_1_1_context_a43810eeee01821fe7b0f9f7f5bd9fb4c}\index{Catch::Context@{Catch::Context}!setResultCapture@{setResultCapture}}
+\index{setResultCapture@{setResultCapture}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{setResultCapture()}{setResultCapture()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_a43810eeee01821fe7b0f9f7f5bd9fb4c} 
+void Catch\+::\+Context\+::set\+Result\+Capture (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_catch_1_1_i_result_capture}{IResult\+Capture}} \texorpdfstring{$\ast$}{*}}]{result\+Capture}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+\doxysubsection{Friends And Related Symbol Documentation}
+\Hypertarget{class_catch_1_1_context_ac07cdb7d744cc8f09672d924324b55fd}\index{Catch::Context@{Catch::Context}!cleanUpContext@{cleanUpContext}}
+\index{cleanUpContext@{cleanUpContext}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{cleanUpContext}{cleanUpContext}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_ac07cdb7d744cc8f09672d924324b55fd} 
+void clean\+Up\+Context (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+\Hypertarget{class_catch_1_1_context_af881f79b2f58b449f1d55ce2a46fefab}\index{Catch::Context@{Catch::Context}!getCurrentContext@{getCurrentContext}}
+\index{getCurrentContext@{getCurrentContext}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{getCurrentContext}{getCurrentContext}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_af881f79b2f58b449f1d55ce2a46fefab} 
+\mbox{\hyperlink{class_catch_1_1_context}{Context}} const  \& get\+Current\+Context (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+\Hypertarget{class_catch_1_1_context_abaf57ad1081788ced532da4609578b21}\index{Catch::Context@{Catch::Context}!getCurrentMutableContext@{getCurrentMutableContext}}
+\index{getCurrentMutableContext@{getCurrentMutableContext}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{getCurrentMutableContext}{getCurrentMutableContext}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_abaf57ad1081788ced532da4609578b21} 
+\mbox{\hyperlink{class_catch_1_1_context}{Context}} \& get\+Current\+Mutable\+Context (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_catch_1_1_context_ac4ba79b6c2667f0c54dee09ae9b0a6d6}\index{Catch::Context@{Catch::Context}!currentContext@{currentContext}}
+\index{currentContext@{currentContext}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{currentContext}{currentContext}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_ac4ba79b6c2667f0c54dee09ae9b0a6d6} 
+\mbox{\hyperlink{class_catch_1_1_context}{Context}} \texorpdfstring{$\ast$}{*} Catch\+::\+Context\+::current\+Context = nullptr\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_context_a12fa72b7a9659a712bfa4c9833134e0f}\index{Catch::Context@{Catch::Context}!m\_config@{m\_config}}
+\index{m\_config@{m\_config}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{m\_config}{m\_config}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_a12fa72b7a9659a712bfa4c9833134e0f} 
+\mbox{\hyperlink{class_catch_1_1_i_config}{IConfig}} const\texorpdfstring{$\ast$}{*} Catch\+::\+Context\+::m\+\_\+config = nullptr\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_context_a39f49850dc5e3f917cd2b92391a89bd8}\index{Catch::Context@{Catch::Context}!m\_resultCapture@{m\_resultCapture}}
+\index{m\_resultCapture@{m\_resultCapture}!Catch::Context@{Catch::Context}}
+\doxysubsubsection{\texorpdfstring{m\_resultCapture}{m\_resultCapture}}
+{\footnotesize\ttfamily \label{class_catch_1_1_context_a39f49850dc5e3f917cd2b92391a89bd8} 
+\mbox{\hyperlink{class_catch_1_1_i_result_capture}{IResult\+Capture}}\texorpdfstring{$\ast$}{*} Catch\+::\+Context\+::m\+\_\+result\+Capture = nullptr\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8hpp}{catch\+\_\+amalgamated.\+hpp}}\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8cpp}{catch\+\_\+amalgamated.\+cpp}}\end{DoxyCompactItemize}

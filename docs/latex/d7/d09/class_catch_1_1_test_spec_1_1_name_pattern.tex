@@ -1,0 +1,81 @@
+\doxysection{Catch\+::Test\+Spec\+::Name\+Pattern Class Reference}
+\hypertarget{class_catch_1_1_test_spec_1_1_name_pattern}{}\label{class_catch_1_1_test_spec_1_1_name_pattern}\index{Catch::TestSpec::NamePattern@{Catch::TestSpec::NamePattern}}
+Inheritance diagram for Catch\+::Test\+Spec\+::Name\+Pattern\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d7/d09/class_catch_1_1_test_spec_1_1_name_pattern}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_catch_1_1_test_spec_1_1_name_pattern_a105f14dc1a786334d589cfe211663199}{Name\+Pattern}} (std\+::string const \&\mbox{\hyperlink{class_catch_1_1_test_spec_1_1_pattern_aab90aeef486cbb5993d13a09b0ea2046}{name}}, std\+::string const \&filter\+String)
+\item 
+bool \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_name_pattern_aa48f2bb185ea2fd8c777da0b925d28f7}{matches}} (\mbox{\hyperlink{struct_catch_1_1_test_case_info}{Test\+Case\+Info}} const \&test\+Case) const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_pattern}{Catch\+::\+Test\+Spec\+::\+Pattern}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_catch_1_1_test_spec_1_1_pattern_a93ef584ef74b7631e2569cee8626d2cf}{Pattern}} (std\+::string const \&\mbox{\hyperlink{class_catch_1_1_test_spec_1_1_pattern_aab90aeef486cbb5993d13a09b0ea2046}{name}})
+\item 
+virtual \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_pattern_a5d2a89cf8fc86dd6430c97d5bcc08c15}{\texorpdfstring{$\sim$}{\string~}\+Pattern}} ()
+\item 
+std\+::string const \& \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_pattern_aab90aeef486cbb5993d13a09b0ea2046}{name}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_name_pattern_ae856d54dea1edfe2adacf4f717250aef}{serialize\+To}} (std\+::ostream \&out) const override
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_catch_1_1_wildcard_pattern}{Wildcard\+Pattern}} \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_name_pattern_a2906467f63b2239f4a8cf6211a4bd0e1}{m\+\_\+wildcard\+Pattern}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_catch_1_1_test_spec_1_1_name_pattern_a105f14dc1a786334d589cfe211663199}\index{Catch::TestSpec::NamePattern@{Catch::TestSpec::NamePattern}!NamePattern@{NamePattern}}
+\index{NamePattern@{NamePattern}!Catch::TestSpec::NamePattern@{Catch::TestSpec::NamePattern}}
+\doxysubsubsection{\texorpdfstring{NamePattern()}{NamePattern()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_1_1_name_pattern_a105f14dc1a786334d589cfe211663199} 
+Catch\+::\+Test\+Spec\+::\+Name\+Pattern\+::\+Name\+Pattern (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{name}{, }\item[{std\+::string const \&}]{filter\+String}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_catch_1_1_test_spec_1_1_name_pattern_aa48f2bb185ea2fd8c777da0b925d28f7}\index{Catch::TestSpec::NamePattern@{Catch::TestSpec::NamePattern}!matches@{matches}}
+\index{matches@{matches}!Catch::TestSpec::NamePattern@{Catch::TestSpec::NamePattern}}
+\doxysubsubsection{\texorpdfstring{matches()}{matches()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_1_1_name_pattern_aa48f2bb185ea2fd8c777da0b925d28f7} 
+bool Catch\+::\+Test\+Spec\+::\+Name\+Pattern\+::matches (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_catch_1_1_test_case_info}{Test\+Case\+Info}} const \&}]{test\+Case}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_pattern_a97a0c28ce8d6f55bad15eed4dd07896c}{Catch\+::\+Test\+Spec\+::\+Pattern}}.
+
+\Hypertarget{class_catch_1_1_test_spec_1_1_name_pattern_ae856d54dea1edfe2adacf4f717250aef}\index{Catch::TestSpec::NamePattern@{Catch::TestSpec::NamePattern}!serializeTo@{serializeTo}}
+\index{serializeTo@{serializeTo}!Catch::TestSpec::NamePattern@{Catch::TestSpec::NamePattern}}
+\doxysubsubsection{\texorpdfstring{serializeTo()}{serializeTo()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_1_1_name_pattern_ae856d54dea1edfe2adacf4f717250aef} 
+void Catch\+::\+Test\+Spec\+::\+Name\+Pattern\+::serialize\+To (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_pattern_ae342a06a2d8e91b08e0381f5f744c98c}{Catch\+::\+Test\+Spec\+::\+Pattern}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_catch_1_1_test_spec_1_1_name_pattern_a2906467f63b2239f4a8cf6211a4bd0e1}\index{Catch::TestSpec::NamePattern@{Catch::TestSpec::NamePattern}!m\_wildcardPattern@{m\_wildcardPattern}}
+\index{m\_wildcardPattern@{m\_wildcardPattern}!Catch::TestSpec::NamePattern@{Catch::TestSpec::NamePattern}}
+\doxysubsubsection{\texorpdfstring{m\_wildcardPattern}{m\_wildcardPattern}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_1_1_name_pattern_a2906467f63b2239f4a8cf6211a4bd0e1} 
+\mbox{\hyperlink{class_catch_1_1_wildcard_pattern}{Wildcard\+Pattern}} Catch\+::\+Test\+Spec\+::\+Name\+Pattern\+::m\+\_\+wildcard\+Pattern\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8hpp}{catch\+\_\+amalgamated.\+hpp}}\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8cpp}{catch\+\_\+amalgamated.\+cpp}}\end{DoxyCompactItemize}

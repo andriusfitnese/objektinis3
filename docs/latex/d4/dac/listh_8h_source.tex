@@ -1,0 +1,125 @@
+\doxysection{listh.\+h}
+\hypertarget{listh_8h_source}{}\label{listh_8h_source}\index{list/listh.h@{list/listh.h}}
+\mbox{\hyperlink{listh_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ LIST\_LIB\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ LIST\_LIB\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <iomanip>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <limits>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <random>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <fstream>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <sstream>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <algorithm>}\ \textcolor{comment}{//sortui}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <thread>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <execution>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <future>}\ }
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <functional>}\ \textcolor{comment}{//del\ greater\ ir\ less\ funkciju}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <deque>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ <chrono>}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ <list>}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{using\ }std::cout;}
+\DoxyCodeLine{00021\ \textcolor{keyword}{using\ }std::cin;}
+\DoxyCodeLine{00022\ \textcolor{keyword}{using\ }std::min;}
+\DoxyCodeLine{00023\ \textcolor{keyword}{using\ }std::endl;}
+\DoxyCodeLine{00024\ \textcolor{keyword}{using\ }std::vector;}
+\DoxyCodeLine{00025\ \textcolor{keyword}{using\ }std::stringstream;}
+\DoxyCodeLine{00026\ \textcolor{keyword}{using\ }std::launch;}
+\DoxyCodeLine{00027\ \textcolor{keyword}{using\ }std::fixed;}
+\DoxyCodeLine{00028\ \textcolor{keyword}{using\ }std::setw;}
+\DoxyCodeLine{00029\ \textcolor{keyword}{using\ }std::left;}
+\DoxyCodeLine{00030\ \textcolor{keyword}{using\ }std::streamsize;}
+\DoxyCodeLine{00031\ \textcolor{keyword}{using\ }std::numeric\_limits;}
+\DoxyCodeLine{00032\ \textcolor{keyword}{using\ }std::random\_device;}
+\DoxyCodeLine{00033\ \textcolor{keyword}{using\ }std::mt19937;}
+\DoxyCodeLine{00034\ \textcolor{keyword}{using\ }std::uniform\_int\_distribution;}
+\DoxyCodeLine{00035\ \textcolor{keyword}{using\ }std::string;}
+\DoxyCodeLine{00036\ \textcolor{keyword}{using\ }std::sort;}
+\DoxyCodeLine{00037\ \textcolor{keyword}{using\ }std::setprecision;}
+\DoxyCodeLine{00038\ \textcolor{keyword}{using\ }std::ifstream;}
+\DoxyCodeLine{00039\ \textcolor{keyword}{using\ }std::ofstream;}
+\DoxyCodeLine{00040\ \textcolor{keyword}{using\ }std::ws;}
+\DoxyCodeLine{00041\ \textcolor{keyword}{using\ }std::istringstream;}
+\DoxyCodeLine{00042\ \textcolor{keyword}{using\ }std::cerr;}
+\DoxyCodeLine{00043\ \textcolor{keyword}{using\ }std::nth\_element;}
+\DoxyCodeLine{00044\ \textcolor{keyword}{using\ }std::future;}
+\DoxyCodeLine{00045\ \textcolor{keyword}{using\ }std::runtime\_error;}
+\DoxyCodeLine{00046\ \textcolor{keyword}{using\ }std::ios;}
+\DoxyCodeLine{00047\ \textcolor{keyword}{using\ }std::exception;}
+\DoxyCodeLine{00048\ \textcolor{keyword}{using\ }std::to\_string;}
+\DoxyCodeLine{00049\ \textcolor{keyword}{using\ }std::ostringstream;}
+\DoxyCodeLine{00050\ \textcolor{keyword}{using\ }std::deque;}
+\DoxyCodeLine{00051\ \textcolor{keyword}{using\ }std::list;}
+\DoxyCodeLine{00052\ \textcolor{keyword}{using\ }std::chrono::high\_resolution\_clock;}
+\DoxyCodeLine{00053\ \textcolor{keyword}{using\ }std::chrono::duration;}
+\DoxyCodeLine{00054\ \textcolor{keyword}{using\ }std::copy;}
+\DoxyCodeLine{00055\ \textcolor{keyword}{using\ }std::back\_inserter;}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{dequeh_8h_a7e62fe9a117444061b788cb3fa8c5b14}{vardai}}[]\ =\ \{\ \textcolor{stringliteral}{"{}Jonas"{}},\ \textcolor{stringliteral}{"{}Petras"{}},\ \textcolor{stringliteral}{"{}Marius"{}},\ \textcolor{stringliteral}{"{}Lukas"{}},\ \textcolor{stringliteral}{"{}Tomas"{}},\ \textcolor{stringliteral}{"{}Simas"{}},\ \textcolor{stringliteral}{"{}Andrius"{}},\ \textcolor{stringliteral}{"{}Darius"{}}\ \};}
+\DoxyCodeLine{00058\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{dequeh_8h_ae54d51d4721af96b2a61271b49e611c5}{pavardes}}[]\ =\ \{\ \textcolor{stringliteral}{"{}Kazlauskas"{}},\ \textcolor{stringliteral}{"{}Petraitis"{}},\ \textcolor{stringliteral}{"{}Jonaitis"{}},\ \textcolor{stringliteral}{"{}Mikalauskas"{}},\ \textcolor{stringliteral}{"{}Bagdonas"{}},\ \textcolor{stringliteral}{"{}Vaitkus"{}},\ \textcolor{stringliteral}{"{}Urbonas"{}},\ \textcolor{stringliteral}{"{}Grigas"{}}\ \};}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00060\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{class_stud}{Stud}}\ \{}
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_stud_a5100b70a0b7e9822f900c472a2184160}{pav}};}
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_stud_a567e7acf640f77367cf56d85cf75ed26}{var}};}
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_stud_a3b9870fe6bbca4cfaf26a303b1537eb6}{egrez}};}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_stud_af2ccfc697634d8158cdb64284f64eb81}{pazkiek}}\ =\ 0;}
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keywordtype}{int}*\ \mbox{\hyperlink{class_stud_afd4b88a113913baba382f1c9926df482}{P}};}
+\DoxyCodeLine{00066\ \ \ \ \ vector<int>\ \mbox{\hyperlink{class_stud_a24d68b89dbf25923be2780f9f35c23e2}{paz}};}
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_stud_a5177ebc7e2eb1456f671bdb9d51366c8}{ndvid}};}
+\DoxyCodeLine{00068\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_stud_a33d2d640f334947fe40b0dcbf5f07a6f}{gal}};}
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_stud_a0b6b9dbd39416e475e7531a224e16e93}{med}};}
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{comment}{/*Stud()\ :\ P(nullptr),\ pazkiek(0)\ \{\}\ \ ///default\ konstruktorius}}
+\DoxyCodeLine{00071\ \textcolor{comment}{}}
+\DoxyCodeLine{00072\ \textcolor{comment}{\ \ \ \ \string~Stud()\ \{}}
+\DoxyCodeLine{00073\ \textcolor{comment}{\ \ \ \ \ \ \ \ delete[]P;}}
+\DoxyCodeLine{00074\ \textcolor{comment}{\ \ \ \ \ \ \ \ P\ =\ nullptr;\ ///kad\ nebutu\ kabanti\ rodykle}}
+\DoxyCodeLine{00075\ \textcolor{comment}{\ \ \ \ \}}}
+\DoxyCodeLine{00076\ \textcolor{comment}{}}
+\DoxyCodeLine{00077\ \textcolor{comment}{\ \ \ \ Stud(const\ Stud\&\ other)\ \ ///kopijavimo\ konstruktorius}}
+\DoxyCodeLine{00078\ \textcolor{comment}{\ \ \ \ \{}}
+\DoxyCodeLine{00079\ \textcolor{comment}{\ \ \ \ \ \ \ \ var\ =\ other.var;}}
+\DoxyCodeLine{00080\ \textcolor{comment}{\ \ \ \ \ \ \ \ pav\ =\ other.pav;}}
+\DoxyCodeLine{00081\ \textcolor{comment}{\ \ \ \ \ \ \ \ pazkiek\ =\ other.pazkiek;}}
+\DoxyCodeLine{00082\ \textcolor{comment}{\ \ \ \ \ \ \ \ egrez\ =\ other.egrez;}}
+\DoxyCodeLine{00083\ \textcolor{comment}{\ \ \ \ \ \ \ \ ndvid\ =\ other.ndvid;}}
+\DoxyCodeLine{00084\ \textcolor{comment}{\ \ \ \ \ \ \ \ gal\ =\ other.gal;}}
+\DoxyCodeLine{00085\ \textcolor{comment}{\ \ \ \ \ \ \ \ med\ =\ other.med;}}
+\DoxyCodeLine{00086\ \textcolor{comment}{}}
+\DoxyCodeLine{00087\ \textcolor{comment}{\ \ \ \ \ \ \ \ if\ (other.P\ !=\ nullptr)\ \{}}
+\DoxyCodeLine{00088\ \textcolor{comment}{\ \ \ \ \ \ \ \ \ \ \ \ P\ =\ new\ int[pazkiek];}}
+\DoxyCodeLine{00089\ \textcolor{comment}{\ \ \ \ \ \ \ \ \ \ \ \ for\ (int\ i\ =\ 0;\ i\ <\ pazkiek;\ i++)\ \{}}
+\DoxyCodeLine{00090\ \textcolor{comment}{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ P[i]\ =\ other.P[i];}}
+\DoxyCodeLine{00091\ \textcolor{comment}{\ \ \ \ \ \ \ \ \ \ \ \ \}}}
+\DoxyCodeLine{00092\ \textcolor{comment}{\ \ \ \ \ \ \ \ \}}}
+\DoxyCodeLine{00093\ \textcolor{comment}{\ \ \ \ \ \ \ \ else\ \{}}
+\DoxyCodeLine{00094\ \textcolor{comment}{\ \ \ \ \ \ \ \ \ \ \ \ P\ =\ nullptr;}}
+\DoxyCodeLine{00095\ \textcolor{comment}{\ \ \ \ \ \ \ \ \}}}
+\DoxyCodeLine{00096\ \textcolor{comment}{\ \ \ \ \}*/}}
+\DoxyCodeLine{00097\ \};}
+\DoxyCodeLine{00098\ }
+\DoxyCodeLine{00099\ }
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00101\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{listh_8h_a11447c6061b08b88aeb17036f4106241}{sortVardu}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_stud}{Stud}}\&\ a,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_stud}{Stud}}\&\ b);}
+\DoxyCodeLine{00102\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{listh_8h_a737d41877014ced2f74efaa59abcf98e}{sortPav}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_stud}{Stud}}\&\ a,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_stud}{Stud}}\&\ b);}
+\DoxyCodeLine{00103\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{listh_8h_acf058d57ec9e65c8dd5855cfa50640d3}{sortMed}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_stud}{Stud}}\&\ a,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_stud}{Stud}}\&\ b);}
+\DoxyCodeLine{00104\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{listh_8h_a697e7d842455ac856b3d47ff02286da5}{sortGal}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_stud}{Stud}}\&\ a,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_stud}{Stud}}\&\ b);}
+\DoxyCodeLine{00105\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{listh_8h_af59b1d984e725ff826f539544f1b9561}{mediana}}(\textcolor{keyword}{const}\ vector<int>\&\ paz,\ \textcolor{keywordtype}{double}\ egrez,\ \textcolor{keywordtype}{string}\ var);}
+\DoxyCodeLine{00106\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{listh_8h_a1aab5ac650afca6a7fc0d77f5f656bb3}{galvid}}(\textcolor{keywordtype}{double}\ egrez,\ \textcolor{keywordtype}{double}\ ndvd);}
+\DoxyCodeLine{00107\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{listh_8h_afed0362ba68b71e92c70aa157b50ebf6}{ndvid}}(\textcolor{keyword}{const}\ vector<int>\&\ paz);}
+\DoxyCodeLine{00108\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{listh_8h_aee077c9ab3d74740eaca0a883c20742a}{rng}}(vector<int>\&\ paz);\ \ }
+\DoxyCodeLine{00109\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{listh_8h_aee077c9ab3d74740eaca0a883c20742a}{rng}}(\textcolor{keywordtype}{int}\&\ egrez);\ \ }
+\DoxyCodeLine{00110\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{listh_8h_aee077c9ab3d74740eaca0a883c20742a}{rng}}(\textcolor{keywordtype}{string}\&\ vardas,\ \textcolor{keywordtype}{string}\&\ pavarde);\ \ }
+\DoxyCodeLine{00111\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{listh_8h_a7e4943a536841184db49993d9b62eb1a}{skaitymas}}(list<Stud>\&\ grupe,\ duration<double>\&\ veiklaik);}
+\DoxyCodeLine{00112\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{listh_8h_a1ce0c73ccf07c00275024ccf3f534fc6}{isvedimas}}(\textcolor{keywordtype}{int}\ pas,\ \textcolor{keywordtype}{int}\ pasmv,\ \textcolor{keyword}{const}\ list<Stud>\&\ grupe);}
+\DoxyCodeLine{00113\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{listh_8h_ac8a63cc86c89c27d3e430745108a7ff7}{gautteisinga}}(\textcolor{keywordtype}{int}\&\ input,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ prompt,\ \textcolor{keywordtype}{int}\ min,\ \textcolor{keywordtype}{int}\ max);\ \ \ }
+\DoxyCodeLine{00114\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{listh_8h_a0392bcccd12a7342b12cc5f7c0d372c7}{failogen}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\&\ failopav,\ \textcolor{keywordtype}{int}\ irasuk);}
+\DoxyCodeLine{00115\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{listh_8h_aa544c8fb0e1db7d8acf8518777e9280f}{atrinkimas1}}(list<Stud>\&\ grupe,\ vector<Stud>\&\ nerdai,\ vector<Stud>\&\ galiorka,\ \textcolor{keywordtype}{int}\ pasmv,\ duration<double>\&\ veiklaik);}
+\DoxyCodeLine{00116\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{listh_8h_a7795bd42671f9e72d04128c4f79d929b}{atrinkimas2}}(list<Stud>\&\ grupe,\ vector<Stud>\&\ galiorka,\ \textcolor{keywordtype}{int}\ pasmv,\ duration<double>\&\ veiklaik);}
+\DoxyCodeLine{00117\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{listh_8h_a17f93cbc721b90427f384b7223214066}{atrinkimas3}}(list<Stud>\&\ grupe,\ vector<Stud>\&\ galiorka,\ \textcolor{keywordtype}{int}\ pasmv,\ duration<double>\&\ veiklaik);}
+\DoxyCodeLine{00118\ vector<Stud>\ \mbox{\hyperlink{listh_8h_ae4747d65f9e4414d951a0e781ad3ef75}{processBatch}}(\textcolor{keyword}{const}\ vector<string>\&\ lines);}
+\DoxyCodeLine{00119\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

@@ -1,0 +1,114 @@
+\doxysection{Catch\+::Wildcard\+Pattern Class Reference}
+\hypertarget{class_catch_1_1_wildcard_pattern}{}\label{class_catch_1_1_wildcard_pattern}\index{Catch::WildcardPattern@{Catch::WildcardPattern}}
+
+
+{\ttfamily \#include $<$catch\+\_\+amalgamated.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_catch_1_1_wildcard_pattern_aeb90dae9b701d90cbed1e43904c86af2}{Wildcard\+Pattern}} (std\+::string const \&pattern, \mbox{\hyperlink{namespace_catch_ac881e5ba54c09673c50349dbea7fff36}{Case\+Sensitive}} case\+Sensitivity)
+\item 
+bool \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_ae88acde37f50f7cbec8605acf434fe85}{matches}} (std\+::string const \&str) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadb}{Wildcard\+Position}} \{ \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba92974148108b6e2e681d4682321b89a1}{No\+Wildcard}} = 0
+, \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadbab15d0d9a0f6aa1bb3a529ff4aff087af}{Wildcard\+At\+Start}} = 1
+, \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba558b757b9392b8aca7815be8e90aa92e}{Wildcard\+At\+End}} = 2
+, \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba89f900210573e866296490b85798289c}{Wildcard\+At\+Both\+Ends}} = Wildcard\+At\+Start \texorpdfstring{$\vert$}{|} Wildcard\+At\+End
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_a65a46178aaa0e13b641438b71659bae0}{normalise\+String}} (std\+::string const \&str) const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_catch_ac881e5ba54c09673c50349dbea7fff36}{Case\+Sensitive}} \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_aef561aafa0f021653bc6b5806b6d57b0}{m\+\_\+case\+Sensitivity}}
+\item 
+\mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadb}{Wildcard\+Position}} \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af74da965b1257c4e958d95da15f30c69}{m\+\_\+wildcard}} = \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba92974148108b6e2e681d4682321b89a1}{No\+Wildcard}}
+\item 
+std\+::string \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_a8b96a014f1194387ce441f8f0c0e8a2e}{m\+\_\+pattern}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadb}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!WildcardPosition@{WildcardPosition}}
+\index{WildcardPosition@{WildcardPosition}!Catch::WildcardPattern@{Catch::WildcardPattern}}
+\doxysubsubsection{\texorpdfstring{WildcardPosition}{WildcardPosition}}
+{\footnotesize\ttfamily \label{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadb} 
+enum \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadb}{Catch\+::\+Wildcard\+Pattern\+::\+Wildcard\+Position}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NoWildcard@{NoWildcard}!Catch::WildcardPattern@{Catch::WildcardPattern}}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!NoWildcard@{NoWildcard}}}\Hypertarget{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba92974148108b6e2e681d4682321b89a1}\label{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba92974148108b6e2e681d4682321b89a1} 
+No\+Wildcard&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{WildcardAtStart@{WildcardAtStart}!Catch::WildcardPattern@{Catch::WildcardPattern}}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!WildcardAtStart@{WildcardAtStart}}}\Hypertarget{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadbab15d0d9a0f6aa1bb3a529ff4aff087af}\label{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadbab15d0d9a0f6aa1bb3a529ff4aff087af} 
+Wildcard\+At\+Start&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{WildcardAtEnd@{WildcardAtEnd}!Catch::WildcardPattern@{Catch::WildcardPattern}}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!WildcardAtEnd@{WildcardAtEnd}}}\Hypertarget{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba558b757b9392b8aca7815be8e90aa92e}\label{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba558b757b9392b8aca7815be8e90aa92e} 
+Wildcard\+At\+End&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{WildcardAtBothEnds@{WildcardAtBothEnds}!Catch::WildcardPattern@{Catch::WildcardPattern}}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!WildcardAtBothEnds@{WildcardAtBothEnds}}}\Hypertarget{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba89f900210573e866296490b85798289c}\label{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba89f900210573e866296490b85798289c} 
+Wildcard\+At\+Both\+Ends&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_catch_1_1_wildcard_pattern_aeb90dae9b701d90cbed1e43904c86af2}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!WildcardPattern@{WildcardPattern}}
+\index{WildcardPattern@{WildcardPattern}!Catch::WildcardPattern@{Catch::WildcardPattern}}
+\doxysubsubsection{\texorpdfstring{WildcardPattern()}{WildcardPattern()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_wildcard_pattern_aeb90dae9b701d90cbed1e43904c86af2} 
+Catch\+::\+Wildcard\+Pattern\+::\+Wildcard\+Pattern (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{pattern}{, }\item[{\mbox{\hyperlink{namespace_catch_ac881e5ba54c09673c50349dbea7fff36}{Case\+Sensitive}}}]{case\+Sensitivity}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_catch_1_1_wildcard_pattern_ae88acde37f50f7cbec8605acf434fe85}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!matches@{matches}}
+\index{matches@{matches}!Catch::WildcardPattern@{Catch::WildcardPattern}}
+\doxysubsubsection{\texorpdfstring{matches()}{matches()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_wildcard_pattern_ae88acde37f50f7cbec8605acf434fe85} 
+bool Catch\+::\+Wildcard\+Pattern\+::matches (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{str}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_catch_1_1_wildcard_pattern_a65a46178aaa0e13b641438b71659bae0}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!normaliseString@{normaliseString}}
+\index{normaliseString@{normaliseString}!Catch::WildcardPattern@{Catch::WildcardPattern}}
+\doxysubsubsection{\texorpdfstring{normaliseString()}{normaliseString()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_wildcard_pattern_a65a46178aaa0e13b641438b71659bae0} 
+std\+::string Catch\+::\+Wildcard\+Pattern\+::normalise\+String (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{str}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_catch_1_1_wildcard_pattern_aef561aafa0f021653bc6b5806b6d57b0}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!m\_caseSensitivity@{m\_caseSensitivity}}
+\index{m\_caseSensitivity@{m\_caseSensitivity}!Catch::WildcardPattern@{Catch::WildcardPattern}}
+\doxysubsubsection{\texorpdfstring{m\_caseSensitivity}{m\_caseSensitivity}}
+{\footnotesize\ttfamily \label{class_catch_1_1_wildcard_pattern_aef561aafa0f021653bc6b5806b6d57b0} 
+\mbox{\hyperlink{namespace_catch_ac881e5ba54c09673c50349dbea7fff36}{Case\+Sensitive}} Catch\+::\+Wildcard\+Pattern\+::m\+\_\+case\+Sensitivity\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_wildcard_pattern_a8b96a014f1194387ce441f8f0c0e8a2e}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!m\_pattern@{m\_pattern}}
+\index{m\_pattern@{m\_pattern}!Catch::WildcardPattern@{Catch::WildcardPattern}}
+\doxysubsubsection{\texorpdfstring{m\_pattern}{m\_pattern}}
+{\footnotesize\ttfamily \label{class_catch_1_1_wildcard_pattern_a8b96a014f1194387ce441f8f0c0e8a2e} 
+std\+::string Catch\+::\+Wildcard\+Pattern\+::m\+\_\+pattern\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_wildcard_pattern_af74da965b1257c4e958d95da15f30c69}\index{Catch::WildcardPattern@{Catch::WildcardPattern}!m\_wildcard@{m\_wildcard}}
+\index{m\_wildcard@{m\_wildcard}!Catch::WildcardPattern@{Catch::WildcardPattern}}
+\doxysubsubsection{\texorpdfstring{m\_wildcard}{m\_wildcard}}
+{\footnotesize\ttfamily \label{class_catch_1_1_wildcard_pattern_af74da965b1257c4e958d95da15f30c69} 
+\mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadb}{Wildcard\+Position}} Catch\+::\+Wildcard\+Pattern\+::m\+\_\+wildcard = \mbox{\hyperlink{class_catch_1_1_wildcard_pattern_af851fc7cd377fb358a50f58eb5dafadba92974148108b6e2e681d4682321b89a1}{No\+Wildcard}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8hpp}{catch\+\_\+amalgamated.\+hpp}}\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8cpp}{catch\+\_\+amalgamated.\+cpp}}\end{DoxyCompactItemize}

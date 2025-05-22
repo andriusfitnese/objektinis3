@@ -1,0 +1,155 @@
+\doxysection{Catch\+::Test\+Spec Class Reference}
+\hypertarget{class_catch_1_1_test_spec}{}\label{class_catch_1_1_test_spec}\index{Catch::TestSpec@{Catch::TestSpec}}
+
+
+{\ttfamily \#include $<$catch\+\_\+amalgamated.\+hpp$>$}
+
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_catch_1_1_test_spec_1_1_filter}{Filter}}
+\item 
+struct \mbox{\hyperlink{struct_catch_1_1_test_spec_1_1_filter_match}{Filter\+Match}}
+\item 
+class \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_name_pattern}{Name\+Pattern}}
+\item 
+class \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_pattern}{Pattern}}
+\item 
+class \mbox{\hyperlink{class_catch_1_1_test_spec_1_1_tag_pattern}{Tag\+Pattern}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{class_catch_1_1_test_spec_a06b08ac127c37d48a4353f34bf20c0e3}{Matches}} = std\+::vector$<$\mbox{\hyperlink{struct_catch_1_1_test_spec_1_1_filter_match}{Filter\+Match}}$>$
+\item 
+using \mbox{\hyperlink{class_catch_1_1_test_spec_a8fca1c29ab3a21ea943f724ab0ecce08}{vector\+Strings}} = std\+::vector$<$std\+::string$>$
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_catch_1_1_test_spec_ac6d69b4a19677d95e46af0467fc72ecd}{has\+Filters}} () const
+\item 
+bool \mbox{\hyperlink{class_catch_1_1_test_spec_a2342df9eff2c7db0d26432c1ddef796f}{matches}} (\mbox{\hyperlink{struct_catch_1_1_test_case_info}{Test\+Case\+Info}} const \&test\+Case) const
+\item 
+\mbox{\hyperlink{class_catch_1_1_test_spec_a06b08ac127c37d48a4353f34bf20c0e3}{Matches}} \mbox{\hyperlink{class_catch_1_1_test_spec_ae62a33926c9c2c3ab5b6f27a9e7aa484}{matches\+By\+Filter}} (std\+::vector$<$ \mbox{\hyperlink{class_catch_1_1_test_case_handle}{Test\+Case\+Handle}} $>$ const \&test\+Cases, \mbox{\hyperlink{class_catch_1_1_i_config}{IConfig}} const \&config) const
+\item 
+const \mbox{\hyperlink{class_catch_1_1_test_spec_a8fca1c29ab3a21ea943f724ab0ecce08}{vector\+Strings}} \& \mbox{\hyperlink{class_catch_1_1_test_spec_ae6af81e7e267ae9a374d3f4ce0f9b88a}{get\+Invalid\+Specs}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_catch_1_1_test_spec_afc031d95269ce917dde9ff113c597caf}{serialize\+To}} (std\+::ostream \&out) const
+\begin{DoxyCompactList}\small\item\em Serializes this test spec into a string that would be parsed into equivalent test spec. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static std\+::string \mbox{\hyperlink{class_catch_1_1_test_spec_a00984711529380855f4796d55a2098ad}{extract\+Filter\+Name}} (\mbox{\hyperlink{struct_catch_1_1_test_spec_1_1_filter}{Filter}} const \&filter)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_catch_1_1_test_spec_1_1_filter}{Filter}} $>$ \mbox{\hyperlink{class_catch_1_1_test_spec_afe0c1e198e82143eae0fce3d7be0453d}{m\+\_\+filters}}
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_catch_1_1_test_spec_ac05f6fc74f457794b9f6dff95ec7ea7a}{m\+\_\+invalid\+Specs}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_catch_1_1_test_spec_a8b4fea0f5a37c5ef447eddceacf113a7}{Test\+Spec\+Parser}}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_catch_1_1_test_spec_a2e48bf00322a3a2f9a4a9f207d6da096}{operator$<$$<$}} (std\+::ostream \&out, \mbox{\hyperlink{class_catch_1_1_test_spec}{Test\+Spec}} const \&spec)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Typedef Documentation}
+\Hypertarget{class_catch_1_1_test_spec_a06b08ac127c37d48a4353f34bf20c0e3}\index{Catch::TestSpec@{Catch::TestSpec}!Matches@{Matches}}
+\index{Matches@{Matches}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{Matches}{Matches}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_a06b08ac127c37d48a4353f34bf20c0e3} 
+using \mbox{\hyperlink{class_catch_1_1_test_spec_a06b08ac127c37d48a4353f34bf20c0e3}{Catch\+::\+Test\+Spec\+::\+Matches}} = std\+::vector$<$\mbox{\hyperlink{struct_catch_1_1_test_spec_1_1_filter_match}{Filter\+Match}}$>$}
+
+\Hypertarget{class_catch_1_1_test_spec_a8fca1c29ab3a21ea943f724ab0ecce08}\index{Catch::TestSpec@{Catch::TestSpec}!vectorStrings@{vectorStrings}}
+\index{vectorStrings@{vectorStrings}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{vectorStrings}{vectorStrings}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_a8fca1c29ab3a21ea943f724ab0ecce08} 
+using \mbox{\hyperlink{class_catch_1_1_test_spec_a8fca1c29ab3a21ea943f724ab0ecce08}{Catch\+::\+Test\+Spec\+::vector\+Strings}} = std\+::vector$<$std\+::string$>$}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_catch_1_1_test_spec_a00984711529380855f4796d55a2098ad}\index{Catch::TestSpec@{Catch::TestSpec}!extractFilterName@{extractFilterName}}
+\index{extractFilterName@{extractFilterName}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{extractFilterName()}{extractFilterName()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_a00984711529380855f4796d55a2098ad} 
+std\+::string Catch\+::\+Test\+Spec\+::extract\+Filter\+Name (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_catch_1_1_test_spec_1_1_filter}{Filter}} const \&}]{filter}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_test_spec_ae6af81e7e267ae9a374d3f4ce0f9b88a}\index{Catch::TestSpec@{Catch::TestSpec}!getInvalidSpecs@{getInvalidSpecs}}
+\index{getInvalidSpecs@{getInvalidSpecs}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{getInvalidSpecs()}{getInvalidSpecs()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_ae6af81e7e267ae9a374d3f4ce0f9b88a} 
+const \mbox{\hyperlink{class_catch_1_1_test_spec_a8fca1c29ab3a21ea943f724ab0ecce08}{Test\+Spec\+::vector\+Strings}} \& Catch\+::\+Test\+Spec\+::get\+Invalid\+Specs (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_catch_1_1_test_spec_ac6d69b4a19677d95e46af0467fc72ecd}\index{Catch::TestSpec@{Catch::TestSpec}!hasFilters@{hasFilters}}
+\index{hasFilters@{hasFilters}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{hasFilters()}{hasFilters()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_ac6d69b4a19677d95e46af0467fc72ecd} 
+bool Catch\+::\+Test\+Spec\+::has\+Filters (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_catch_1_1_test_spec_a2342df9eff2c7db0d26432c1ddef796f}\index{Catch::TestSpec@{Catch::TestSpec}!matches@{matches}}
+\index{matches@{matches}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{matches()}{matches()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_a2342df9eff2c7db0d26432c1ddef796f} 
+bool Catch\+::\+Test\+Spec\+::matches (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_catch_1_1_test_case_info}{Test\+Case\+Info}} const \&}]{test\+Case}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_catch_1_1_test_spec_ae62a33926c9c2c3ab5b6f27a9e7aa484}\index{Catch::TestSpec@{Catch::TestSpec}!matchesByFilter@{matchesByFilter}}
+\index{matchesByFilter@{matchesByFilter}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{matchesByFilter()}{matchesByFilter()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_ae62a33926c9c2c3ab5b6f27a9e7aa484} 
+\mbox{\hyperlink{class_catch_1_1_test_spec_a06b08ac127c37d48a4353f34bf20c0e3}{Test\+Spec\+::\+Matches}} Catch\+::\+Test\+Spec\+::matches\+By\+Filter (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_catch_1_1_test_case_handle}{Test\+Case\+Handle}} $>$ const \&}]{test\+Cases}{, }\item[{\mbox{\hyperlink{class_catch_1_1_i_config}{IConfig}} const \&}]{config}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_catch_1_1_test_spec_afc031d95269ce917dde9ff113c597caf}\index{Catch::TestSpec@{Catch::TestSpec}!serializeTo@{serializeTo}}
+\index{serializeTo@{serializeTo}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{serializeTo()}{serializeTo()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_afc031d95269ce917dde9ff113c597caf} 
+void Catch\+::\+Test\+Spec\+::serialize\+To (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Serializes this test spec into a string that would be parsed into equivalent test spec. 
+
+
+
+\doxysubsection{Friends And Related Symbol Documentation}
+\Hypertarget{class_catch_1_1_test_spec_a2e48bf00322a3a2f9a4a9f207d6da096}\index{Catch::TestSpec@{Catch::TestSpec}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_a2e48bf00322a3a2f9a4a9f207d6da096} 
+std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out}{, }\item[{\mbox{\hyperlink{class_catch_1_1_test_spec}{Test\+Spec}} const \&}]{spec}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+\Hypertarget{class_catch_1_1_test_spec_a8b4fea0f5a37c5ef447eddceacf113a7}\index{Catch::TestSpec@{Catch::TestSpec}!TestSpecParser@{TestSpecParser}}
+\index{TestSpecParser@{TestSpecParser}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{TestSpecParser}{TestSpecParser}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_a8b4fea0f5a37c5ef447eddceacf113a7} 
+friend class Test\+Spec\+Parser\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_catch_1_1_test_spec_afe0c1e198e82143eae0fce3d7be0453d}\index{Catch::TestSpec@{Catch::TestSpec}!m\_filters@{m\_filters}}
+\index{m\_filters@{m\_filters}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{m\_filters}{m\_filters}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_afe0c1e198e82143eae0fce3d7be0453d} 
+std\+::vector$<$\mbox{\hyperlink{struct_catch_1_1_test_spec_1_1_filter}{Filter}}$>$ Catch\+::\+Test\+Spec\+::m\+\_\+filters\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_test_spec_ac05f6fc74f457794b9f6dff95ec7ea7a}\index{Catch::TestSpec@{Catch::TestSpec}!m\_invalidSpecs@{m\_invalidSpecs}}
+\index{m\_invalidSpecs@{m\_invalidSpecs}!Catch::TestSpec@{Catch::TestSpec}}
+\doxysubsubsection{\texorpdfstring{m\_invalidSpecs}{m\_invalidSpecs}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_spec_ac05f6fc74f457794b9f6dff95ec7ea7a} 
+std\+::vector$<$std\+::string$>$ Catch\+::\+Test\+Spec\+::m\+\_\+invalid\+Specs\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8hpp}{catch\+\_\+amalgamated.\+hpp}}\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8cpp}{catch\+\_\+amalgamated.\+cpp}}\end{DoxyCompactItemize}

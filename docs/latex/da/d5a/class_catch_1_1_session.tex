@@ -1,0 +1,178 @@
+\doxysection{Catch\+::Session Class Reference}
+\hypertarget{class_catch_1_1_session}{}\label{class_catch_1_1_session}\index{Catch::Session@{Catch::Session}}
+
+
+{\ttfamily \#include $<$catch\+\_\+amalgamated.\+hpp$>$}
+
+Inheritance diagram for Catch\+::Session\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{da/d5a/class_catch_1_1_session}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_catch_1_1_session_a4564992e2b028770e38a1dcc6fff8b34}{Session}} ()
+\item 
+\mbox{\hyperlink{class_catch_1_1_session_a48797df68b243a74f42797146cfbd6f3}{\texorpdfstring{$\sim$}{\string~}\+Session}} ()
+\item 
+void \mbox{\hyperlink{class_catch_1_1_session_a4286263c17b16c3ea9d0632bd4f8eaee}{show\+Help}} () const
+\item 
+void \mbox{\hyperlink{class_catch_1_1_session_ac28e293014007bbd9f6383c2d5daa1e4}{lib\+Identify}} ()
+\item 
+int \mbox{\hyperlink{class_catch_1_1_session_af890db02c69e36356ac9f8be4084c464}{apply\+Command\+Line}} (int argc, char const \texorpdfstring{$\ast$}{*}const \texorpdfstring{$\ast$}{*}argv)
+\item 
+void \mbox{\hyperlink{class_catch_1_1_session_a122417ed44bfa29a229941b1e12b91a3}{use\+Config\+Data}} (\mbox{\hyperlink{struct_catch_1_1_config_data}{Config\+Data}} const \&\mbox{\hyperlink{class_catch_1_1_session_aadb20e3b2955209aaab3126c0c3da7a6}{config\+Data}})
+\item 
+{\footnotesize template$<$typename CharT$>$ }\\int \mbox{\hyperlink{class_catch_1_1_session_a8c82b89613ebd99f1ba1a3f7b634e571}{run}} (int argc, CharT const \texorpdfstring{$\ast$}{*}const argv\mbox{[}$\,$\mbox{]})
+\item 
+int \mbox{\hyperlink{class_catch_1_1_session_a0232a6c37ad5b5064a2462eedf13a9be}{run}} ()
+\item 
+\mbox{\hyperlink{class_catch_1_1_clara_1_1_parser}{Clara\+::\+Parser}} const \& \mbox{\hyperlink{class_catch_1_1_session_ac66d86b564a1d807b6a13fd13b2c50ee}{cli}} () const
+\item 
+void \mbox{\hyperlink{class_catch_1_1_session_abaa730f046f2e35a512b796b65758acc}{cli}} (\mbox{\hyperlink{class_catch_1_1_clara_1_1_parser}{Clara\+::\+Parser}} const \&new\+Parser)
+\item 
+\mbox{\hyperlink{struct_catch_1_1_config_data}{Config\+Data}} \& \mbox{\hyperlink{class_catch_1_1_session_aadb20e3b2955209aaab3126c0c3da7a6}{config\+Data}} ()
+\item 
+\mbox{\hyperlink{class_catch_1_1_config}{Config}} \& \mbox{\hyperlink{class_catch_1_1_session_afac375cd0ef4715b09924575d88fdc13}{config}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_catch_1_1_session_a52a748e770d22a18bd8f96430f75d218}{run\+Internal}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions inherited from \mbox{\hyperlink{class_catch_1_1_detail_1_1_non_copyable}{Catch\+::\+Detail\+::\+Non\+Copyable}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_catch_1_1_detail_1_1_non_copyable_abd28b961dddb3f72466b29bc6184cbe0}{Non\+Copyable}} () noexcept=default
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_catch_1_1_clara_1_1_parser}{Clara\+::\+Parser}} \mbox{\hyperlink{class_catch_1_1_session_ac1d53d25ac1252c58df1c4c41fa461bb}{m\+\_\+cli}}
+\item 
+\mbox{\hyperlink{struct_catch_1_1_config_data}{Config\+Data}} \mbox{\hyperlink{class_catch_1_1_session_a69fa5a937e338428851b8193a1a57c6e}{m\+\_\+config\+Data}}
+\item 
+\mbox{\hyperlink{class_catch_1_1_detail_1_1unique__ptr}{Detail\+::unique\+\_\+ptr}}$<$ \mbox{\hyperlink{class_catch_1_1_config}{Config}} $>$ \mbox{\hyperlink{class_catch_1_1_session_a76cd4bf9eb85e35f4df746278d758c79}{m\+\_\+config}}
+\item 
+bool \mbox{\hyperlink{class_catch_1_1_session_a5393c1a489adedc24a22c57cb7d0b1fb}{m\+\_\+startup\+Exceptions}} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_catch_1_1_session_a4564992e2b028770e38a1dcc6fff8b34}\index{Catch::Session@{Catch::Session}!Session@{Session}}
+\index{Session@{Session}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{Session()}{Session()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_a4564992e2b028770e38a1dcc6fff8b34} 
+Catch\+::\+Session\+::\+Session (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_catch_1_1_session_a48797df68b243a74f42797146cfbd6f3}\index{Catch::Session@{Catch::Session}!````~Session@{\texorpdfstring{$\sim$}{\string~}Session}}
+\index{````~Session@{\texorpdfstring{$\sim$}{\string~}Session}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Session()}{\string~Session()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_a48797df68b243a74f42797146cfbd6f3} 
+Catch\+::\+Session\+::\texorpdfstring{$\sim$}{\string~}\+Session (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_catch_1_1_session_af890db02c69e36356ac9f8be4084c464}\index{Catch::Session@{Catch::Session}!applyCommandLine@{applyCommandLine}}
+\index{applyCommandLine@{applyCommandLine}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{applyCommandLine()}{applyCommandLine()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_af890db02c69e36356ac9f8be4084c464} 
+int Catch\+::\+Session\+::apply\+Command\+Line (\begin{DoxyParamCaption}\item[{int}]{argc}{, }\item[{char const \texorpdfstring{$\ast$}{*}const \texorpdfstring{$\ast$}{*}}]{argv}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_catch_1_1_session_ac66d86b564a1d807b6a13fd13b2c50ee}\index{Catch::Session@{Catch::Session}!cli@{cli}}
+\index{cli@{cli}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{cli()}{cli()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_ac66d86b564a1d807b6a13fd13b2c50ee} 
+\mbox{\hyperlink{class_catch_1_1_clara_1_1_parser}{Clara\+::\+Parser}} const  \& Catch\+::\+Session\+::cli (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_catch_1_1_session_abaa730f046f2e35a512b796b65758acc}\index{Catch::Session@{Catch::Session}!cli@{cli}}
+\index{cli@{cli}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{cli()}{cli()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_abaa730f046f2e35a512b796b65758acc} 
+void Catch\+::\+Session\+::cli (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_catch_1_1_clara_1_1_parser}{Clara\+::\+Parser}} const \&}]{new\+Parser}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_catch_1_1_session_afac375cd0ef4715b09924575d88fdc13}\index{Catch::Session@{Catch::Session}!config@{config}}
+\index{config@{config}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_afac375cd0ef4715b09924575d88fdc13} 
+\mbox{\hyperlink{class_catch_1_1_config}{Config}} \& Catch\+::\+Session\+::config (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_catch_1_1_session_aadb20e3b2955209aaab3126c0c3da7a6}\index{Catch::Session@{Catch::Session}!configData@{configData}}
+\index{configData@{configData}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{configData()}{configData()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_aadb20e3b2955209aaab3126c0c3da7a6} 
+\mbox{\hyperlink{struct_catch_1_1_config_data}{Config\+Data}} \& Catch\+::\+Session\+::config\+Data (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_catch_1_1_session_ac28e293014007bbd9f6383c2d5daa1e4}\index{Catch::Session@{Catch::Session}!libIdentify@{libIdentify}}
+\index{libIdentify@{libIdentify}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{libIdentify()}{libIdentify()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_ac28e293014007bbd9f6383c2d5daa1e4} 
+void Catch\+::\+Session\+::lib\+Identify (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_catch_1_1_session_a0232a6c37ad5b5064a2462eedf13a9be}\index{Catch::Session@{Catch::Session}!run@{run}}
+\index{run@{run}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_a0232a6c37ad5b5064a2462eedf13a9be} 
+int Catch\+::\+Session\+::run (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_catch_1_1_session_a8c82b89613ebd99f1ba1a3f7b634e571}\index{Catch::Session@{Catch::Session}!run@{run}}
+\index{run@{run}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_a8c82b89613ebd99f1ba1a3f7b634e571} 
+template$<$typename CharT$>$ \\
+int Catch\+::\+Session\+::run (\begin{DoxyParamCaption}\item[{int}]{argc}{, }\item[{CharT const \texorpdfstring{$\ast$}{*}const}]{argv}{\mbox{[}$\,$\mbox{]}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_catch_1_1_session_a52a748e770d22a18bd8f96430f75d218}\index{Catch::Session@{Catch::Session}!runInternal@{runInternal}}
+\index{runInternal@{runInternal}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{runInternal()}{runInternal()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_a52a748e770d22a18bd8f96430f75d218} 
+int Catch\+::\+Session\+::run\+Internal (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_session_a4286263c17b16c3ea9d0632bd4f8eaee}\index{Catch::Session@{Catch::Session}!showHelp@{showHelp}}
+\index{showHelp@{showHelp}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{showHelp()}{showHelp()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_a4286263c17b16c3ea9d0632bd4f8eaee} 
+void Catch\+::\+Session\+::show\+Help (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+\Hypertarget{class_catch_1_1_session_a122417ed44bfa29a229941b1e12b91a3}\index{Catch::Session@{Catch::Session}!useConfigData@{useConfigData}}
+\index{useConfigData@{useConfigData}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{useConfigData()}{useConfigData()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_a122417ed44bfa29a229941b1e12b91a3} 
+void Catch\+::\+Session\+::use\+Config\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_catch_1_1_config_data}{Config\+Data}} const \&}]{config\+Data}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_catch_1_1_session_ac1d53d25ac1252c58df1c4c41fa461bb}\index{Catch::Session@{Catch::Session}!m\_cli@{m\_cli}}
+\index{m\_cli@{m\_cli}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{m\_cli}{m\_cli}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_ac1d53d25ac1252c58df1c4c41fa461bb} 
+\mbox{\hyperlink{class_catch_1_1_clara_1_1_parser}{Clara\+::\+Parser}} Catch\+::\+Session\+::m\+\_\+cli\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_session_a76cd4bf9eb85e35f4df746278d758c79}\index{Catch::Session@{Catch::Session}!m\_config@{m\_config}}
+\index{m\_config@{m\_config}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{m\_config}{m\_config}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_a76cd4bf9eb85e35f4df746278d758c79} 
+\mbox{\hyperlink{class_catch_1_1_detail_1_1unique__ptr}{Detail\+::unique\+\_\+ptr}}$<$\mbox{\hyperlink{class_catch_1_1_config}{Config}}$>$ Catch\+::\+Session\+::m\+\_\+config\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_session_a69fa5a937e338428851b8193a1a57c6e}\index{Catch::Session@{Catch::Session}!m\_configData@{m\_configData}}
+\index{m\_configData@{m\_configData}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{m\_configData}{m\_configData}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_a69fa5a937e338428851b8193a1a57c6e} 
+\mbox{\hyperlink{struct_catch_1_1_config_data}{Config\+Data}} Catch\+::\+Session\+::m\+\_\+config\+Data\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_session_a5393c1a489adedc24a22c57cb7d0b1fb}\index{Catch::Session@{Catch::Session}!m\_startupExceptions@{m\_startupExceptions}}
+\index{m\_startupExceptions@{m\_startupExceptions}!Catch::Session@{Catch::Session}}
+\doxysubsubsection{\texorpdfstring{m\_startupExceptions}{m\_startupExceptions}}
+{\footnotesize\ttfamily \label{class_catch_1_1_session_a5393c1a489adedc24a22c57cb7d0b1fb} 
+bool Catch\+::\+Session\+::m\+\_\+startup\+Exceptions = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8hpp}{catch\+\_\+amalgamated.\+hpp}}\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8cpp}{catch\+\_\+amalgamated.\+cpp}}\end{DoxyCompactItemize}

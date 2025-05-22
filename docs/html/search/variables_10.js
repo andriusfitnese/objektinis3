@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['s_5fempty_0',['s_empty',['../dd/d6c/class_catch_1_1_string_ref.html#a38d077e89f7f2ce666507ab28dd28653',1,'Catch::StringRef']]],
+  ['s_5finc_1',['s_inc',['../d8/d73/class_catch_1_1_simple_pcg32.html#a34f89a8ee054db204c8cf17632ac4c03',1,'Catch::SimplePcg32']]],
+  ['samples_2',['samples',['../df/d4e/struct_catch_1_1_benchmark_info.html#a37701972650bbbbfbd748dc675cf46d8',1,'Catch::BenchmarkInfo::samples'],['../db/d15/struct_catch_1_1_benchmark_stats.html#abb160c094a8f9230e6cd8d34f573440a',1,'Catch::BenchmarkStats::samples'],['../d0/d36/struct_catch_1_1_benchmark_1_1_sample_analysis.html#ad323d63e1895f868f52c0655875ba67d',1,'Catch::Benchmark::SampleAnalysis::samples']]],
+  ['samples_5fseen_3',['samples_seen',['../da/d2b/struct_catch_1_1_benchmark_1_1_outlier_classification.html#afa72bf7b54b3fc26b943daa0ad99a623',1,'Catch::Benchmark::OutlierClassification']]],
+  ['sectioninfo_4',['sectionInfo',['../d7/d31/struct_catch_1_1_section_end_info.html#a2d44793392cb83735d086d726822abe9',1,'Catch::SectionEndInfo']]],
+  ['sectionstorun_5',['sectionsToRun',['../d2/d72/struct_catch_1_1_config_data.html#a76026ccfbefe117a33dde6540161b113',1,'Catch::ConfigData']]],
+  ['sequence_6',['sequence',['../db/d87/struct_catch_1_1_message_info.html#a7f4f57ea21e50160adefce7b68a781d6',1,'Catch::MessageInfo']]],
+  ['shardcount_7',['shardCount',['../d2/d72/struct_catch_1_1_config_data.html#a8264452e6ba331c13c445bcf47604e11',1,'Catch::ConfigData']]],
+  ['shardindex_8',['shardIndex',['../d2/d72/struct_catch_1_1_config_data.html#af5907f3dac725fc180493b08b0b86e9c',1,'Catch::ConfigData']]],
+  ['shoulddebugbreak_9',['shouldDebugBreak',['../d2/d72/struct_catch_1_1_config_data.html#afec8310b1904784edb292e143a602fba',1,'Catch::ConfigData::shouldDebugBreak'],['../d6/d68/struct_catch_1_1_assertion_reaction.html#adcf30fb90ff20d9789df78d424652497',1,'Catch::AssertionReaction::shouldDebugBreak']]],
+  ['shouldskip_10',['shouldSkip',['../d6/d68/struct_catch_1_1_assertion_reaction.html#aad2c1008a81484ecb1619a3da29929f6',1,'Catch::AssertionReaction']]],
+  ['shouldthrow_11',['shouldThrow',['../d6/d68/struct_catch_1_1_assertion_reaction.html#a82c8d95a2c1b6a331bde66982a8e090f',1,'Catch::AssertionReaction']]],
+  ['showdurations_12',['showDurations',['../d2/d72/struct_catch_1_1_config_data.html#a7cdef18ba0c8a052b80ac9d80949efbc',1,'Catch::ConfigData']]],
+  ['showhelp_13',['showHelp',['../d2/d72/struct_catch_1_1_config_data.html#a12535241547dfc57e6864c4fc2cd4dd9',1,'Catch::ConfigData']]],
+  ['showinvisibles_14',['showInvisibles',['../d2/d72/struct_catch_1_1_config_data.html#a3c243de7a5957fa5311167039064379c',1,'Catch::ConfigData']]],
+  ['showsuccessfultests_15',['showSuccessfulTests',['../d2/d72/struct_catch_1_1_config_data.html#aeb091ca2df2c654caaa2ad29c14578e5',1,'Catch::ConfigData']]],
+  ['size_5f_16',['size_',['../d5/db2/class_vector.html#a26569d33887d692afc3546ab855d569a',1,'Vector']]],
+  ['skipbenchmarks_17',['skipBenchmarks',['../d2/d72/struct_catch_1_1_config_data.html#a68cdb72e8eec907097c158e85b0047f1',1,'Catch::ConfigData']]],
+  ['skipped_18',['skipped',['../de/d8f/struct_catch_1_1_counts.html#a4bc5425fed9628cb30e9c4702ee75ea5',1,'Catch::Counts']]],
+  ['standard_5fdeviation_19',['standard_deviation',['../d7/de2/struct_catch_1_1_benchmark_1_1_detail_1_1bootstrap__analysis.html#a3bc85781de3f5ffe6bff8dc40b4cc1d0',1,'Catch::Benchmark::Detail::bootstrap_analysis::standard_deviation'],['../d0/d36/struct_catch_1_1_benchmark_1_1_sample_analysis.html#a7ef4889f28af063958aa28ba326d8399',1,'Catch::Benchmark::SampleAnalysis::standard_deviation']]],
+  ['standarddeviation_20',['standardDeviation',['../db/d15/struct_catch_1_1_benchmark_stats.html#a205056fc86de7f3cee181886fdaa1f9b',1,'Catch::BenchmarkStats']]],
+  ['started_21',['started',['../df/dbe/struct_catch_1_1_benchmark_1_1_detail_1_1_chronometer_model.html#a56f0814c0b13b21dd8a86135b66256ea',1,'Catch::Benchmark::Detail::ChronometerModel']]],
+  ['storage_22',['storage',['../d4/dba/class_catch_1_1_optional.html#a0d2520264f58c455d4a0329f6c1ad378',1,'Catch::Optional']]],
+  ['stringmaker_3c_20double_20_3e_3a_3aprecision_23',['precision',['../d4/d13/namespace_catch.html#a0f791e073f1b954a32b5ca0cde9ab8b3',1,'Catch']]],
+  ['stringmaker_3c_20float_20_3e_3a_3aprecision_24',['precision',['../d4/d13/namespace_catch.html#a58f10015e39cdee2bbb24ac91e274ba0',1,'Catch']]]
+];

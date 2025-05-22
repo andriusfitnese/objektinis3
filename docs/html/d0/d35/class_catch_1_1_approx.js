@@ -1,0 +1,26 @@
+var class_catch_1_1_approx =
+[
+    [ "Approx", "d0/d35/class_catch_1_1_approx.html#a02b674bd81e29e1cb9d9410a7289ebc5", null ],
+    [ "Approx", "d0/d35/class_catch_1_1_approx.html#a07c1b6a3fc58c7b724aa0ef082e32704", null ],
+    [ "epsilon", "d0/d35/class_catch_1_1_approx.html#ab9b569c030c0399a187f96e7d95e501f", null ],
+    [ "equalityComparisonImpl", "d0/d35/class_catch_1_1_approx.html#a71ffb8099b3b2530a99724e0d0b87a4f", null ],
+    [ "margin", "d0/d35/class_catch_1_1_approx.html#af4d5b0df9462561dacb65f19b9c770c3", null ],
+    [ "operator()", "d0/d35/class_catch_1_1_approx.html#a64d933793282cb68a9e4934637f900fe", null ],
+    [ "operator-", "d0/d35/class_catch_1_1_approx.html#a517d8133c80266dae10f7a092dea7da8", null ],
+    [ "scale", "d0/d35/class_catch_1_1_approx.html#a8b01c1b0697e834c6df637b5163a7dac", null ],
+    [ "setEpsilon", "d0/d35/class_catch_1_1_approx.html#aa1f094872e9d086ded948d4f138cb2fb", null ],
+    [ "setMargin", "d0/d35/class_catch_1_1_approx.html#a317617c0c402f7b7a4aa3c78eadd6cc8", null ],
+    [ "toString", "d0/d35/class_catch_1_1_approx.html#a00b9ca1984b955801334985da44ed863", null ],
+    [ "operator!=", "d0/d35/class_catch_1_1_approx.html#a31d62e3c35abb86cf25e02601966ca5d", null ],
+    [ "operator!=", "d0/d35/class_catch_1_1_approx.html#a29696f14ebd51887c8c88e771d12ef54", null ],
+    [ "operator<=", "d0/d35/class_catch_1_1_approx.html#a6040b908588745570847d7ae8483b091", null ],
+    [ "operator<=", "d0/d35/class_catch_1_1_approx.html#a0369de03e81bc2ceaf6c9d830476bd49", null ],
+    [ "operator==", "d0/d35/class_catch_1_1_approx.html#a0e5ef1957d4c38d7857005909c613743", null ],
+    [ "operator==", "d0/d35/class_catch_1_1_approx.html#ab38782a37d09b527ca5e126dbf433dda", null ],
+    [ "operator>=", "d0/d35/class_catch_1_1_approx.html#a5899b8a36725406701e2ebded2971ee6", null ],
+    [ "operator>=", "d0/d35/class_catch_1_1_approx.html#affd27efc62be386daeecb7a09e828d44", null ],
+    [ "m_epsilon", "d0/d35/class_catch_1_1_approx.html#a81cd951fe47d9e6f36e562783ac9fcc7", null ],
+    [ "m_margin", "d0/d35/class_catch_1_1_approx.html#ace2c687f16a779c5ff3740f1f2a044b3", null ],
+    [ "m_scale", "d0/d35/class_catch_1_1_approx.html#aaa316206e97c57ce6a5ae6ddd3115114", null ],
+    [ "m_value", "d0/d35/class_catch_1_1_approx.html#a1a729a2458e9f3e3b6d011ec962ca553", null ]
+];

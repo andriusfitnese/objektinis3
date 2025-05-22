@@ -1,0 +1,27 @@
+var vectorh_8h =
+[
+    [ "Zmogus", "d5/d27/class_zmogus.html", "d5/d27/class_zmogus" ],
+    [ "Stud", "d4/d17/class_stud.html", "d4/d17/class_stud" ],
+    [ "atrinkimas1", "db/dd1/vectorh_8h.html#a1a9cf47ff0a5e603bd5f9e6a20772ef8", null ],
+    [ "atrinkimas2", "db/dd1/vectorh_8h.html#a09be3d9b4e3413925b99bccc8edf455a", null ],
+    [ "atrinkimas3", "db/dd1/vectorh_8h.html#ada5c93849942f785d723c8cdaaca34ee", null ],
+    [ "failogen", "db/dd1/vectorh_8h.html#a0392bcccd12a7342b12cc5f7c0d372c7", null ],
+    [ "galvid", "db/dd1/vectorh_8h.html#a1aab5ac650afca6a7fc0d77f5f656bb3", null ],
+    [ "gautteisinga", "db/dd1/vectorh_8h.html#ac8a63cc86c89c27d3e430745108a7ff7", null ],
+    [ "isvedimas", "db/dd1/vectorh_8h.html#a36cce055b8b07fbc3f8c6a0a32303cdb", null ],
+    [ "mediana", "db/dd1/vectorh_8h.html#aafe5417c85288fbcdbd5c927fbc2a37b", null ],
+    [ "ndvid", "db/dd1/vectorh_8h.html#a67e08fb3e4e0937a4e9f37a7d9df3469", null ],
+    [ "operator<<", "db/dd1/vectorh_8h.html#ae4670e02e44c5878d8fea81cdc4a197b", null ],
+    [ "operator>>", "db/dd1/vectorh_8h.html#a979da483198310119225a561d7ce1555", null ],
+    [ "processBatch", "db/dd1/vectorh_8h.html#ad2290db8aca1b8d8157a9801f5379f6c", null ],
+    [ "rng", "db/dd1/vectorh_8h.html#a1a48dfab588dcf8e87aeaa5f2d77cbc0", null ],
+    [ "rng", "db/dd1/vectorh_8h.html#a1ef4eba2e1568ae48434aa2e3faf2469", null ],
+    [ "rng", "db/dd1/vectorh_8h.html#a246afca982546b3409efde63443564e5", null ],
+    [ "skaitymas", "db/dd1/vectorh_8h.html#ae762408ac9b8c5ad3993824885805596", null ],
+    [ "sortGal", "db/dd1/vectorh_8h.html#a697e7d842455ac856b3d47ff02286da5", null ],
+    [ "sortMed", "db/dd1/vectorh_8h.html#acf058d57ec9e65c8dd5855cfa50640d3", null ],
+    [ "sortPav", "db/dd1/vectorh_8h.html#a737d41877014ced2f74efaa59abcf98e", null ],
+    [ "sortVardu", "db/dd1/vectorh_8h.html#a11447c6061b08b88aeb17036f4106241", null ],
+    [ "pavardes", "db/dd1/vectorh_8h.html#ae54d51d4721af96b2a61271b49e611c5", null ],
+    [ "vardai", "db/dd1/vectorh_8h.html#a7e62fe9a117444061b788cb3fa8c5b14", null ]
+];

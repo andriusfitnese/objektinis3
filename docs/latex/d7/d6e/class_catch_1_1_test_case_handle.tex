@@ -1,0 +1,87 @@
+\doxysection{Catch\+::Test\+Case\+Handle Class Reference}
+\hypertarget{class_catch_1_1_test_case_handle}{}\label{class_catch_1_1_test_case_handle}\index{Catch::TestCaseHandle@{Catch::TestCaseHandle}}
+
+
+{\ttfamily \#include $<$catch\+\_\+amalgamated.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr \mbox{\hyperlink{class_catch_1_1_test_case_handle_ae265e45e0c834125ebd1cb6a370ebb83}{Test\+Case\+Handle}} (\mbox{\hyperlink{struct_catch_1_1_test_case_info}{Test\+Case\+Info}} \texorpdfstring{$\ast$}{*}info, \mbox{\hyperlink{class_catch_1_1_i_test_invoker}{ITest\+Invoker}} \texorpdfstring{$\ast$}{*}invoker)
+\item 
+void \mbox{\hyperlink{class_catch_1_1_test_case_handle_a7e78330f0d1a6ddbb952369bf37b1e52}{prepare\+Test\+Case}} () const
+\item 
+void \mbox{\hyperlink{class_catch_1_1_test_case_handle_ad243c3ac78d702cda848c909383da2d7}{tear\+Down\+Test\+Case}} () const
+\item 
+void \mbox{\hyperlink{class_catch_1_1_test_case_handle_a3ceefa8ee4fecb6aba985fb539ef94f4}{invoke}} () const
+\item 
+constexpr \mbox{\hyperlink{struct_catch_1_1_test_case_info}{Test\+Case\+Info}} const \& \mbox{\hyperlink{class_catch_1_1_test_case_handle_a9a89d26457c8585f93eb8baea0f39884}{get\+Test\+Case\+Info}} () const
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_catch_1_1_test_case_info}{Test\+Case\+Info}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_catch_1_1_test_case_handle_a2da696381f3c5bc0aa9b0046fed4aab6}{m\+\_\+info}}
+\item 
+\mbox{\hyperlink{class_catch_1_1_i_test_invoker}{ITest\+Invoker}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_catch_1_1_test_case_handle_aa3ff2082845c57d48277907110fd8514}{m\+\_\+invoker}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Wrapper over the test case information and the test case invoker
+
+Does not own either, and is specifically made to be cheap to copy around. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_catch_1_1_test_case_handle_ae265e45e0c834125ebd1cb6a370ebb83}\index{Catch::TestCaseHandle@{Catch::TestCaseHandle}!TestCaseHandle@{TestCaseHandle}}
+\index{TestCaseHandle@{TestCaseHandle}!Catch::TestCaseHandle@{Catch::TestCaseHandle}}
+\doxysubsubsection{\texorpdfstring{TestCaseHandle()}{TestCaseHandle()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_case_handle_ae265e45e0c834125ebd1cb6a370ebb83} 
+Catch\+::\+Test\+Case\+Handle\+::\+Test\+Case\+Handle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_catch_1_1_test_case_info}{Test\+Case\+Info}} \texorpdfstring{$\ast$}{*}}]{info}{, }\item[{\mbox{\hyperlink{class_catch_1_1_i_test_invoker}{ITest\+Invoker}} \texorpdfstring{$\ast$}{*}}]{invoker}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_catch_1_1_test_case_handle_a9a89d26457c8585f93eb8baea0f39884}\index{Catch::TestCaseHandle@{Catch::TestCaseHandle}!getTestCaseInfo@{getTestCaseInfo}}
+\index{getTestCaseInfo@{getTestCaseInfo}!Catch::TestCaseHandle@{Catch::TestCaseHandle}}
+\doxysubsubsection{\texorpdfstring{getTestCaseInfo()}{getTestCaseInfo()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_case_handle_a9a89d26457c8585f93eb8baea0f39884} 
+\mbox{\hyperlink{struct_catch_1_1_test_case_info}{Test\+Case\+Info}} const  \& Catch\+::\+Test\+Case\+Handle\+::get\+Test\+Case\+Info (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}}
+
+\Hypertarget{class_catch_1_1_test_case_handle_a3ceefa8ee4fecb6aba985fb539ef94f4}\index{Catch::TestCaseHandle@{Catch::TestCaseHandle}!invoke@{invoke}}
+\index{invoke@{invoke}!Catch::TestCaseHandle@{Catch::TestCaseHandle}}
+\doxysubsubsection{\texorpdfstring{invoke()}{invoke()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_case_handle_a3ceefa8ee4fecb6aba985fb539ef94f4} 
+void Catch\+::\+Test\+Case\+Handle\+::invoke (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_catch_1_1_test_case_handle_a7e78330f0d1a6ddbb952369bf37b1e52}\index{Catch::TestCaseHandle@{Catch::TestCaseHandle}!prepareTestCase@{prepareTestCase}}
+\index{prepareTestCase@{prepareTestCase}!Catch::TestCaseHandle@{Catch::TestCaseHandle}}
+\doxysubsubsection{\texorpdfstring{prepareTestCase()}{prepareTestCase()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_case_handle_a7e78330f0d1a6ddbb952369bf37b1e52} 
+void Catch\+::\+Test\+Case\+Handle\+::prepare\+Test\+Case (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_catch_1_1_test_case_handle_ad243c3ac78d702cda848c909383da2d7}\index{Catch::TestCaseHandle@{Catch::TestCaseHandle}!tearDownTestCase@{tearDownTestCase}}
+\index{tearDownTestCase@{tearDownTestCase}!Catch::TestCaseHandle@{Catch::TestCaseHandle}}
+\doxysubsubsection{\texorpdfstring{tearDownTestCase()}{tearDownTestCase()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_case_handle_ad243c3ac78d702cda848c909383da2d7} 
+void Catch\+::\+Test\+Case\+Handle\+::tear\+Down\+Test\+Case (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_catch_1_1_test_case_handle_a2da696381f3c5bc0aa9b0046fed4aab6}\index{Catch::TestCaseHandle@{Catch::TestCaseHandle}!m\_info@{m\_info}}
+\index{m\_info@{m\_info}!Catch::TestCaseHandle@{Catch::TestCaseHandle}}
+\doxysubsubsection{\texorpdfstring{m\_info}{m\_info}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_case_handle_a2da696381f3c5bc0aa9b0046fed4aab6} 
+\mbox{\hyperlink{struct_catch_1_1_test_case_info}{Test\+Case\+Info}}\texorpdfstring{$\ast$}{*} Catch\+::\+Test\+Case\+Handle\+::m\+\_\+info\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_test_case_handle_aa3ff2082845c57d48277907110fd8514}\index{Catch::TestCaseHandle@{Catch::TestCaseHandle}!m\_invoker@{m\_invoker}}
+\index{m\_invoker@{m\_invoker}!Catch::TestCaseHandle@{Catch::TestCaseHandle}}
+\doxysubsubsection{\texorpdfstring{m\_invoker}{m\_invoker}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_case_handle_aa3ff2082845c57d48277907110fd8514} 
+\mbox{\hyperlink{class_catch_1_1_i_test_invoker}{ITest\+Invoker}}\texorpdfstring{$\ast$}{*} Catch\+::\+Test\+Case\+Handle\+::m\+\_\+invoker\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8hpp}{catch\+\_\+amalgamated.\+hpp}}\end{DoxyCompactItemize}

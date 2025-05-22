@@ -1,0 +1,228 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}NAUDOJIMOSI INSTRUKCIJA\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Naujienos}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Ką jie daro?}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}V1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}5}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Class Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Stud Struct Reference}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Constructor \& Destructor Documentation}{10}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}Stud()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{10}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}$\sim $Stud()}{10}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}Stud()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{11}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}Stud()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{11}{subsubsection.5.1.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.1.5}Stud()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{11}{subsubsection.5.1.1.5}%
+\contentsline {subsubsection}{\numberline {5.1.1.6}Stud()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{11}{subsubsection.5.1.1.6}%
+\contentsline {subsection}{\numberline {5.1.2}Member Function Documentation}{11}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}addPaz()}{11}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}clearPaz()}{11}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}galutinis\_mediana()}{11}{subsubsection.5.1.2.3}%
+\contentsline {subsubsection}{\numberline {5.1.2.4}galutinis\_vidurkis()}{11}{subsubsection.5.1.2.4}%
+\contentsline {subsubsection}{\numberline {5.1.2.5}getEgzaminas()}{11}{subsubsection.5.1.2.5}%
+\contentsline {subsubsection}{\numberline {5.1.2.6}getGalutinis()}{11}{subsubsection.5.1.2.6}%
+\contentsline {subsubsection}{\numberline {5.1.2.7}getMediana()}{11}{subsubsection.5.1.2.7}%
+\contentsline {subsubsection}{\numberline {5.1.2.8}getNdvid()}{11}{subsubsection.5.1.2.8}%
+\contentsline {subsubsection}{\numberline {5.1.2.9}getPazymiai()}{12}{subsubsection.5.1.2.9}%
+\contentsline {subsubsection}{\numberline {5.1.2.10}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{12}{subsubsection.5.1.2.10}%
+\contentsline {subsubsection}{\numberline {5.1.2.11}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{12}{subsubsection.5.1.2.11}%
+\contentsline {subsubsection}{\numberline {5.1.2.12}paskaiciuoti\_gal()}{12}{subsubsection.5.1.2.12}%
+\contentsline {subsubsection}{\numberline {5.1.2.13}paskaiciuoti\_vid\_ir\_med()}{12}{subsubsection.5.1.2.13}%
+\contentsline {subsubsection}{\numberline {5.1.2.14}print()}{12}{subsubsection.5.1.2.14}%
+\contentsline {subsubsection}{\numberline {5.1.2.15}read()}{12}{subsubsection.5.1.2.15}%
+\contentsline {subsubsection}{\numberline {5.1.2.16}readStudent()}{12}{subsubsection.5.1.2.16}%
+\contentsline {subsubsection}{\numberline {5.1.2.17}setEgrez()}{12}{subsubsection.5.1.2.17}%
+\contentsline {subsubsection}{\numberline {5.1.2.18}setGal()}{12}{subsubsection.5.1.2.18}%
+\contentsline {subsubsection}{\numberline {5.1.2.19}setMed()}{12}{subsubsection.5.1.2.19}%
+\contentsline {subsubsection}{\numberline {5.1.2.20}setNdvid()}{13}{subsubsection.5.1.2.20}%
+\contentsline {subsubsection}{\numberline {5.1.2.21}setPav()}{13}{subsubsection.5.1.2.21}%
+\contentsline {subsubsection}{\numberline {5.1.2.22}setVar()}{13}{subsubsection.5.1.2.22}%
+\contentsline {subsection}{\numberline {5.1.3}Friends And Related Symbol Documentation}{13}{subsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.3.1}operator$<$$<$}{13}{subsubsection.5.1.3.1}%
+\contentsline {subsubsection}{\numberline {5.1.3.2}operator$>$$>$}{13}{subsubsection.5.1.3.2}%
+\contentsline {subsection}{\numberline {5.1.4}Member Data Documentation}{13}{subsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.4.1}egrez}{13}{subsubsection.5.1.4.1}%
+\contentsline {subsubsection}{\numberline {5.1.4.2}egrez\_}{13}{subsubsection.5.1.4.2}%
+\contentsline {subsubsection}{\numberline {5.1.4.3}gal}{13}{subsubsection.5.1.4.3}%
+\contentsline {subsubsection}{\numberline {5.1.4.4}gal\_}{13}{subsubsection.5.1.4.4}%
+\contentsline {subsubsection}{\numberline {5.1.4.5}med}{13}{subsubsection.5.1.4.5}%
+\contentsline {subsubsection}{\numberline {5.1.4.6}med\_}{13}{subsubsection.5.1.4.6}%
+\contentsline {subsubsection}{\numberline {5.1.4.7}ndvid}{13}{subsubsection.5.1.4.7}%
+\contentsline {subsubsection}{\numberline {5.1.4.8}ndvid\_}{14}{subsubsection.5.1.4.8}%
+\contentsline {subsubsection}{\numberline {5.1.4.9}P}{14}{subsubsection.5.1.4.9}%
+\contentsline {subsubsection}{\numberline {5.1.4.10}pav}{14}{subsubsection.5.1.4.10}%
+\contentsline {subsubsection}{\numberline {5.1.4.11}paz}{14}{subsubsection.5.1.4.11}%
+\contentsline {subsubsection}{\numberline {5.1.4.12}paz\_}{14}{subsubsection.5.1.4.12}%
+\contentsline {subsubsection}{\numberline {5.1.4.13}pazkiek}{14}{subsubsection.5.1.4.13}%
+\contentsline {subsubsection}{\numberline {5.1.4.14}var}{14}{subsubsection.5.1.4.14}%
+\contentsline {section}{\numberline {5.2}Zmogus Class Reference}{14}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Constructor \& Destructor Documentation}{15}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}Zmogus()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{15}{subsubsection.5.2.1.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.2}Zmogus()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{15}{subsubsection.5.2.1.2}%
+\contentsline {subsubsection}{\numberline {5.2.1.3}$\sim $Zmogus()}{15}{subsubsection.5.2.1.3}%
+\contentsline {subsection}{\numberline {5.2.2}Member Function Documentation}{15}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}getPavarde()}{15}{subsubsection.5.2.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}getVardas()}{15}{subsubsection.5.2.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.3}print()}{15}{subsubsection.5.2.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.2.4}read()}{15}{subsubsection.5.2.2.4}%
+\contentsline {subsection}{\numberline {5.2.3}Member Data Documentation}{15}{subsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.3.1}pav\_}{15}{subsubsection.5.2.3.1}%
+\contentsline {subsubsection}{\numberline {5.2.3.2}var\_}{15}{subsubsection.5.2.3.2}%
+\contentsline {chapter}{\numberline {6}File Documentation}{17}{chapter.6}%
+\contentsline {section}{\numberline {6.1}deque/dequefunk.cpp File Reference}{17}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Function Documentation}{18}{subsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.1}atrinkimas1()}{18}{subsubsection.6.1.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1.2}atrinkimas2()}{18}{subsubsection.6.1.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.1.3}atrinkimas3()}{18}{subsubsection.6.1.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.1.4}failasegzistuoja()}{18}{subsubsection.6.1.1.4}%
+\contentsline {subsubsection}{\numberline {6.1.1.5}failogen()}{18}{subsubsection.6.1.1.5}%
+\contentsline {subsubsection}{\numberline {6.1.1.6}gautteisinga()}{18}{subsubsection.6.1.1.6}%
+\contentsline {subsubsection}{\numberline {6.1.1.7}isvedimas()}{18}{subsubsection.6.1.1.7}%
+\contentsline {subsubsection}{\numberline {6.1.1.8}operator$<$$<$()}{18}{subsubsection.6.1.1.8}%
+\contentsline {subsubsection}{\numberline {6.1.1.9}operator$>$$>$()}{19}{subsubsection.6.1.1.9}%
+\contentsline {subsubsection}{\numberline {6.1.1.10}processBatch()}{19}{subsubsection.6.1.1.10}%
+\contentsline {subsubsection}{\numberline {6.1.1.11}rng()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{19}{subsubsection.6.1.1.11}%
+\contentsline {subsubsection}{\numberline {6.1.1.12}rng()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{19}{subsubsection.6.1.1.12}%
+\contentsline {subsubsection}{\numberline {6.1.1.13}rng()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{19}{subsubsection.6.1.1.13}%
+\contentsline {subsubsection}{\numberline {6.1.1.14}skaitymas()}{19}{subsubsection.6.1.1.14}%
+\contentsline {subsubsection}{\numberline {6.1.1.15}sortGal()}{19}{subsubsection.6.1.1.15}%
+\contentsline {subsubsection}{\numberline {6.1.1.16}sortMed()}{19}{subsubsection.6.1.1.16}%
+\contentsline {subsubsection}{\numberline {6.1.1.17}sortPav()}{19}{subsubsection.6.1.1.17}%
+\contentsline {subsubsection}{\numberline {6.1.1.18}sortVardu()}{20}{subsubsection.6.1.1.18}%
+\contentsline {subsection}{\numberline {6.1.2}Variable Documentation}{20}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}g\_printMode}{20}{subsubsection.6.1.2.1}%
+\contentsline {section}{\numberline {6.2}deque/dequeh.h File Reference}{20}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Function Documentation}{21}{subsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.1}atrinkimas1()}{21}{subsubsection.6.2.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.1.2}atrinkimas2()}{21}{subsubsection.6.2.1.2}%
+\contentsline {subsubsection}{\numberline {6.2.1.3}atrinkimas3()}{21}{subsubsection.6.2.1.3}%
+\contentsline {subsubsection}{\numberline {6.2.1.4}failogen()}{21}{subsubsection.6.2.1.4}%
+\contentsline {subsubsection}{\numberline {6.2.1.5}galvid()}{21}{subsubsection.6.2.1.5}%
+\contentsline {subsubsection}{\numberline {6.2.1.6}gautteisinga()}{22}{subsubsection.6.2.1.6}%
+\contentsline {subsubsection}{\numberline {6.2.1.7}isvedimas()}{22}{subsubsection.6.2.1.7}%
+\contentsline {subsubsection}{\numberline {6.2.1.8}mediana()}{22}{subsubsection.6.2.1.8}%
+\contentsline {subsubsection}{\numberline {6.2.1.9}ndvid()}{22}{subsubsection.6.2.1.9}%
+\contentsline {subsubsection}{\numberline {6.2.1.10}operator$<$$<$()}{22}{subsubsection.6.2.1.10}%
+\contentsline {subsubsection}{\numberline {6.2.1.11}operator$>$$>$()}{22}{subsubsection.6.2.1.11}%
+\contentsline {subsubsection}{\numberline {6.2.1.12}processBatch()}{22}{subsubsection.6.2.1.12}%
+\contentsline {subsubsection}{\numberline {6.2.1.13}rng()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{22}{subsubsection.6.2.1.13}%
+\contentsline {subsubsection}{\numberline {6.2.1.14}rng()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{22}{subsubsection.6.2.1.14}%
+\contentsline {subsubsection}{\numberline {6.2.1.15}rng()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{23}{subsubsection.6.2.1.15}%
+\contentsline {subsubsection}{\numberline {6.2.1.16}skaitymas()}{23}{subsubsection.6.2.1.16}%
+\contentsline {subsubsection}{\numberline {6.2.1.17}sortGal()}{23}{subsubsection.6.2.1.17}%
+\contentsline {subsubsection}{\numberline {6.2.1.18}sortMed()}{23}{subsubsection.6.2.1.18}%
+\contentsline {subsubsection}{\numberline {6.2.1.19}sortPav()}{23}{subsubsection.6.2.1.19}%
+\contentsline {subsubsection}{\numberline {6.2.1.20}sortVardu()}{23}{subsubsection.6.2.1.20}%
+\contentsline {subsection}{\numberline {6.2.2}Variable Documentation}{23}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}pavardes}{23}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}vardai}{23}{subsubsection.6.2.2.2}%
+\contentsline {section}{\numberline {6.3}dequeh.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{23}{section.6.3}%
+\contentsline {section}{\numberline {6.4}deque/dequemain.cpp File Reference}{25}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Function Documentation}{26}{subsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.1.1}main()}{26}{subsubsection.6.4.1.1}%
+\contentsline {section}{\numberline {6.5}deque/test.cpp File Reference}{26}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Function Documentation}{26}{subsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.1.1}main()}{26}{subsubsection.6.5.1.1}%
+\contentsline {subsubsection}{\numberline {6.5.1.2}test\_io()}{26}{subsubsection.6.5.1.2}%
+\contentsline {subsubsection}{\numberline {6.5.1.3}test\_rule\_of\_five()}{26}{subsubsection.6.5.1.3}%
+\contentsline {section}{\numberline {6.6}list/listfunk.cpp File Reference}{26}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Function Documentation}{27}{subsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.1.1}atrinkimas1()}{27}{subsubsection.6.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.6.1.2}atrinkimas2()}{27}{subsubsection.6.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.6.1.3}atrinkimas3()}{27}{subsubsection.6.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.6.1.4}failasegzistuoja()}{27}{subsubsection.6.6.1.4}%
+\contentsline {subsubsection}{\numberline {6.6.1.5}failogen()}{28}{subsubsection.6.6.1.5}%
+\contentsline {subsubsection}{\numberline {6.6.1.6}galvid()}{28}{subsubsection.6.6.1.6}%
+\contentsline {subsubsection}{\numberline {6.6.1.7}gautteisinga()}{28}{subsubsection.6.6.1.7}%
+\contentsline {subsubsection}{\numberline {6.6.1.8}isvedimas()}{28}{subsubsection.6.6.1.8}%
+\contentsline {subsubsection}{\numberline {6.6.1.9}mediana()}{28}{subsubsection.6.6.1.9}%
+\contentsline {subsubsection}{\numberline {6.6.1.10}ndvid()}{28}{subsubsection.6.6.1.10}%
+\contentsline {subsubsection}{\numberline {6.6.1.11}processBatch()}{28}{subsubsection.6.6.1.11}%
+\contentsline {subsubsection}{\numberline {6.6.1.12}rng()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{28}{subsubsection.6.6.1.12}%
+\contentsline {subsubsection}{\numberline {6.6.1.13}rng()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{28}{subsubsection.6.6.1.13}%
+\contentsline {subsubsection}{\numberline {6.6.1.14}rng()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{29}{subsubsection.6.6.1.14}%
+\contentsline {subsubsection}{\numberline {6.6.1.15}skaitymas()}{29}{subsubsection.6.6.1.15}%
+\contentsline {subsubsection}{\numberline {6.6.1.16}sortGal()}{29}{subsubsection.6.6.1.16}%
+\contentsline {subsubsection}{\numberline {6.6.1.17}sortMed()}{29}{subsubsection.6.6.1.17}%
+\contentsline {subsubsection}{\numberline {6.6.1.18}sortPav()}{29}{subsubsection.6.6.1.18}%
+\contentsline {subsubsection}{\numberline {6.6.1.19}sortVardu()}{29}{subsubsection.6.6.1.19}%
+\contentsline {section}{\numberline {6.7}list/listh.h File Reference}{29}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Function Documentation}{30}{subsection.6.7.1}%
+\contentsline {subsubsection}{\numberline {6.7.1.1}atrinkimas1()}{30}{subsubsection.6.7.1.1}%
+\contentsline {subsubsection}{\numberline {6.7.1.2}atrinkimas2()}{30}{subsubsection.6.7.1.2}%
+\contentsline {subsubsection}{\numberline {6.7.1.3}atrinkimas3()}{31}{subsubsection.6.7.1.3}%
+\contentsline {subsubsection}{\numberline {6.7.1.4}failogen()}{31}{subsubsection.6.7.1.4}%
+\contentsline {subsubsection}{\numberline {6.7.1.5}galvid()}{31}{subsubsection.6.7.1.5}%
+\contentsline {subsubsection}{\numberline {6.7.1.6}gautteisinga()}{31}{subsubsection.6.7.1.6}%
+\contentsline {subsubsection}{\numberline {6.7.1.7}isvedimas()}{31}{subsubsection.6.7.1.7}%
+\contentsline {subsubsection}{\numberline {6.7.1.8}mediana()}{31}{subsubsection.6.7.1.8}%
+\contentsline {subsubsection}{\numberline {6.7.1.9}ndvid()}{31}{subsubsection.6.7.1.9}%
+\contentsline {subsubsection}{\numberline {6.7.1.10}processBatch()}{31}{subsubsection.6.7.1.10}%
+\contentsline {subsubsection}{\numberline {6.7.1.11}rng()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{31}{subsubsection.6.7.1.11}%
+\contentsline {subsubsection}{\numberline {6.7.1.12}rng()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{32}{subsubsection.6.7.1.12}%
+\contentsline {subsubsection}{\numberline {6.7.1.13}rng()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{32}{subsubsection.6.7.1.13}%
+\contentsline {subsubsection}{\numberline {6.7.1.14}skaitymas()}{32}{subsubsection.6.7.1.14}%
+\contentsline {subsubsection}{\numberline {6.7.1.15}sortGal()}{32}{subsubsection.6.7.1.15}%
+\contentsline {subsubsection}{\numberline {6.7.1.16}sortMed()}{32}{subsubsection.6.7.1.16}%
+\contentsline {subsubsection}{\numberline {6.7.1.17}sortPav()}{32}{subsubsection.6.7.1.17}%
+\contentsline {subsubsection}{\numberline {6.7.1.18}sortVardu()}{32}{subsubsection.6.7.1.18}%
+\contentsline {subsection}{\numberline {6.7.2}Variable Documentation}{32}{subsection.6.7.2}%
+\contentsline {subsubsection}{\numberline {6.7.2.1}pavardes}{32}{subsubsection.6.7.2.1}%
+\contentsline {subsubsection}{\numberline {6.7.2.2}vardai}{32}{subsubsection.6.7.2.2}%
+\contentsline {section}{\numberline {6.8}listh.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{32}{section.6.8}%
+\contentsline {section}{\numberline {6.9}list/listmain.cpp File Reference}{34}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Function Documentation}{34}{subsection.6.9.1}%
+\contentsline {subsubsection}{\numberline {6.9.1.1}main()}{34}{subsubsection.6.9.1.1}%
+\contentsline {section}{\numberline {6.10}README.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{34}{section.6.10}%
+\contentsline {section}{\numberline {6.11}vector/vectorfunk.cpp File Reference}{34}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Function Documentation}{35}{subsection.6.11.1}%
+\contentsline {subsubsection}{\numberline {6.11.1.1}atrinkimas1()}{35}{subsubsection.6.11.1.1}%
+\contentsline {subsubsection}{\numberline {6.11.1.2}atrinkimas2()}{35}{subsubsection.6.11.1.2}%
+\contentsline {subsubsection}{\numberline {6.11.1.3}atrinkimas3()}{35}{subsubsection.6.11.1.3}%
+\contentsline {subsubsection}{\numberline {6.11.1.4}failasegzistuoja()}{35}{subsubsection.6.11.1.4}%
+\contentsline {subsubsection}{\numberline {6.11.1.5}failogen()}{36}{subsubsection.6.11.1.5}%
+\contentsline {subsubsection}{\numberline {6.11.1.6}galvid()}{36}{subsubsection.6.11.1.6}%
+\contentsline {subsubsection}{\numberline {6.11.1.7}gautteisinga()}{36}{subsubsection.6.11.1.7}%
+\contentsline {subsubsection}{\numberline {6.11.1.8}isvedimas()}{36}{subsubsection.6.11.1.8}%
+\contentsline {subsubsection}{\numberline {6.11.1.9}mediana()}{36}{subsubsection.6.11.1.9}%
+\contentsline {subsubsection}{\numberline {6.11.1.10}ndvid()}{36}{subsubsection.6.11.1.10}%
+\contentsline {subsubsection}{\numberline {6.11.1.11}processBatch()}{36}{subsubsection.6.11.1.11}%
+\contentsline {subsubsection}{\numberline {6.11.1.12}rng()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{36}{subsubsection.6.11.1.12}%
+\contentsline {subsubsection}{\numberline {6.11.1.13}rng()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{36}{subsubsection.6.11.1.13}%
+\contentsline {subsubsection}{\numberline {6.11.1.14}rng()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{37}{subsubsection.6.11.1.14}%
+\contentsline {subsubsection}{\numberline {6.11.1.15}skaitymas()}{37}{subsubsection.6.11.1.15}%
+\contentsline {subsubsection}{\numberline {6.11.1.16}sortGal()}{37}{subsubsection.6.11.1.16}%
+\contentsline {subsubsection}{\numberline {6.11.1.17}sortMed()}{37}{subsubsection.6.11.1.17}%
+\contentsline {subsubsection}{\numberline {6.11.1.18}sortPav()}{37}{subsubsection.6.11.1.18}%
+\contentsline {subsubsection}{\numberline {6.11.1.19}sortVardu()}{37}{subsubsection.6.11.1.19}%
+\contentsline {section}{\numberline {6.12}vector/vectorh.h File Reference}{37}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Function Documentation}{38}{subsection.6.12.1}%
+\contentsline {subsubsection}{\numberline {6.12.1.1}atrinkimas1()}{38}{subsubsection.6.12.1.1}%
+\contentsline {subsubsection}{\numberline {6.12.1.2}atrinkimas2()}{38}{subsubsection.6.12.1.2}%
+\contentsline {subsubsection}{\numberline {6.12.1.3}atrinkimas3()}{39}{subsubsection.6.12.1.3}%
+\contentsline {subsubsection}{\numberline {6.12.1.4}failogen()}{39}{subsubsection.6.12.1.4}%
+\contentsline {subsubsection}{\numberline {6.12.1.5}galvid()}{39}{subsubsection.6.12.1.5}%
+\contentsline {subsubsection}{\numberline {6.12.1.6}gautteisinga()}{39}{subsubsection.6.12.1.6}%
+\contentsline {subsubsection}{\numberline {6.12.1.7}isvedimas()}{39}{subsubsection.6.12.1.7}%
+\contentsline {subsubsection}{\numberline {6.12.1.8}mediana()}{39}{subsubsection.6.12.1.8}%
+\contentsline {subsubsection}{\numberline {6.12.1.9}ndvid()}{39}{subsubsection.6.12.1.9}%
+\contentsline {subsubsection}{\numberline {6.12.1.10}processBatch()}{39}{subsubsection.6.12.1.10}%
+\contentsline {subsubsection}{\numberline {6.12.1.11}rng()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{39}{subsubsection.6.12.1.11}%
+\contentsline {subsubsection}{\numberline {6.12.1.12}rng()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{40}{subsubsection.6.12.1.12}%
+\contentsline {subsubsection}{\numberline {6.12.1.13}rng()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{40}{subsubsection.6.12.1.13}%
+\contentsline {subsubsection}{\numberline {6.12.1.14}skaitymas()}{40}{subsubsection.6.12.1.14}%
+\contentsline {subsubsection}{\numberline {6.12.1.15}sortGal()}{40}{subsubsection.6.12.1.15}%
+\contentsline {subsubsection}{\numberline {6.12.1.16}sortMed()}{40}{subsubsection.6.12.1.16}%
+\contentsline {subsubsection}{\numberline {6.12.1.17}sortPav()}{40}{subsubsection.6.12.1.17}%
+\contentsline {subsubsection}{\numberline {6.12.1.18}sortVardu()}{40}{subsubsection.6.12.1.18}%
+\contentsline {subsection}{\numberline {6.12.2}Variable Documentation}{40}{subsection.6.12.2}%
+\contentsline {subsubsection}{\numberline {6.12.2.1}pavardes}{40}{subsubsection.6.12.2.1}%
+\contentsline {subsubsection}{\numberline {6.12.2.2}vardai}{40}{subsubsection.6.12.2.2}%
+\contentsline {section}{\numberline {6.13}vectorh.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{40}{section.6.13}%
+\contentsline {section}{\numberline {6.14}vector/vectormain.cpp File Reference}{42}{section.6.14}%
+\contentsline {subsection}{\numberline {6.14.1}Function Documentation}{42}{subsection.6.14.1}%
+\contentsline {subsubsection}{\numberline {6.14.1.1}main()}{42}{subsubsection.6.14.1.1}%

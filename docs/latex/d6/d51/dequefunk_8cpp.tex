@@ -1,0 +1,189 @@
+\doxysection{deque/dequefunk.cpp File Reference}
+\hypertarget{dequefunk_8cpp}{}\label{dequefunk_8cpp}\index{deque/dequefunk.cpp@{deque/dequefunk.cpp}}
+{\ttfamily \#include "{}dequeh.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{dequefunk_8cpp_ae41785eb58d849ee9d0151fe234f88c4}{failasegzistuoja}} (const string \&failopav)
+\begin{DoxyCompactList}\small\item\em 1 -\/ mediana, 2 -\/ vidurkis (isvedimui) \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{dequefunk_8cpp_a11447c6061b08b88aeb17036f4106241}{sort\+Vardu}} (const \mbox{\hyperlink{class_stud}{Stud}} \&a, const \mbox{\hyperlink{class_stud}{Stud}} \&b)
+\item 
+bool \mbox{\hyperlink{dequefunk_8cpp_a737d41877014ced2f74efaa59abcf98e}{sort\+Pav}} (const \mbox{\hyperlink{class_stud}{Stud}} \&a, const \mbox{\hyperlink{class_stud}{Stud}} \&b)
+\item 
+bool \mbox{\hyperlink{dequefunk_8cpp_acf058d57ec9e65c8dd5855cfa50640d3}{sort\+Med}} (const \mbox{\hyperlink{class_stud}{Stud}} \&a, const \mbox{\hyperlink{class_stud}{Stud}} \&b)
+\item 
+bool \mbox{\hyperlink{dequefunk_8cpp_a697e7d842455ac856b3d47ff02286da5}{sort\+Gal}} (const \mbox{\hyperlink{class_stud}{Stud}} \&a, const \mbox{\hyperlink{class_stud}{Stud}} \&b)
+\item 
+void \mbox{\hyperlink{dequefunk_8cpp_aee077c9ab3d74740eaca0a883c20742a}{rng}} (vector$<$ int $>$ \&paz)
+\item 
+void \mbox{\hyperlink{dequefunk_8cpp_a1a48dfab588dcf8e87aeaa5f2d77cbc0}{rng}} (int \&egrez)
+\begin{DoxyCompactList}\small\item\em gauname adresa egrez, sugeneruojame ir grazinam \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{dequefunk_8cpp_a1ef4eba2e1568ae48434aa2e3faf2469}{rng}} (string \&vardas, string \&pavarde)
+\begin{DoxyCompactList}\small\item\em egz pazymiu gen \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{dequefunk_8cpp_a979da483198310119225a561d7ce1555}{operator$>$$>$}} (std\+::istream \&in, \mbox{\hyperlink{class_zmogus}{Zmogus}} \&z)
+\item 
+std\+::ostream \& \mbox{\hyperlink{dequefunk_8cpp_aedf96ee29ef7e067065e26c678466c6d}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_zmogus}{Zmogus}} \&z)
+\item 
+vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \mbox{\hyperlink{dequefunk_8cpp_ae4747d65f9e4414d951a0e781ad3ef75}{process\+Batch}} (const vector$<$ string $>$ \&lines)
+\item 
+void \mbox{\hyperlink{dequefunk_8cpp_abf119023c1dcdfe1fa6b60ac27da8af3}{skaitymas}} (deque$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&grupe, duration$<$ double $>$ \&veiklaik)
+\begin{DoxyCompactList}\small\item\em vardu generavimas \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{dequefunk_8cpp_a35d141a00df377b5e84c809ab8fd2b73}{isvedimas}} (int pas, int pasmv, const deque$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&grupe)
+\item 
+bool \mbox{\hyperlink{dequefunk_8cpp_ac8a63cc86c89c27d3e430745108a7ff7}{gautteisinga}} (int \&input, const string \&prompt, int min, int max)
+\item 
+void \mbox{\hyperlink{dequefunk_8cpp_a0392bcccd12a7342b12cc5f7c0d372c7}{failogen}} (const string \&failopav, int irasuk)
+\begin{DoxyCompactList}\small\item\em error handlingas neteisingos ivesties atveju \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{dequefunk_8cpp_a36c246faa0b88238f07b2836b3852b45}{atrinkimas1}} (deque$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&grupe, vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&nerdai, vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&galiorka, int pasmv, duration$<$ double $>$ \&veiklaik)
+\item 
+void \mbox{\hyperlink{dequefunk_8cpp_a7d311233030e0409a519cb92e894f514}{atrinkimas2}} (deque$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&grupe, vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&galiorka, int pasmv, duration$<$ double $>$ \&veiklaik)
+\item 
+void \mbox{\hyperlink{dequefunk_8cpp_a713aba8565bf77e5146a0a82fa93a430}{atrinkimas3}} (deque$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&grupe, vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&galiorka, int pasmv, duration$<$ double $>$ \&veiklaik)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{dequefunk_8cpp_a271e4f54fb2228be446ab39010a03088}{g\+\_\+print\+Mode}} = 1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{dequefunk_8cpp_a36c246faa0b88238f07b2836b3852b45}\index{dequefunk.cpp@{dequefunk.cpp}!atrinkimas1@{atrinkimas1}}
+\index{atrinkimas1@{atrinkimas1}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{atrinkimas1()}{atrinkimas1()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a36c246faa0b88238f07b2836b3852b45} 
+void atrinkimas1 (\begin{DoxyParamCaption}\item[{deque$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{grupe}{, }\item[{vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{nerdai}{, }\item[{vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{galiorka}{, }\item[{int}]{pasmv}{, }\item[{duration$<$ double $>$ \&}]{veiklaik}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_a7d311233030e0409a519cb92e894f514}\index{dequefunk.cpp@{dequefunk.cpp}!atrinkimas2@{atrinkimas2}}
+\index{atrinkimas2@{atrinkimas2}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{atrinkimas2()}{atrinkimas2()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a7d311233030e0409a519cb92e894f514} 
+void atrinkimas2 (\begin{DoxyParamCaption}\item[{deque$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{grupe}{, }\item[{vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{galiorka}{, }\item[{int}]{pasmv}{, }\item[{duration$<$ double $>$ \&}]{veiklaik}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_a713aba8565bf77e5146a0a82fa93a430}\index{dequefunk.cpp@{dequefunk.cpp}!atrinkimas3@{atrinkimas3}}
+\index{atrinkimas3@{atrinkimas3}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{atrinkimas3()}{atrinkimas3()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a713aba8565bf77e5146a0a82fa93a430} 
+void atrinkimas3 (\begin{DoxyParamCaption}\item[{deque$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{grupe}{, }\item[{vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{galiorka}{, }\item[{int}]{pasmv}{, }\item[{duration$<$ double $>$ \&}]{veiklaik}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_ae41785eb58d849ee9d0151fe234f88c4}\index{dequefunk.cpp@{dequefunk.cpp}!failasegzistuoja@{failasegzistuoja}}
+\index{failasegzistuoja@{failasegzistuoja}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{failasegzistuoja()}{failasegzistuoja()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_ae41785eb58d849ee9d0151fe234f88c4} 
+bool failasegzistuoja (\begin{DoxyParamCaption}\item[{const string \&}]{failopav}{}\end{DoxyParamCaption})}
+
+
+
+1 -\/ mediana, 2 -\/ vidurkis (isvedimui) 
+
+\Hypertarget{dequefunk_8cpp_a0392bcccd12a7342b12cc5f7c0d372c7}\index{dequefunk.cpp@{dequefunk.cpp}!failogen@{failogen}}
+\index{failogen@{failogen}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{failogen()}{failogen()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a0392bcccd12a7342b12cc5f7c0d372c7} 
+void failogen (\begin{DoxyParamCaption}\item[{const string \&}]{failopav}{, }\item[{int}]{irasuk}{}\end{DoxyParamCaption})}
+
+
+
+error handlingas neteisingos ivesties atveju 
+
+int kiekpaz = pazymk(gen);\Hypertarget{dequefunk_8cpp_ac8a63cc86c89c27d3e430745108a7ff7}\index{dequefunk.cpp@{dequefunk.cpp}!gautteisinga@{gautteisinga}}
+\index{gautteisinga@{gautteisinga}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{gautteisinga()}{gautteisinga()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_ac8a63cc86c89c27d3e430745108a7ff7} 
+bool gautteisinga (\begin{DoxyParamCaption}\item[{int \&}]{input}{, }\item[{const string \&}]{prompt}{, }\item[{int}]{min}{, }\item[{int}]{max}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_a35d141a00df377b5e84c809ab8fd2b73}\index{dequefunk.cpp@{dequefunk.cpp}!isvedimas@{isvedimas}}
+\index{isvedimas@{isvedimas}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{isvedimas()}{isvedimas()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a35d141a00df377b5e84c809ab8fd2b73} 
+void isvedimas (\begin{DoxyParamCaption}\item[{int}]{pas}{, }\item[{int}]{pasmv}{, }\item[{const deque$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{grupe}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_aedf96ee29ef7e067065e26c678466c6d}\index{dequefunk.cpp@{dequefunk.cpp}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_aedf96ee29ef7e067065e26c678466c6d} 
+std\+::ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os}{, }\item[{const \mbox{\hyperlink{class_zmogus}{Zmogus}} \&}]{z}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_a979da483198310119225a561d7ce1555}\index{dequefunk.cpp@{dequefunk.cpp}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a979da483198310119225a561d7ce1555} 
+std\+::istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in}{, }\item[{\mbox{\hyperlink{class_zmogus}{Zmogus}} \&}]{z}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_ae4747d65f9e4414d951a0e781ad3ef75}\index{dequefunk.cpp@{dequefunk.cpp}!processBatch@{processBatch}}
+\index{processBatch@{processBatch}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{processBatch()}{processBatch()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_ae4747d65f9e4414d951a0e781ad3ef75} 
+vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ process\+Batch (\begin{DoxyParamCaption}\item[{const vector$<$ string $>$ \&}]{lines}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_a1a48dfab588dcf8e87aeaa5f2d77cbc0}\index{dequefunk.cpp@{dequefunk.cpp}!rng@{rng}}
+\index{rng@{rng}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{rng()}{rng()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a1a48dfab588dcf8e87aeaa5f2d77cbc0} 
+void rng (\begin{DoxyParamCaption}\item[{int \&}]{egrez}{}\end{DoxyParamCaption})}
+
+
+
+gauname adresa egrez, sugeneruojame ir grazinam 
+
+nd pazymiu gen \Hypertarget{dequefunk_8cpp_a1ef4eba2e1568ae48434aa2e3faf2469}\index{dequefunk.cpp@{dequefunk.cpp}!rng@{rng}}
+\index{rng@{rng}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{rng()}{rng()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a1ef4eba2e1568ae48434aa2e3faf2469} 
+void rng (\begin{DoxyParamCaption}\item[{string \&}]{vardas}{, }\item[{string \&}]{pavarde}{}\end{DoxyParamCaption})}
+
+
+
+egz pazymiu gen 
+
+\Hypertarget{dequefunk_8cpp_aee077c9ab3d74740eaca0a883c20742a}\index{dequefunk.cpp@{dequefunk.cpp}!rng@{rng}}
+\index{rng@{rng}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{rng()}{rng()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_aee077c9ab3d74740eaca0a883c20742a} 
+void rng (\begin{DoxyParamCaption}\item[{vector$<$ int $>$ \&}]{paz}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_abf119023c1dcdfe1fa6b60ac27da8af3}\index{dequefunk.cpp@{dequefunk.cpp}!skaitymas@{skaitymas}}
+\index{skaitymas@{skaitymas}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{skaitymas()}{skaitymas()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_abf119023c1dcdfe1fa6b60ac27da8af3} 
+void skaitymas (\begin{DoxyParamCaption}\item[{deque$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{grupe}{, }\item[{duration$<$ double $>$ \&}]{veiklaik}{}\end{DoxyParamCaption})}
+
+
+
+vardu generavimas 
+
+return;
+
+return;\Hypertarget{dequefunk_8cpp_a697e7d842455ac856b3d47ff02286da5}\index{dequefunk.cpp@{dequefunk.cpp}!sortGal@{sortGal}}
+\index{sortGal@{sortGal}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{sortGal()}{sortGal()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a697e7d842455ac856b3d47ff02286da5} 
+bool sort\+Gal (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{a}{, }\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{b}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_acf058d57ec9e65c8dd5855cfa50640d3}\index{dequefunk.cpp@{dequefunk.cpp}!sortMed@{sortMed}}
+\index{sortMed@{sortMed}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{sortMed()}{sortMed()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_acf058d57ec9e65c8dd5855cfa50640d3} 
+bool sort\+Med (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{a}{, }\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{b}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_a737d41877014ced2f74efaa59abcf98e}\index{dequefunk.cpp@{dequefunk.cpp}!sortPav@{sortPav}}
+\index{sortPav@{sortPav}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{sortPav()}{sortPav()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a737d41877014ced2f74efaa59abcf98e} 
+bool sort\+Pav (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{a}{, }\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{b}{}\end{DoxyParamCaption})}
+
+\Hypertarget{dequefunk_8cpp_a11447c6061b08b88aeb17036f4106241}\index{dequefunk.cpp@{dequefunk.cpp}!sortVardu@{sortVardu}}
+\index{sortVardu@{sortVardu}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{sortVardu()}{sortVardu()}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a11447c6061b08b88aeb17036f4106241} 
+bool sort\+Vardu (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{a}{, }\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{b}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{dequefunk_8cpp_a271e4f54fb2228be446ab39010a03088}\index{dequefunk.cpp@{dequefunk.cpp}!g\_printMode@{g\_printMode}}
+\index{g\_printMode@{g\_printMode}!dequefunk.cpp@{dequefunk.cpp}}
+\doxysubsubsection{\texorpdfstring{g\_printMode}{g\_printMode}}
+{\footnotesize\ttfamily \label{dequefunk_8cpp_a271e4f54fb2228be446ab39010a03088} 
+int g\+\_\+print\+Mode = 1}
+

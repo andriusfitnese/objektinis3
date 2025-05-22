@@ -1,0 +1,215 @@
+\doxysection{list/listh.h File Reference}
+\hypertarget{listh_8h}{}\label{listh_8h}\index{list/listh.h@{list/listh.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$limits$>$}\newline
+{\ttfamily \#include $<$random$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+{\ttfamily \#include $<$execution$>$}\newline
+{\ttfamily \#include $<$future$>$}\newline
+{\ttfamily \#include $<$functional$>$}\newline
+{\ttfamily \#include $<$deque$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$list$>$}\newline
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{class_stud}{Stud}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{listh_8h_a11447c6061b08b88aeb17036f4106241}{sort\+Vardu}} (const \mbox{\hyperlink{class_stud}{Stud}} \&a, const \mbox{\hyperlink{class_stud}{Stud}} \&b)
+\item 
+bool \mbox{\hyperlink{listh_8h_a737d41877014ced2f74efaa59abcf98e}{sort\+Pav}} (const \mbox{\hyperlink{class_stud}{Stud}} \&a, const \mbox{\hyperlink{class_stud}{Stud}} \&b)
+\item 
+bool \mbox{\hyperlink{listh_8h_acf058d57ec9e65c8dd5855cfa50640d3}{sort\+Med}} (const \mbox{\hyperlink{class_stud}{Stud}} \&a, const \mbox{\hyperlink{class_stud}{Stud}} \&b)
+\item 
+bool \mbox{\hyperlink{listh_8h_a697e7d842455ac856b3d47ff02286da5}{sort\+Gal}} (const \mbox{\hyperlink{class_stud}{Stud}} \&a, const \mbox{\hyperlink{class_stud}{Stud}} \&b)
+\item 
+double \mbox{\hyperlink{listh_8h_af59b1d984e725ff826f539544f1b9561}{mediana}} (const vector$<$ int $>$ \&paz, double egrez, string var)
+\item 
+double \mbox{\hyperlink{listh_8h_a1aab5ac650afca6a7fc0d77f5f656bb3}{galvid}} (double egrez, double ndvd)
+\item 
+double \mbox{\hyperlink{listh_8h_afed0362ba68b71e92c70aa157b50ebf6}{ndvid}} (const vector$<$ int $>$ \&paz)
+\item 
+void \mbox{\hyperlink{listh_8h_aee077c9ab3d74740eaca0a883c20742a}{rng}} (vector$<$ int $>$ \&paz)
+\item 
+void \mbox{\hyperlink{listh_8h_a1a48dfab588dcf8e87aeaa5f2d77cbc0}{rng}} (int \&egrez)
+\begin{DoxyCompactList}\small\item\em nd pazymiu gen \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{listh_8h_a1ef4eba2e1568ae48434aa2e3faf2469}{rng}} (string \&vardas, string \&pavarde)
+\begin{DoxyCompactList}\small\item\em egz pazymiu gen \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{listh_8h_a7e4943a536841184db49993d9b62eb1a}{skaitymas}} (list$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&grupe, duration$<$ double $>$ \&veiklaik)
+\begin{DoxyCompactList}\small\item\em vardu generavimas \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{listh_8h_a1ce0c73ccf07c00275024ccf3f534fc6}{isvedimas}} (int pas, int pasmv, const list$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&grupe)
+\item 
+bool \mbox{\hyperlink{listh_8h_ac8a63cc86c89c27d3e430745108a7ff7}{gautteisinga}} (int \&input, const string \&prompt, int min, int max)
+\item 
+void \mbox{\hyperlink{listh_8h_a0392bcccd12a7342b12cc5f7c0d372c7}{failogen}} (const string \&failopav, int irasuk)
+\begin{DoxyCompactList}\small\item\em error handlingas neteisingos ivesties atveju \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{listh_8h_aa544c8fb0e1db7d8acf8518777e9280f}{atrinkimas1}} (list$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&grupe, vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&nerdai, vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&galiorka, int pasmv, duration$<$ double $>$ \&veiklaik)
+\item 
+void \mbox{\hyperlink{listh_8h_a7795bd42671f9e72d04128c4f79d929b}{atrinkimas2}} (list$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&grupe, vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&galiorka, int pasmv, duration$<$ double $>$ \&veiklaik)
+\item 
+void \mbox{\hyperlink{listh_8h_a17f93cbc721b90427f384b7223214066}{atrinkimas3}} (list$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&grupe, vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&galiorka, int pasmv, duration$<$ double $>$ \&veiklaik)
+\item 
+vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \mbox{\hyperlink{listh_8h_ae4747d65f9e4414d951a0e781ad3ef75}{process\+Batch}} (const vector$<$ string $>$ \&lines)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const string \mbox{\hyperlink{listh_8h_a7e62fe9a117444061b788cb3fa8c5b14}{vardai}} \mbox{[}$\,$\mbox{]} = \{ "{}Jonas"{}, "{}Petras"{}, "{}Marius"{}, "{}Lukas"{}, "{}Tomas"{}, "{}Simas"{}, "{}Andrius"{}, "{}Darius"{} \}
+\item 
+const string \mbox{\hyperlink{listh_8h_ae54d51d4721af96b2a61271b49e611c5}{pavardes}} \mbox{[}$\,$\mbox{]} = \{ "{}Kazlauskas"{}, "{}Petraitis"{}, "{}Jonaitis"{}, "{}Mikalauskas"{}, "{}Bagdonas"{}, "{}Vaitkus"{}, "{}Urbonas"{}, "{}Grigas"{} \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{listh_8h_aa544c8fb0e1db7d8acf8518777e9280f}\index{listh.h@{listh.h}!atrinkimas1@{atrinkimas1}}
+\index{atrinkimas1@{atrinkimas1}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{atrinkimas1()}{atrinkimas1()}}
+{\footnotesize\ttfamily \label{listh_8h_aa544c8fb0e1db7d8acf8518777e9280f} 
+void atrinkimas1 (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{grupe}{, }\item[{vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{nerdai}{, }\item[{vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{galiorka}{, }\item[{int}]{pasmv}{, }\item[{duration$<$ double $>$ \&}]{veiklaik}{}\end{DoxyParamCaption})}
+
+auto start2 = high\+\_\+resolution\+\_\+clock\+::now();
+
+auto end2 = high\+\_\+resolution\+\_\+clock\+::now(); veiklaik += end2 -\/ start2; cout \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} "{}\+Nerdu irasymo i faila veikimo laikas\+: "{} \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} duration$<$double$>$(end2 -\/ start2).count() \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} endl; auto start3 = high\+\_\+resolution\+\_\+clock\+::now();
+
+auto end3 = high\+\_\+resolution\+\_\+clock\+::now(); veiklaik += end3 -\/ start3; cout \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} "{}\+Galiorkos irasymo i faila veikimo laikas\+:  "{} \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} duration$<$double$>$(end3 -\/ start3).count() \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} endl;\Hypertarget{listh_8h_a7795bd42671f9e72d04128c4f79d929b}\index{listh.h@{listh.h}!atrinkimas2@{atrinkimas2}}
+\index{atrinkimas2@{atrinkimas2}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{atrinkimas2()}{atrinkimas2()}}
+{\footnotesize\ttfamily \label{listh_8h_a7795bd42671f9e72d04128c4f79d929b} 
+void atrinkimas2 (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{grupe}{, }\item[{vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{galiorka}{, }\item[{int}]{pasmv}{, }\item[{duration$<$ double $>$ \&}]{veiklaik}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_a17f93cbc721b90427f384b7223214066}\index{listh.h@{listh.h}!atrinkimas3@{atrinkimas3}}
+\index{atrinkimas3@{atrinkimas3}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{atrinkimas3()}{atrinkimas3()}}
+{\footnotesize\ttfamily \label{listh_8h_a17f93cbc721b90427f384b7223214066} 
+void atrinkimas3 (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{grupe}{, }\item[{vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{galiorka}{, }\item[{int}]{pasmv}{, }\item[{duration$<$ double $>$ \&}]{veiklaik}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_a0392bcccd12a7342b12cc5f7c0d372c7}\index{listh.h@{listh.h}!failogen@{failogen}}
+\index{failogen@{failogen}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{failogen()}{failogen()}}
+{\footnotesize\ttfamily \label{listh_8h_a0392bcccd12a7342b12cc5f7c0d372c7} 
+void failogen (\begin{DoxyParamCaption}\item[{const string \&}]{failopav}{, }\item[{int}]{irasuk}{}\end{DoxyParamCaption})}
+
+
+
+error handlingas neteisingos ivesties atveju 
+
+int kiekpaz = pazymk(gen);\Hypertarget{listh_8h_a1aab5ac650afca6a7fc0d77f5f656bb3}\index{listh.h@{listh.h}!galvid@{galvid}}
+\index{galvid@{galvid}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{galvid()}{galvid()}}
+{\footnotesize\ttfamily \label{listh_8h_a1aab5ac650afca6a7fc0d77f5f656bb3} 
+double galvid (\begin{DoxyParamCaption}\item[{double}]{egrez}{, }\item[{double}]{ndvd}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_ac8a63cc86c89c27d3e430745108a7ff7}\index{listh.h@{listh.h}!gautteisinga@{gautteisinga}}
+\index{gautteisinga@{gautteisinga}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{gautteisinga()}{gautteisinga()}}
+{\footnotesize\ttfamily \label{listh_8h_ac8a63cc86c89c27d3e430745108a7ff7} 
+bool gautteisinga (\begin{DoxyParamCaption}\item[{int \&}]{input}{, }\item[{const string \&}]{prompt}{, }\item[{int}]{min}{, }\item[{int}]{max}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_a1ce0c73ccf07c00275024ccf3f534fc6}\index{listh.h@{listh.h}!isvedimas@{isvedimas}}
+\index{isvedimas@{isvedimas}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{isvedimas()}{isvedimas()}}
+{\footnotesize\ttfamily \label{listh_8h_a1ce0c73ccf07c00275024ccf3f534fc6} 
+void isvedimas (\begin{DoxyParamCaption}\item[{int}]{pas}{, }\item[{int}]{pasmv}{, }\item[{const list$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{grupe}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_af59b1d984e725ff826f539544f1b9561}\index{listh.h@{listh.h}!mediana@{mediana}}
+\index{mediana@{mediana}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{mediana()}{mediana()}}
+{\footnotesize\ttfamily \label{listh_8h_af59b1d984e725ff826f539544f1b9561} 
+double mediana (\begin{DoxyParamCaption}\item[{const vector$<$ int $>$ \&}]{paz}{, }\item[{double}]{egrez}{, }\item[{string}]{var}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_afed0362ba68b71e92c70aa157b50ebf6}\index{listh.h@{listh.h}!ndvid@{ndvid}}
+\index{ndvid@{ndvid}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{ndvid()}{ndvid()}}
+{\footnotesize\ttfamily \label{listh_8h_afed0362ba68b71e92c70aa157b50ebf6} 
+double ndvid (\begin{DoxyParamCaption}\item[{const vector$<$ int $>$ \&}]{paz}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_ae4747d65f9e4414d951a0e781ad3ef75}\index{listh.h@{listh.h}!processBatch@{processBatch}}
+\index{processBatch@{processBatch}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{processBatch()}{processBatch()}}
+{\footnotesize\ttfamily \label{listh_8h_ae4747d65f9e4414d951a0e781ad3ef75} 
+vector$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ process\+Batch (\begin{DoxyParamCaption}\item[{const vector$<$ string $>$ \&}]{lines}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_a1a48dfab588dcf8e87aeaa5f2d77cbc0}\index{listh.h@{listh.h}!rng@{rng}}
+\index{rng@{rng}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{rng()}{rng()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{listh_8h_a1a48dfab588dcf8e87aeaa5f2d77cbc0} 
+void rng (\begin{DoxyParamCaption}\item[{int \&}]{egrez}{}\end{DoxyParamCaption})}
+
+
+
+nd pazymiu gen 
+
+nd pazymiu gen \Hypertarget{listh_8h_a1ef4eba2e1568ae48434aa2e3faf2469}\index{listh.h@{listh.h}!rng@{rng}}
+\index{rng@{rng}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{rng()}{rng()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{listh_8h_a1ef4eba2e1568ae48434aa2e3faf2469} 
+void rng (\begin{DoxyParamCaption}\item[{string \&}]{vardas}{, }\item[{string \&}]{pavarde}{}\end{DoxyParamCaption})}
+
+
+
+egz pazymiu gen 
+
+\Hypertarget{listh_8h_aee077c9ab3d74740eaca0a883c20742a}\index{listh.h@{listh.h}!rng@{rng}}
+\index{rng@{rng}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{rng()}{rng()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{listh_8h_aee077c9ab3d74740eaca0a883c20742a} 
+void rng (\begin{DoxyParamCaption}\item[{vector$<$ int $>$ \&}]{paz}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_a7e4943a536841184db49993d9b62eb1a}\index{listh.h@{listh.h}!skaitymas@{skaitymas}}
+\index{skaitymas@{skaitymas}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{skaitymas()}{skaitymas()}}
+{\footnotesize\ttfamily \label{listh_8h_a7e4943a536841184db49993d9b62eb1a} 
+void skaitymas (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_stud}{Stud}} $>$ \&}]{grupe}{, }\item[{duration$<$ double $>$ \&}]{veiklaik}{}\end{DoxyParamCaption})}
+
+
+
+vardu generavimas 
+
+\Hypertarget{listh_8h_a697e7d842455ac856b3d47ff02286da5}\index{listh.h@{listh.h}!sortGal@{sortGal}}
+\index{sortGal@{sortGal}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{sortGal()}{sortGal()}}
+{\footnotesize\ttfamily \label{listh_8h_a697e7d842455ac856b3d47ff02286da5} 
+bool sort\+Gal (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{a}{, }\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{b}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_acf058d57ec9e65c8dd5855cfa50640d3}\index{listh.h@{listh.h}!sortMed@{sortMed}}
+\index{sortMed@{sortMed}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{sortMed()}{sortMed()}}
+{\footnotesize\ttfamily \label{listh_8h_acf058d57ec9e65c8dd5855cfa50640d3} 
+bool sort\+Med (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{a}{, }\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{b}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_a737d41877014ced2f74efaa59abcf98e}\index{listh.h@{listh.h}!sortPav@{sortPav}}
+\index{sortPav@{sortPav}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{sortPav()}{sortPav()}}
+{\footnotesize\ttfamily \label{listh_8h_a737d41877014ced2f74efaa59abcf98e} 
+bool sort\+Pav (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{a}{, }\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{b}{}\end{DoxyParamCaption})}
+
+\Hypertarget{listh_8h_a11447c6061b08b88aeb17036f4106241}\index{listh.h@{listh.h}!sortVardu@{sortVardu}}
+\index{sortVardu@{sortVardu}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{sortVardu()}{sortVardu()}}
+{\footnotesize\ttfamily \label{listh_8h_a11447c6061b08b88aeb17036f4106241} 
+bool sort\+Vardu (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{a}{, }\item[{const \mbox{\hyperlink{class_stud}{Stud}} \&}]{b}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{listh_8h_ae54d51d4721af96b2a61271b49e611c5}\index{listh.h@{listh.h}!pavardes@{pavardes}}
+\index{pavardes@{pavardes}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{pavardes}{pavardes}}
+{\footnotesize\ttfamily \label{listh_8h_ae54d51d4721af96b2a61271b49e611c5} 
+const string pavardes\mbox{[}$\,$\mbox{]} = \{ "{}Kazlauskas"{}, "{}Petraitis"{}, "{}Jonaitis"{}, "{}Mikalauskas"{}, "{}Bagdonas"{}, "{}Vaitkus"{}, "{}Urbonas"{}, "{}Grigas"{} \}}
+
+\Hypertarget{listh_8h_a7e62fe9a117444061b788cb3fa8c5b14}\index{listh.h@{listh.h}!vardai@{vardai}}
+\index{vardai@{vardai}!listh.h@{listh.h}}
+\doxysubsubsection{\texorpdfstring{vardai}{vardai}}
+{\footnotesize\ttfamily \label{listh_8h_a7e62fe9a117444061b788cb3fa8c5b14} 
+const string vardai\mbox{[}$\,$\mbox{]} = \{ "{}Jonas"{}, "{}Petras"{}, "{}Marius"{}, "{}Lukas"{}, "{}Tomas"{}, "{}Simas"{}, "{}Andrius"{}, "{}Darius"{} \}}
+

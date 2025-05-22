@@ -1,0 +1,94 @@
+\doxysection{Catch\+::Benchmark\+::Benchmark Struct Reference}
+\hypertarget{struct_catch_1_1_benchmark_1_1_benchmark}{}\label{struct_catch_1_1_benchmark_1_1_benchmark}\index{Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}}
+
+
+{\ttfamily \#include $<$catch\+\_\+amalgamated.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark_a9bdbca8411c57892f7b01d6118def51c}{Benchmark}} (std\+::string \&\&benchmark\+Name)
+\item 
+{\footnotesize template$<$class FUN$>$ }\\\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark_a98bb1e62d945c13bdff3a7017ca93b14}{Benchmark}} (std\+::string \&\&benchmark\+Name, FUN \&\&func)
+\item 
+{\footnotesize template$<$typename Clock$>$ }\\\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_execution_plan}{Execution\+Plan}} \mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark_afac4a6950e035232d991d4be63a907fd}{prepare}} (const \mbox{\hyperlink{class_catch_1_1_i_config}{IConfig}} \&cfg, \mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_environment}{Environment}} env)
+\item 
+{\footnotesize template$<$typename Clock = default\+\_\+clock$>$ }\\void \mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark_aeff43305485b4ce29af38094437a8544}{run}} ()
+\item 
+{\footnotesize template$<$typename Fun, std\+::enable\+\_\+if\+\_\+t$<$!\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_detail_1_1is__related}{Detail\+::is\+\_\+related}}$<$ Fun, \mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark}{Benchmark}} $>$\+::value, int $>$ = 0$>$ }\\\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark}{Benchmark}} \& \mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark_a8d592f11d8c9f9da369d6b53616d7414}{operator=}} (Fun func)
+\item 
+\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark_ab1626a886dbe9d109359991f7138ec05}{operator bool}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_detail_1_1_benchmark_function}{Detail\+::\+Benchmark\+Function}} \mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark_a01358fc2fd4c2124ca563ffe4b48575f}{fun}}
+\item 
+std\+::string \mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark_a98e92d5f04aaaea3ba6dfec880eca4e0}{name}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{struct_catch_1_1_benchmark_1_1_benchmark_a9bdbca8411c57892f7b01d6118def51c}\index{Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}!Benchmark@{Benchmark}}
+\index{Benchmark@{Benchmark}!Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}}
+\doxysubsubsection{\texorpdfstring{Benchmark()}{Benchmark()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{struct_catch_1_1_benchmark_1_1_benchmark_a9bdbca8411c57892f7b01d6118def51c} 
+Catch\+::\+Benchmark\+::\+Benchmark\+::\+Benchmark (\begin{DoxyParamCaption}\item[{std\+::string \&\&}]{benchmark\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{struct_catch_1_1_benchmark_1_1_benchmark_a98bb1e62d945c13bdff3a7017ca93b14}\index{Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}!Benchmark@{Benchmark}}
+\index{Benchmark@{Benchmark}!Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}}
+\doxysubsubsection{\texorpdfstring{Benchmark()}{Benchmark()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{struct_catch_1_1_benchmark_1_1_benchmark_a98bb1e62d945c13bdff3a7017ca93b14} 
+template$<$class FUN$>$ \\
+Catch\+::\+Benchmark\+::\+Benchmark\+::\+Benchmark (\begin{DoxyParamCaption}\item[{std\+::string \&\&}]{benchmark\+Name}{, }\item[{FUN \&\&}]{func}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{struct_catch_1_1_benchmark_1_1_benchmark_ab1626a886dbe9d109359991f7138ec05}\index{Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}!operator bool@{operator bool}}
+\index{operator bool@{operator bool}!Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}}
+\doxysubsubsection{\texorpdfstring{operator bool()}{operator bool()}}
+{\footnotesize\ttfamily \label{struct_catch_1_1_benchmark_1_1_benchmark_ab1626a886dbe9d109359991f7138ec05} 
+Catch\+::\+Benchmark\+::\+Benchmark\+::operator bool (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+\Hypertarget{struct_catch_1_1_benchmark_1_1_benchmark_a8d592f11d8c9f9da369d6b53616d7414}\index{Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}!operator=@{operator=}}
+\index{operator=@{operator=}!Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \label{struct_catch_1_1_benchmark_1_1_benchmark_a8d592f11d8c9f9da369d6b53616d7414} 
+template$<$typename Fun, std\+::enable\+\_\+if\+\_\+t$<$!\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_detail_1_1is__related}{Detail\+::is\+\_\+related}}$<$ Fun, \mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark}{Benchmark}} $>$\+::value, int $>$ = 0$>$ \\
+\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_benchmark}{Benchmark}} \& Catch\+::\+Benchmark\+::\+Benchmark\+::operator= (\begin{DoxyParamCaption}\item[{Fun}]{func}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{struct_catch_1_1_benchmark_1_1_benchmark_afac4a6950e035232d991d4be63a907fd}\index{Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}!prepare@{prepare}}
+\index{prepare@{prepare}!Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}}
+\doxysubsubsection{\texorpdfstring{prepare()}{prepare()}}
+{\footnotesize\ttfamily \label{struct_catch_1_1_benchmark_1_1_benchmark_afac4a6950e035232d991d4be63a907fd} 
+template$<$typename Clock$>$ \\
+\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_execution_plan}{Execution\+Plan}} Catch\+::\+Benchmark\+::\+Benchmark\+::prepare (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_catch_1_1_i_config}{IConfig}} \&}]{cfg}{, }\item[{\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_environment}{Environment}}}]{env}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{struct_catch_1_1_benchmark_1_1_benchmark_aeff43305485b4ce29af38094437a8544}\index{Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}!run@{run}}
+\index{run@{run}!Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily \label{struct_catch_1_1_benchmark_1_1_benchmark_aeff43305485b4ce29af38094437a8544} 
+template$<$typename Clock = default\+\_\+clock$>$ \\
+void Catch\+::\+Benchmark\+::\+Benchmark\+::run (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{struct_catch_1_1_benchmark_1_1_benchmark_a01358fc2fd4c2124ca563ffe4b48575f}\index{Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}!fun@{fun}}
+\index{fun@{fun}!Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}}
+\doxysubsubsection{\texorpdfstring{fun}{fun}}
+{\footnotesize\ttfamily \label{struct_catch_1_1_benchmark_1_1_benchmark_a01358fc2fd4c2124ca563ffe4b48575f} 
+\mbox{\hyperlink{struct_catch_1_1_benchmark_1_1_detail_1_1_benchmark_function}{Detail\+::\+Benchmark\+Function}} Catch\+::\+Benchmark\+::\+Benchmark\+::fun\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{struct_catch_1_1_benchmark_1_1_benchmark_a98e92d5f04aaaea3ba6dfec880eca4e0}\index{Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}!name@{name}}
+\index{name@{name}!Catch::Benchmark::Benchmark@{Catch::Benchmark::Benchmark}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily \label{struct_catch_1_1_benchmark_1_1_benchmark_a98e92d5f04aaaea3ba6dfec880eca4e0} 
+std\+::string Catch\+::\+Benchmark\+::\+Benchmark\+::name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8hpp}{catch\+\_\+amalgamated.\+hpp}}\end{DoxyCompactItemize}

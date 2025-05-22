@@ -1,0 +1,103 @@
+\doxysection{Catch\+::Test\+Invoker\+Fixture\texorpdfstring{$<$}{<} C \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{class_catch_1_1_test_invoker_fixture}{}\label{class_catch_1_1_test_invoker_fixture}\index{Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}}
+
+
+{\ttfamily \#include $<$catch\+\_\+amalgamated.\+hpp$>$}
+
+Inheritance diagram for Catch\+::Test\+Invoker\+Fixture\texorpdfstring{$<$}{<} C \texorpdfstring{$>$}{>}\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d1/de3/class_catch_1_1_test_invoker_fixture}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+constexpr \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture_a0bcc8c4ab449a90509093bff2c471aa1}{Test\+Invoker\+Fixture}} (void(C\+::\texorpdfstring{$\ast$}{*}test\+As\+Method)() const) noexcept
+\item 
+void \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture_adf8b4e93f443c8fdbcbea4b59d0a151f}{prepare\+Test\+Case}} () override
+\item 
+void \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture_a9fe1bd75d0aac05c56a292e0badfaba1}{tear\+Down\+Test\+Case}} () override
+\item 
+void \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture_a04b87ab951d6974a6db5e591d71ae394}{invoke}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_catch_1_1_i_test_invoker}{Catch\+::\+ITest\+Invoker}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_catch_1_1_i_test_invoker_a99f1c750e08df86e117995ea75b5dd9d}{\texorpdfstring{$\sim$}{\string~}\+ITest\+Invoker}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+void(C\+::\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture_acc4b336d1cdf8261d3a0a2985707647a}{m\+\_\+test\+As\+Method}} )() const
+\item 
+\mbox{\hyperlink{class_catch_1_1_detail_1_1unique__ptr}{Detail\+::unique\+\_\+ptr}}$<$ C $>$ \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture_a684322fda0b8df02f46c35f6c472cb4f}{m\+\_\+fixture}} = nullptr
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_catch_1_1_test_invoker_fixture_a0bcc8c4ab449a90509093bff2c471aa1}\index{Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}!TestInvokerFixture@{TestInvokerFixture}}
+\index{TestInvokerFixture@{TestInvokerFixture}!Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{TestInvokerFixture()}{TestInvokerFixture()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_invoker_fixture_a0bcc8c4ab449a90509093bff2c471aa1} 
+template$<$typename C$>$ \\
+\mbox{\hyperlink{class_catch_1_1_test_invoker_fixture}{Catch\+::\+Test\+Invoker\+Fixture}}$<$ C $>$\+::\+Test\+Invoker\+Fixture (\begin{DoxyParamCaption}\item[{void(C\+::\texorpdfstring{$\ast$}{*}}]{test\+As\+Method~}{)() const}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [constexpr]}, {\ttfamily [noexcept]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_catch_1_1_test_invoker_fixture_a04b87ab951d6974a6db5e591d71ae394}\index{Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}!invoke@{invoke}}
+\index{invoke@{invoke}!Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{invoke()}{invoke()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_invoker_fixture_a04b87ab951d6974a6db5e591d71ae394} 
+template$<$typename C$>$ \\
+void \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture}{Catch\+::\+Test\+Invoker\+Fixture}}$<$ C $>$\+::invoke (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_catch_1_1_i_test_invoker_a6fcd5c5b67d6d5ade6491ff33411ca7f}{Catch\+::\+ITest\+Invoker}}.
+
+\Hypertarget{class_catch_1_1_test_invoker_fixture_adf8b4e93f443c8fdbcbea4b59d0a151f}\index{Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}!prepareTestCase@{prepareTestCase}}
+\index{prepareTestCase@{prepareTestCase}!Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{prepareTestCase()}{prepareTestCase()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_invoker_fixture_adf8b4e93f443c8fdbcbea4b59d0a151f} 
+template$<$typename C$>$ \\
+void \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture}{Catch\+::\+Test\+Invoker\+Fixture}}$<$ C $>$\+::prepare\+Test\+Case (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_catch_1_1_i_test_invoker_a43db31a32490670701161fad7c8c97e3}{Catch\+::\+ITest\+Invoker}}.
+
+\Hypertarget{class_catch_1_1_test_invoker_fixture_a9fe1bd75d0aac05c56a292e0badfaba1}\index{Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}!tearDownTestCase@{tearDownTestCase}}
+\index{tearDownTestCase@{tearDownTestCase}!Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{tearDownTestCase()}{tearDownTestCase()}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_invoker_fixture_a9fe1bd75d0aac05c56a292e0badfaba1} 
+template$<$typename C$>$ \\
+void \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture}{Catch\+::\+Test\+Invoker\+Fixture}}$<$ C $>$\+::tear\+Down\+Test\+Case (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_catch_1_1_i_test_invoker_a71968ab16ca03c8008b1ca25ca5b4c17}{Catch\+::\+ITest\+Invoker}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_catch_1_1_test_invoker_fixture_a684322fda0b8df02f46c35f6c472cb4f}\index{Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}!m\_fixture@{m\_fixture}}
+\index{m\_fixture@{m\_fixture}!Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{m\_fixture}{m\_fixture}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_invoker_fixture_a684322fda0b8df02f46c35f6c472cb4f} 
+template$<$typename C$>$ \\
+\mbox{\hyperlink{class_catch_1_1_detail_1_1unique__ptr}{Detail\+::unique\+\_\+ptr}}$<$C$>$ \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture}{Catch\+::\+Test\+Invoker\+Fixture}}$<$ C $>$\+::m\+\_\+fixture = nullptr\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_catch_1_1_test_invoker_fixture_acc4b336d1cdf8261d3a0a2985707647a}\index{Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}!m\_testAsMethod@{m\_testAsMethod}}
+\index{m\_testAsMethod@{m\_testAsMethod}!Catch::TestInvokerFixture$<$ C $>$@{Catch::TestInvokerFixture$<$ C $>$}}
+\doxysubsubsection{\texorpdfstring{m\_testAsMethod}{m\_testAsMethod}}
+{\footnotesize\ttfamily \label{class_catch_1_1_test_invoker_fixture_acc4b336d1cdf8261d3a0a2985707647a} 
+template$<$typename C$>$ \\
+void(C\+::\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_catch_1_1_test_invoker_fixture}{Catch\+::\+Test\+Invoker\+Fixture}}$<$ C $>$\+::m\+\_\+test\+As\+Method) () const\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+deque/\mbox{\hyperlink{catch__amalgamated_8hpp}{catch\+\_\+amalgamated.\+hpp}}\end{DoxyCompactItemize}
