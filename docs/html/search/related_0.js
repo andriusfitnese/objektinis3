@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['assertionhandler_0',['AssertionHandler',['../d6/d03/class_catch_1_1_lazy_expression.html#a4301a3aa57b612dd8b6ef8461742ecab',1,'Catch::LazyExpression']]],
-  ['assertionstats_1',['AssertionStats',['../d6/d03/class_catch_1_1_lazy_expression.html#a64019eb137f5ce447cdc71cb80b6e7a4',1,'Catch::LazyExpression']]]
+  ['operator_3c_3c_0',['operator&lt;&lt;',['../d4/d17/class_stud.html#ab1296094a664d5c7adc2ec4a188b343c',1,'Stud::operator&lt;&lt;(std::ostream &amp;os, const Stud &amp;s)'],['../d4/d17/class_stud.html#ab1296094a664d5c7adc2ec4a188b343c',1,'Stud::operator&lt;&lt;(std::ostream &amp;os, const Stud &amp;s)']]],
+  ['operator_3e_3e_1',['operator&gt;&gt;',['../d4/d17/class_stud.html#ab0ae2d598da52d7298daa3083d28b576',1,'Stud::operator&gt;&gt;(std::istream &amp;in, Stud &amp;s)'],['../d4/d17/class_stud.html#ab0ae2d598da52d7298daa3083d28b576',1,'Stud::operator&gt;&gt;(std::istream &amp;in, Stud &amp;s)']]]
 ];

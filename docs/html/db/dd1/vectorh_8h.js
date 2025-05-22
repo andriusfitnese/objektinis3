@@ -8,7 +8,6 @@ var vectorh_8h =
     [ "failogen", "db/dd1/vectorh_8h.html#a0392bcccd12a7342b12cc5f7c0d372c7", null ],
     [ "galvid", "db/dd1/vectorh_8h.html#a1aab5ac650afca6a7fc0d77f5f656bb3", null ],
     [ "gautteisinga", "db/dd1/vectorh_8h.html#ac8a63cc86c89c27d3e430745108a7ff7", null ],
-    [ "isvedimas", "db/dd1/vectorh_8h.html#a36cce055b8b07fbc3f8c6a0a32303cdb", null ],
     [ "mediana", "db/dd1/vectorh_8h.html#aafe5417c85288fbcdbd5c927fbc2a37b", null ],
     [ "ndvid", "db/dd1/vectorh_8h.html#a67e08fb3e4e0937a4e9f37a7d9df3469", null ],
     [ "operator<<", "db/dd1/vectorh_8h.html#ae4670e02e44c5878d8fea81cdc4a197b", null ],

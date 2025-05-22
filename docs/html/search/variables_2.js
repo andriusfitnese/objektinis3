@@ -1,19 +1,4 @@
 var searchData=
 [
-  ['capacity_5f_0',['capacity_',['../d5/db2/class_vector.html#a38c833c44c27d3f60233adcb765364ee',1,'Vector']]],
-  ['capturedexpression_1',['capturedExpression',['../d4/d90/struct_catch_1_1_assertion_info.html#accd36744b4acaa3a691a72df0b42190f',1,'Catch::AssertionInfo']]],
-  ['classname_2',['className',['../d1/d61/struct_catch_1_1_test_case_info.html#a1daaddce433ef171e34bec5a4719e772',1,'Catch::TestCaseInfo']]],
-  ['clock_5fcost_3',['clock_cost',['../d7/d2a/struct_catch_1_1_benchmark_1_1_environment.html#adf68bbccb5c7e231324f4e244593280c',1,'Catch::Benchmark::Environment']]],
-  ['clock_5fcost_5festimation_5fiterations_4',['clock_cost_estimation_iterations',['../d1/d62/namespace_catch_1_1_benchmark_1_1_detail.html#a971609fd1bf1dffc78fbb645d649bcae',1,'Catch::Benchmark::Detail']]],
-  ['clock_5fcost_5festimation_5ftick_5flimit_5',['clock_cost_estimation_tick_limit',['../d1/d62/namespace_catch_1_1_benchmark_1_1_detail.html#a1ee35c3ddb5cdf0f4ad7354240e4288d',1,'Catch::Benchmark::Detail']]],
-  ['clock_5fcost_5festimation_5ftime_6',['clock_cost_estimation_time',['../d1/d62/namespace_catch_1_1_benchmark_1_1_detail.html#a9b7d750760d2dbafad94a78957d85b68',1,'Catch::Benchmark::Detail']]],
-  ['clock_5fcost_5festimation_5ftime_5flimit_7',['clock_cost_estimation_time_limit',['../d1/d62/namespace_catch_1_1_benchmark_1_1_detail.html#a258a5fe6cc543b6ab8cceb3e175e1c1d',1,'Catch::Benchmark::Detail']]],
-  ['clock_5fresolution_8',['clock_resolution',['../d7/d2a/struct_catch_1_1_benchmark_1_1_environment.html#ae9a6cf5625ef688e8b2739c14e427ce8',1,'Catch::Benchmark::Environment']]],
-  ['clock_5fresolution_5festimation_5ftime_9',['clock_resolution_estimation_time',['../d1/d62/namespace_catch_1_1_benchmark_1_1_detail.html#a805143fb513ffc616374ea01f764f87c',1,'Catch::Benchmark::Detail']]],
-  ['clockcost_10',['clockCost',['../df/d4e/struct_catch_1_1_benchmark_info.html#a1e5b58de921a9e88b72749cf3bd6efea',1,'Catch::BenchmarkInfo']]],
-  ['clockresolution_11',['clockResolution',['../df/d4e/struct_catch_1_1_benchmark_info.html#afc6fa85797067ea9af01fb0e2bc0d790',1,'Catch::BenchmarkInfo']]],
-  ['colourmode_12',['colourMode',['../d1/da7/struct_catch_1_1_processed_reporter_spec.html#ad17b305aa863b41fadf2dc45f45a1952',1,'Catch::ProcessedReporterSpec']]],
-  ['confidence_5finterval_13',['confidence_interval',['../de/d84/struct_catch_1_1_benchmark_1_1_estimate.html#ac7c0199cc99a53c3f81457b6fdb451a6',1,'Catch::Benchmark::Estimate']]],
-  ['currentcontext_14',['currentContext',['../d3/dea/class_catch_1_1_context.html#ac4ba79b6c2667f0c54dee09ae9b0a6d6',1,'Catch::Context']]],
-  ['customoptions_15',['customOptions',['../d1/da7/struct_catch_1_1_processed_reporter_spec.html#aaaeead5abd0ff72b8a1837b23243336a',1,'Catch::ProcessedReporterSpec']]]
+  ['data_5f_0',['data_',['../d5/db2/class_vector.html#abc1b8771c37d008c43246a2ac0922580',1,'Vector']]]
 ];

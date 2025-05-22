@@ -1,28 +1,8 @@
 var searchData=
 [
-  ['elapsed_0',['elapsed',['../df/dbe/struct_catch_1_1_benchmark_1_1_detail_1_1_chronometer_model.html#a888ac0188449f74cb7c5ffb1a9e918c8',1,'Catch::Benchmark::Detail::ChronometerModel']]],
-  ['emplace_1',['emplace',['../d5/db2/class_vector.html#a6a7f65e9b8e57122c868d0aa4f326c19',1,'Vector']]],
-  ['emplace_5fback_2',['emplace_back',['../d5/db2/class_vector.html#a5d19b8e8fd6ded1e2e99045c3962c7e9',1,'Vector']]],
-  ['emplaceunscopedmessage_3',['emplaceUnscopedMessage',['../db/d02/class_catch_1_1_i_result_capture.html#a1aa4505b96a637a44b5d3580cd90f18b',1,'Catch::IResultCapture']]],
-  ['empty_4',['empty',['../dd/d6c/class_catch_1_1_string_ref.html#a0b4841c28cbb14ba07296964a0187023',1,'Catch::StringRef::empty()'],['../d5/db2/class_vector.html#ad5e31c0f82683ece1b5b020c15a8b77b',1,'Vector::empty()']]],
-  ['end_5',['end',['../dd/d6c/class_catch_1_1_string_ref.html#a3ce9afc711b559d6cc59666898fc0828',1,'Catch::StringRef::end()'],['../d5/db2/class_vector.html#abaaafc8a6696d49ceb4f799d2f78e299',1,'Vector::end() noexcept'],['../d5/db2/class_vector.html#aeebdc6009ad387f9e2f1d37613d98f83',1,'Vector::end() const noexcept']]],
-  ['endswith_6',['EndsWith',['../d2/d95/namespace_catch_1_1_matchers.html#a12b1480cb0af61579e8776cf538d0069',1,'Catch::Matchers']]],
-  ['endswith_7',['endsWith',['../d4/d13/namespace_catch.html#ada025504f627feaf9ac68ca391515dff',1,'Catch::endsWith(std::string const &amp;s, std::string const &amp;suffix)'],['../d4/d13/namespace_catch.html#afd801a3e33fd7a8b91ded0d02747a93f',1,'Catch::endsWith(std::string const &amp;s, char suffix)']]],
-  ['enforceok_8',['enforceOk',['../d3/d34/class_catch_1_1_clara_1_1_detail_1_1_result_base.html#aa745dfcd5ea1c94e93b57e5434a34177',1,'Catch::Clara::Detail::ResultBase::enforceOk()'],['../d0/d90/class_catch_1_1_clara_1_1_detail_1_1_basic_result.html#a87690846616d49ba834603770909055d',1,'Catch::Clara::Detail::BasicResult::enforceOk()']]],
-  ['epsilon_9',['epsilon',['../d0/d35/class_catch_1_1_approx.html#ab9b569c030c0399a187f96e7d95e501f',1,'Catch::Approx']]],
-  ['equalitycomparisonimpl_10',['equalityComparisonImpl',['../d0/d35/class_catch_1_1_approx.html#a71ffb8099b3b2530a99724e0d0b87a4f',1,'Catch::Approx']]],
-  ['equals_11',['Equals',['../d2/d95/namespace_catch_1_1_matchers.html#ae584743abef84739c036faf46eef53b7',1,'Catch::Matchers']]],
-  ['erase_12',['erase',['../d5/db2/class_vector.html#a9475371e34e4ce47ec3359ff25fed6ec',1,'Vector::erase(const_iterator pos)'],['../d5/db2/class_vector.html#a475eb3d5040ead87de3e58e19fe954a3',1,'Vector::erase(const_iterator first, const_iterator last)']]],
-  ['erfc_5finv_13',['erfc_inv',['../d1/d62/namespace_catch_1_1_benchmark_1_1_detail.html#a62d6c634e2c8901d02ffe8718817f1b4',1,'Catch::Benchmark::Detail']]],
-  ['errormessage_14',['errorMessage',['../d0/d90/class_catch_1_1_clara_1_1_detail_1_1_basic_result.html#a72212341d12d38b9ef6f8c3ecaae3d66',1,'Catch::Clara::Detail::BasicResult']]],
-  ['estimate_5fclock_5fcost_15',['estimate_clock_cost',['../d1/d62/namespace_catch_1_1_benchmark_1_1_detail.html#ac10ce6a746501524891ce359e61f3e43',1,'Catch::Benchmark::Detail']]],
-  ['estimate_5fclock_5fresolution_16',['estimate_clock_resolution',['../d1/d62/namespace_catch_1_1_benchmark_1_1_detail.html#a5c57c45d75d53880caaf8c422aa1a5ab',1,'Catch::Benchmark::Detail']]],
-  ['exceptionearlyreported_17',['exceptionEarlyReported',['../db/d02/class_catch_1_1_i_result_capture.html#ae63ecec95db4c236c63ecf616f483810',1,'Catch::IResultCapture']]],
-  ['exceptiontranslator_18',['ExceptionTranslator',['../d6/d54/class_catch_1_1_exception_translator_registrar_1_1_exception_translator.html#a591d6428999832a6ea5138a95b95d33d',1,'Catch::ExceptionTranslatorRegistrar::ExceptionTranslator']]],
-  ['exceptiontranslatorregistrar_19',['ExceptionTranslatorRegistrar',['../d0/dd3/class_catch_1_1_exception_translator_registrar.html#a641142ed5d0f3c6608f496a9b9c4b38b',1,'Catch::ExceptionTranslatorRegistrar']]],
-  ['exename_20',['ExeName',['../dc/d7a/class_catch_1_1_clara_1_1_exe_name.html#a1ac750117e67530dfcfe30463fc293c7',1,'Catch::Clara::ExeName::ExeName()'],['../dc/d7a/class_catch_1_1_clara_1_1_exe_name.html#afca75aeb9679dffe95232d3ee19e9a9b',1,'Catch::Clara::ExeName::ExeName(std::string &amp;ref)'],['../dc/d7a/class_catch_1_1_clara_1_1_exe_name.html#abd67f80f71ef0e4148856ba62fa8832b',1,'Catch::Clara::ExeName::ExeName(LambdaT const &amp;lambda)']]],
-  ['exename_21',['exeName',['../de/de8/class_catch_1_1_clara_1_1_args.html#a6f03913f5e23a45f5a6a1ac5fb119ed1',1,'Catch::Clara::Args']]],
-  ['expectedtofail_22',['expectedToFail',['../d1/d61/struct_catch_1_1_test_case_info.html#abe33d81233230cdae8afa714688e905b',1,'Catch::TestCaseInfo']]],
-  ['exprlhs_23',['ExprLhs',['../d0/d30/class_catch_1_1_expr_lhs.html#aa05660c1ebe53b4989d4459c89ee6e46',1,'Catch::ExprLhs']]],
-  ['extractfiltername_24',['extractFilterName',['../da/d6a/class_catch_1_1_test_spec.html#a00984711529380855f4796d55a2098ad',1,'Catch::TestSpec']]]
+  ['emplace_0',['emplace',['../d5/db2/class_vector.html#a6a7f65e9b8e57122c868d0aa4f326c19',1,'Vector']]],
+  ['emplace_5fback_1',['emplace_back',['../d5/db2/class_vector.html#a5d19b8e8fd6ded1e2e99045c3962c7e9',1,'Vector']]],
+  ['empty_2',['empty',['../d5/db2/class_vector.html#ad5e31c0f82683ece1b5b020c15a8b77b',1,'Vector']]],
+  ['end_3',['end',['../d5/db2/class_vector.html#abaaafc8a6696d49ceb4f799d2f78e299',1,'Vector::end() noexcept'],['../d5/db2/class_vector.html#aeebdc6009ad387f9e2f1d37613d98f83',1,'Vector::end() const noexcept']]],
+  ['erase_4',['erase',['../d5/db2/class_vector.html#a9475371e34e4ce47ec3359ff25fed6ec',1,'Vector::erase(const_iterator pos)'],['../d5/db2/class_vector.html#a475eb3d5040ead87de3e58e19fe954a3',1,'Vector::erase(const_iterator first, const_iterator last)']]]
 ];

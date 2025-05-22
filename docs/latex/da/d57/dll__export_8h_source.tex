@@ -1,0 +1,23 @@
+\doxysection{dll\+\_\+export.\+h}
+\hypertarget{dll__export_8h_source}{}\label{dll__export_8h_source}\index{vector/dll\_export.h@{vector/dll\_export.h}}
+\mbox{\hyperlink{dll__export_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{vector_8hpp}{vector.hpp}}"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{vectorh_8h}{vectorh.h}}"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifdef\ SPAUSDINIMO\_EXPORTS}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ SPAUSDINIMO\_API\ \_\_declspec(dllexport)}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ SPAUSDINIMO\_API\ \_\_declspec(dllimport)}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \mbox{\hyperlink{dll__export_8h_aa670199d73450e79b272b5406f53632c}{SPAUSDINIMO\_API}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{dequefunk_8cpp_a271e4f54fb2228be446ab39010a03088}{g\_printMode}};}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{extern}\ \textcolor{stringliteral}{"{}C"{}}\ \{}
+\DoxyCodeLine{00016\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{dll__export_8h_aa670199d73450e79b272b5406f53632c}{SPAUSDINIMO\_API}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{dll__export_8h_a88bbcd92c1e7866ddc43212b17c672ac}{isvedimas}}(\textcolor{keywordtype}{int}\ pas,\ \textcolor{keywordtype}{int}\ pasmv,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_vector}{Vector<Stud>}}\&\ grupe);}
+\DoxyCodeLine{00017\ \}}
+
+\end{DoxyCode}

@@ -183,14 +183,11 @@ public:
 		if (size_ == capacity_)
 			return;
 
-		// 1) remember the current size
 		size_type old_size = size_;
 
-		// 2) allocate exactly old_size slots
 		pointer new_data = std::allocator_traits<Allocator>::
 			allocate(allocator_, old_size);
 
-		// 3) move-construct each element into new_data
 		size_type i = 0;
 		try {
 			for (; i < old_size; ++i) {
@@ -202,7 +199,6 @@ public:
 			}
 		}
 		catch (...) {
-			// if any construct throws, roll back what we built so far
 			for (size_type j = 0; j < i; ++j) {
 				std::allocator_traits<Allocator>::destroy(
 					allocator_, new_data + j
@@ -214,21 +210,18 @@ public:
 			throw;
 		}
 
-		// 4) destroy old elements (but do not touch size_ yet)
 		for (size_type j = 0; j < old_size; ++j) {
 			std::allocator_traits<Allocator>::destroy(
 				allocator_, data_ + j
 			);
 		}
-		// 5) free old storage
 		std::allocator_traits<Allocator>::deallocate(
 			allocator_, data_, capacity_
 		);
 
-		// 6) commit the new buffer
 		data_ = new_data;
 		capacity_ = old_size;
-		size_ = old_size;  // restore size
+		size_ = old_size;
 	}
 
 
@@ -538,33 +531,26 @@ template<typename T, typename Alloc>
 std::istream& operator>>(std::istream& is, Vector<T, Alloc>& vec) {
 	vec.clear();
 
-	// Read initial [
 	char ch;
 	if (!(is >> ch) || ch != '[') {
 		is.setstate(std::ios::failbit);
 		return is;
 	}
 
-	// Now read values until ']' or failure
 	for (;;) {
-		// Skip whitespace
 		is >> std::ws;
 
-		// Peek to see if next is closing bracket
 		if (is.peek() == ']') {
-			is.get(ch);  // consume ']'
+			is.get(ch);
 			break;
 		}
 
-		// Read one element
 		T value;
 		if (!(is >> value)) {
-			// failed to read T
 			return is;
 		}
 		vec.push_back(std::move(value));
 
-		// After a value, read comma or closing bracket
 		if (!(is >> ch)) {
 			return is;
 		}
@@ -575,7 +561,6 @@ std::istream& operator>>(std::istream& is, Vector<T, Alloc>& vec) {
 			is.setstate(std::ios::failbit);
 			return is;
 		}
-		// else loop to read next element
 	}
 
 	return is;

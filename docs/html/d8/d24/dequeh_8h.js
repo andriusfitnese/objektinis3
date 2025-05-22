@@ -2,7 +2,6 @@ var dequeh_8h =
 [
     [ "Zmogus", "d5/d27/class_zmogus.html", "d5/d27/class_zmogus" ],
     [ "Stud", "d4/d17/class_stud.html", "d4/d17/class_stud" ],
-    [ "exception", "d6/d7d/classexception.html", null ],
     [ "atrinkimas1", "d8/d24/dequeh_8h.html#a36c246faa0b88238f07b2836b3852b45", null ],
     [ "atrinkimas2", "d8/d24/dequeh_8h.html#a7d311233030e0409a519cb92e894f514", null ],
     [ "atrinkimas3", "d8/d24/dequeh_8h.html#a713aba8565bf77e5146a0a82fa93a430", null ],

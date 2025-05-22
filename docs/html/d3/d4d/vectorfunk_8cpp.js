@@ -6,7 +6,6 @@ var vectorfunk_8cpp =
     [ "failasegzistuoja", "d3/d4d/vectorfunk_8cpp.html#ae41785eb58d849ee9d0151fe234f88c4", null ],
     [ "failogen", "d3/d4d/vectorfunk_8cpp.html#a0392bcccd12a7342b12cc5f7c0d372c7", null ],
     [ "gautteisinga", "d3/d4d/vectorfunk_8cpp.html#ac8a63cc86c89c27d3e430745108a7ff7", null ],
-    [ "isvedimas", "d3/d4d/vectorfunk_8cpp.html#a36cce055b8b07fbc3f8c6a0a32303cdb", null ],
     [ "operator<<", "d3/d4d/vectorfunk_8cpp.html#aedf96ee29ef7e067065e26c678466c6d", null ],
     [ "operator>>", "d3/d4d/vectorfunk_8cpp.html#a979da483198310119225a561d7ce1555", null ],
     [ "processBatch", "d3/d4d/vectorfunk_8cpp.html#ad2290db8aca1b8d8157a9801f5379f6c", null ],
@@ -17,6 +16,5 @@ var vectorfunk_8cpp =
     [ "sortGal", "d3/d4d/vectorfunk_8cpp.html#a697e7d842455ac856b3d47ff02286da5", null ],
     [ "sortMed", "d3/d4d/vectorfunk_8cpp.html#acf058d57ec9e65c8dd5855cfa50640d3", null ],
     [ "sortPav", "d3/d4d/vectorfunk_8cpp.html#a737d41877014ced2f74efaa59abcf98e", null ],
-    [ "sortVardu", "d3/d4d/vectorfunk_8cpp.html#a11447c6061b08b88aeb17036f4106241", null ],
-    [ "g_printMode", "d3/d4d/vectorfunk_8cpp.html#a271e4f54fb2228be446ab39010a03088", null ]
+    [ "sortVardu", "d3/d4d/vectorfunk_8cpp.html#a11447c6061b08b88aeb17036f4106241", null ]
 ];

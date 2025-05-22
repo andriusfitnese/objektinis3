@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['fduration_0',['FDuration',['../d2/dc7/namespace_catch_1_1_benchmark.html#a5e29f55ad3195ac7b08e7028b0095d02',1,'Catch::Benchmark']]],
-  ['functionreturntype_1',['FunctionReturnType',['../d4/d13/namespace_catch.html#a38257f15bf2974c19a11341fe50eedc1',1,'Catch']]]
+  ['pointer_0',['pointer',['../d5/db2/class_vector.html#adef46ef57edf3cdbc8d786492639e10f',1,'Vector']]]
 ];

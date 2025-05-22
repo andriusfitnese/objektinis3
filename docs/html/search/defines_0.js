@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['and_5fgiven_0',['AND_GIVEN',['../da/dab/catch__amalgamated_8hpp.html#a89dcfbe509f3f81fd865d4acd1632b66',1,'catch_amalgamated.hpp']]],
-  ['and_5fthen_1',['AND_THEN',['../da/dab/catch__amalgamated_8hpp.html#aafdc2a6cfbcecedec25e64bcbd6c09c6',1,'catch_amalgamated.hpp']]],
-  ['and_5fwhen_2',['AND_WHEN',['../da/dab/catch__amalgamated_8hpp.html#a054a37584492a5dfbdb5ee0f2fc10b7a',1,'catch_amalgamated.hpp']]]
+  ['catch_5fconfig_5frunner_0',['CATCH_CONFIG_RUNNER',['../d1/de4/catch_8cpp.html#a34b4c3eca7342fbc4cba090d02139902',1,'catch.cpp']]]
 ];
