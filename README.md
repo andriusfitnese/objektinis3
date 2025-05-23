@@ -1,7 +1,10 @@
 NAUDOJIMOSI INSTRUKCIJA:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Ačiū, kad parsisiuntėte šią programą! Deja, nesu baisiai protingas, todėl ir rašau naudojimosi instrukciją, kadangi paleidimas nėra vien paprasto .exe failo paspaudimas.
+Ačiū, kad parsisiuntėte šią programą!
 
+Jei parsisiuntėte v3.0 versiją, jums tereikia paleisti setup.exe failą ir galėsite naudotis programa, kuri automatiškai sukurs shortcut ir t.t.
+
+Jei naudojat senesnes realizacijas, (ankstesnes už v3.0)
 Pradedant nuo pradžių, turite turėti veikiantį GCC, kurio versija palaiko C++17 ar naujesnes versijas.
 Antra, turite turėti veikiantį MinGW, kuris reikalingas programos .exe failo sukūrimui, kuriam reikia mingw32-make komandos. Tam pridedu šią nuorodą: https://nerdyelectronics.com/install-mingw-on-windows-for-make/
 
@@ -165,12 +168,52 @@ Viskas buvo ištestuota, parašyta daug testo atvejų ir ištaisytos atitinkamos
 
 Spartos analizė
 -
-Buvo vykdyta spartos analizė, pagal kurios pirmus rezultatus iš kart matosi 2x pagreitėjimas duomenų pildyme parašius paprastą kodą testavimui- 
+Buvo vykdyta spartos analizė, pagal kurios pirmus rezultatus iš kart matosi bent 2x pagreitėjimas (su didesniais duomenų kiekiais dar daugiau) duomenų pildyme parašius paprastą kodą testavimui- 
 ![image](https://github.com/user-attachments/assets/9f63b156-e3a4-4041-9cf1-616d984c7857)
-Rezultatas - 
+
+###Rezultatai - 
+
+Su 10000 įrašų
+![image](https://github.com/user-attachments/assets/31118226-cace-4b3f-9305-bc5c5e7939a3)
+
+Su 100000 įrašų
+![image](https://github.com/user-attachments/assets/143f150c-6c36-4cf5-9e5d-4b239261c585)
+
+Su 1000000 įrašų
 ![image](https://github.com/user-attachments/assets/d8175a5c-f476-4750-a351-a909052921e0)
 
+Su 10000000 įrašų
+![image](https://github.com/user-attachments/assets/f951ed52-59c0-4b1c-bc9f-5f43b8402057)
+
+Su 100000000 įrašų
+![image](https://github.com/user-attachments/assets/b0d94e84-d5f1-4b48-8817-37814f0a0194)
+
+Perskirstymų skaičius
+---
+
+Su nuosavu Vector matome 5x sumažėjusį perskirstymų skaičių su 10000000 įrašų.
+![image](https://github.com/user-attachments/assets/33bbbb23-f776-491c-9840-cb608cfab6ad)
+
+Spartos analizė
+---
+
+Nuosavo Vector -
+
+| Studentų kiekis                    | 100000 | 1000000 |10000000|
+|------------------------------------|--------|---------|--------|
+| Skaitymo laikas                    | 0.21   | 1.67   | 19.11 |
+| Rūšiavimo laikas                   | 0.04   | 0.76 | 14.45 |
+| Atskyrimo i vektorius laikas       | 0.18   | 0.20    | 2.45  |
+| Irašymo i nerdus laikas            |  0.17  |  1.73 | 14.11 |
+| Irašymo i galiorką laikas          |  0.14  |  1.23   |  11.67  |
 
 
+std::vector -
 
-
+| Studentų kiekis                    | 100000 | 1000000 |10000000|
+|------------------------------------|--------|---------|--------|
+| Skaitymo laikas                    | 0.20   | 1.62   | 14.45 |
+| Rūšiavimo laikas                   | 0.06   | 0.80 | 14.45 |
+| Atskyrimo i vektorius laikas       | 0.02   | 0.21    | 2.78  |
+| Irašymo i nerdus laikas            |  0.17  |  1.72 | 18.21 |
+| Irašymo i galiorką laikas          |  0.12  |  1.19   |  12.29  |
