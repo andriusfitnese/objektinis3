@@ -115,7 +115,6 @@ TEST_CASE("Vector Copy Assignment", "[Vector][copy][assign]") {
     Vector<std::string> b;
     b = a;  // copy assign
     require_equal(a, b);
-
     a = a;
     REQUIRE(a.size() == 2);
     REQUIRE(a[0] == "foo");
@@ -155,7 +154,6 @@ TEST_CASE("Vector noexcept move operations", "[Vector][move][noexcept]") {
     STATIC_REQUIRE(std::is_nothrow_move_constructible<Vector<int>>::value);
     STATIC_REQUIRE(std::is_nothrow_move_assignable<Vector<int>>::value);
 }
-
 
 
 TEST_CASE("stream IO", "[Vector][io]") {

@@ -149,7 +149,6 @@ void rng(string& vardas, string& pavarde);  ///vardu generavimas
 void skaitymas(Vector<Stud>& grupe, duration<double>& veiklaik);
 bool gautteisinga(int& input, const string& prompt, int min, int max);   ///error handlingas neteisingos ivesties atveju
 void failogen(const string& failopav, int irasuk);
-///void isvedimas(int pas, int pasmv, const Vector<Stud>& grupe);
 void atrinkimas1(Vector<Stud>& grupe, Vector<Stud>& nerdai, Vector<Stud>& galiorka, int pasmv, duration<double>& veiklaik);
 void atrinkimas2(Vector<Stud>& grupe, Vector<Stud>& galiorka, int pasmv, duration<double>& veiklaik);
 void atrinkimas3(Vector<Stud>& grupe, Vector<Stud>& galiorka, int pasmv, duration<double>& veiklaik);

@@ -237,7 +237,8 @@ public:
 
 
 	void push_back(const T& value) {
-		if (size_ == capacity_) {
+		if (size_ == capacity_)
+		{
 			reserve(capacity_ ? capacity_ * 10 : 1);
 		}
 		std::allocator_traits<Allocator>::construct(
@@ -255,7 +256,6 @@ public:
 		);
 		++size_;
 	}
-
 
 	template <class... Args>
 	reference emplace_back(Args&&... args) {
@@ -476,7 +476,6 @@ private:
 	pointer data_;
 	size_type size_;
 	size_type capacity_;
-
 
 };
 
